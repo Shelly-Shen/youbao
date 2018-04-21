@@ -1,0 +1,347 @@
+@import "common";
+
+
+body {
+    min-width: 1000px;
+} 
+
+.header {
+    background: #4cc2c4;
+    width: 100%;
+    padding: 20px 10%;
+    @include clearFix;
+
+    h1 {
+        color: #fff;
+        font-size: 35px;
+        float:left;
+        i.top{
+            font-size: 64px;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+    }
+
+    aside{
+        float: right;
+        padding: 4px 25px;
+        margin-top: 30px;
+        background: #fff;       
+        border-radius: 12px;
+        
+        input {
+            outline: none;
+            border: none;
+            widows: 100px;
+            border-bottom: 1px solid #fff;
+            background: none;
+            transition:border-bottom .5s ease-in,text-indent .5s ease-in;
+            
+            &:focus {
+                text-indent: 10px;
+                font-style: italic;
+                border-bottom:1px solid #ccc;
+            } 
+            
+        }
+        i {
+            cursor: pointer;
+            opacity: 1;
+            font-weight: bold;
+            color: #000;
+            transition: .3s ease-in;
+            &:hover {
+                opacity : 0.5;
+            }
+        }
+    }
+}   
+
+.banner {
+    width: 1000px;
+    
+    margin: 0 auto;
+    position: relative;
+   
+    nav {
+        color: #777777;
+        background: #f8f8f8;
+        z-index: 3;
+        
+        
+        ul{
+            font-size: 16px;
+            @include clearFix;
+            li{
+                cursor: pointer;
+                float: left;
+                padding: 18px 10px;
+                transition: opacity .3s ease-in;    
+                &:last-of-type {
+                    float:right;
+                }
+
+                
+
+                
+                i{
+                    margin-right:10px;
+                    font-size: 13px;
+                }
+                a{
+                    color: #777777; 
+                    text-decoration: none;
+                    &:link {
+                        color: #777777; 
+                    }
+                    &:visited {
+                        color: #777777;
+                    }
+                    &:hover {
+                        opacity: .7;
+                    }
+                    &:active{
+                        background: #f54785;
+                        color: #777777; 
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+.content {
+    width: 1000px;
+    
+    margin: 0 auto;
+    article {
+        width: 666px;
+        padding: 20px 0;
+        
+        .clac {
+            padding: 0 20px;
+            line-height: 2.5;
+            background: #f0f0f0;
+            border: 1px solid #ccc;
+            span {
+                margin: 0 10px;
+                em {
+                    font-size: 18px;
+                    color: rgb(76, 194, 150);
+                    margin: 8px;
+                }
+            }
+        }
+        .content_item {
+             width: 100%;
+             header {
+                border-left: 5px solid rgb(76, 194, 150);
+                padding: 0 10px;
+
+                h2{
+                    font-weight: normal;
+                    font-size: 24px;
+                }
+
+             }
+             ul {
+                margin-left: -26px;
+                @include clearFix;
+                .bot{
+                    width: 320px;
+                    margin-left: 26px;
+                    position: relative;
+                    border: 1px solid #ccc;
+                    float: left;
+                    img {
+                        width: 320px;
+                        height: 180px;
+                    } 
+                    section {
+                        padding: 0 20px 20px 20px;
+                        color: #afafaf;
+                        font-size: 12px;
+                        line-height: 1.5;
+                        h3 {
+                            color: #454647;
+                            font-size: 16px;
+                            
+                        }
+                        .money {
+                            margin: 0 8px;
+                            font-size: 1.2em;
+                            color: #ff5a43;
+                        }
+                    }
+                    button {
+                        position: absolute;
+                        right: 20px;
+                        bottom: 20px;
+                        border: none;
+                    
+                        font-size: 14px;
+                        background: #ff5a43;
+                        color: #fff;
+                        cursor: pointer;
+                    }
+                }
+             }
+        }
+        .oldPeople {
+            ul {
+                margin-left: -18px;
+                .bot {
+                    width: 210px;
+                    margin-left: 18px;
+
+                    img {
+                        width: 210px;
+                    }
+                    button {
+                        position: absolute;
+                        right: 5px;
+                        bottom: 10px;
+                        font-size: 12px;
+                        background: #83a90d;
+                    }
+                }
+            }
+        }
+        .disaster {
+            ul {
+                margin-left: -18px;
+                .bot {
+                    width: 210px;
+                    margin-left: 18px;
+
+                    img {
+                        width: 210px;
+                    }
+                    button {
+                        position: absolute;
+                        right: 5px;
+                        bottom: 10px;
+                        font-size: 12px;
+                        background: #83a90d;
+                    }
+                }
+            }
+        }
+    }
+    aside {
+        float:right;
+        display: block;
+        
+        width: calc(100% - 740px);
+        max-width: 400px;
+        height: 1000px;
+        margin-top:20px;
+        
+         
+        &>h2 {
+            margin: 0;
+            border-bottom: 2px solid #ccc;
+            font-weight: normal;
+            line-height: 1.5;
+            i{
+                font-size: 30px;
+                color:rgb(76, 194, 150);
+                margin-right: 20px;
+            }
+
+        }
+
+        .donation-info {
+            
+            margin-top: 56px;
+            padding: 5px 5px 20px 5px;
+            background-color: #f9f5f5;
+            &>h3 {
+                font-size: 15px;
+                margin-left: 10px;
+            }
+            &>p {
+                font-size: 18px;
+                span {
+                    font-size: 24px;
+                    margin: 0 5px 0 10px;;
+                }
+                
+            }
+            &>p:nth-of-type(1) {
+                span{
+                    color: #78BF34;                    
+                }
+            }
+            &>p:nth-of-type(2) {
+                span {
+                    color: rgb(76, 194, 150);
+                }
+            }
+
+            h2 {
+                font-weight: normal;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            table {
+                margin-top: 30px;
+
+                width: 100%;
+                font-size: 14px;
+                color: #898888;
+                tr {
+                    td:nth-of-type(1) {
+                        text-align: left;
+                    }
+                    td:nth-of-type(2) {
+                        text-align: center;
+                    }
+                    td:nth-of-type(3) {
+                        text-align: right;
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+.footer {
+
+
+
+    section {
+        padding: 40px 0;
+        background: #202223;
+        color: silver;
+
+        .link_item {
+            text-align: center;
+            a {
+                line-height: 2;
+                cursor: pointer;
+                color: silver;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                } 
+                &:visited,&:active,&:link {
+                    color: silver;  
+                }
+            }
+            .sep {
+                margin: 0 6px;
+            }
+        }
+        .link_item_bottom {
+            a {
+                margin: 0 10px;
+            }
+        }
+    }
+}

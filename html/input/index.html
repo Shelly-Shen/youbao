@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>上海</title>
+    <style>
+
+        .s1{
+            width: 256px;
+            height:256px ;
+            box-shadow: 0px 8px 16px 0px rgba(65,0,0,0.5);
+            transform:  rotate(-50deg);
+            margin-top: 0px;
+            margin-left:50px;
+            float: left;
+            position: absolute;
+            border: 2px solid orange;
+
+
+
+        }
+        .s1 img {
+            width: 200px;
+            height:300px ;
+        }
+        .s2{
+
+            width: 256px;
+            height:256px ;
+            box-shadow: 0px 8px 16px 0px rgba(65,0,0,0.5);
+            transform:  rotate(-50deg);
+            margin-top: 0px;
+            margin-left: 250px;
+            float: left;
+            position: absolute;
+            border: 2px solid orange;
+
+        }
+        .s3{
+            width: 256px;
+            height:256px ;
+            box-shadow: 0px 8px 16px 0px rgba(65,0,0,0.5);
+            transform:  rotate(-50deg);
+            margin-top: 0px;
+            margin-left: 450px;
+            float: left;
+            position: absolute;
+            border: 2px solid orange;
+
+        }
+        .s5{
+            width: 256px;
+            height:256px ;
+            box-shadow: 0px 8px 16px 0px rgba(65,0,0,0.5);
+            transform:  rotate(-50deg);
+            margin-top: 0px;
+            margin-left: 850px;
+            float: left;
+            position: absolute;
+            border: 2px solid orange;
+
+
+        }
+        .s4{
+            width: 256px;
+            height:256px ;
+            box-shadow: 0px 8px 16px 0px rgba(65,0,0,0.5);
+            transform:  rotate(-50deg);
+            margin-top: 0px;
+            margin-left: 650px;
+            float: left;
+            position: absolute;
+            border: 2px solid orange;
+
+
+        }
+        .s1:hover{
+            transition: all 3s;
+            transform: scale(1,1) rotate(45deg);
+            z-index: 20;
+            /*border: 2px solid black;*/
+        }
+        .s2:hover{
+            transition: all 3s;
+            transform: scale(1,1) rotate(45deg);
+            z-index: 20;
+
+            /*transition: all 3s;*/
+            /*transform:scale(1.5,1.5) rotate(-15deg) ;*/
+            /*z-index: 20;*/
+            /*border: 2px solid black;*/
+        }
+        .s3:hover{
+            transition: all 3s;
+            transform: scale(1,1) rotate(45deg);
+            z-index: 20;
+
+            /*transition: all 3s;*/
+            /*transform:scale(-1,1.5) rotate(-10deg) ;*/
+            /*z-index: 20;*/
+            /*border: 2px solid black;*/
+        }
+        .s4:hover{
+            transition: all 3s;
+            transform: scale(1,1) rotate(45deg);
+            z-index: 20;
+
+            /*transition: all 3s;*/
+            /*transform:scale(1.5,1.5) rotate(-15deg) ;*/
+            /*z-index: 20;*/
+            /*border: 2px solid black;*/
+        }
+        .s5:hover{
+            transition: all 3s;
+            transform: scale(1,1) rotate(45deg);
+            z-index: 20;
+        }
+
+        .v1{
+            position: relative;
+            width: 1020px;
+            height: 800px;
+            margin: auto;
+            marin-top:200px
+
+        }
+        .v1 img{
+            width:300px;
+            height: 300px;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+        .top {
+            background-color: rgba(153, 153, 153, 0.075);
+            width: 1364px;
+            height: 40px;
+            font-size: 13px;
+        }
+        .top .else{
+            padding: 7px;
+        }
+        .top .area {
+            position: absolute;
+            padding: 5px;
+            left: 65px;
+            margin-top: 5px;
+        }
+        .top .else {
+            position: absolute;
+            right: 0px;
+            margin-top: 3px;
+        }
+        .area ul li .likeBtn {
+            color:#666;
+            background:#f4f4f4;
+            border: 1px solid #e5e5e5;
+            border-radius: 2px;
+        }
+        .area ul li .aa {
+            margin-left: -16px;
+        }
+        .area ul li .moment {
+            color: #2f6ee4;
+            margin-left: 14px;
+        }
+        .area ul li .set {
+            margin-left: -5px;
+        }
+        ul li {
+            float: left;
+            margin-right: 8px;
+        }
+        .top .else {
+            position: absolute;
+            right: 65px;
+        }
+        .else ul li {
+            margin-right: 20px;
+        }
+        div ul li a{
+            text-decoration: none;
+            color: #999;
+            font-size: 11px;
+            margin-right: 10px
+        }
+        div ul li p {
+            font-size: 12px;
+            color: #666;
+        }
+        .top div ul li::after {
+            display: inline;
+            content: '';
+            clear: both;
+        }
+
+        .title {
+            position: relative;
+        }
+        .title .logo {
+            position: absolute;
+            top: 60px;
+            left: 115px;
+            color: #666;
+            font-size: 45px;
+        }
+        .title .logo img {
+            width: 126px;
+            height: 46px;
+        }
+        .title form {
+            position: absolute;
+            display: inline-block;
+            left: 390px;
+        }
+        .title .inputBox {
+            position: absolute;
+            top: 28px;
+            outline: none;
+            width: 400px;
+            height: 20px;
+            padding: 10px;
+            border: 1px solid rgb(53, 161, 204);
+            float: left;
+        }
+        .title .inputBtn {
+            position: absolute;
+            border: none;
+            background: rgb(53, 161, 204);
+            width: 68px;
+            height: 41px;
+            cursor: pointer;
+            font-size: 16px;
+            color: #fff;
+            font-weight: 800;
+            left: 422px;
+            top: 28px;
+        }
+        .title .words{
+            position: absolute;
+            left: 390px;
+            top: 71px;
+        }
+        .navigation {
+            position: absolute;
+            left: 400px;
+            top: 160px;
+        }
+        .navigation ul li a {
+            font-size: 16px;
+            font-weight: 700;
+            color: rgb(53, 121, 209);
+        }
+        .content {
+            position: relative;
+            top: 230px;
+            left: 50%;
+            width: 1000px;
+            margin-left: -500px;
+        }
+        .content div .topic{
+            width: 1000px;
+            border-bottom: 2px solid rgba(212, 193, 193, 0.774);
+            font-size: 25px;
+            font-weight: bolder;
+            color: #2f6ee4;
+        }
+        .content div span p a {
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+        }
+        .content div span p{
+            margin-top: 3px;
+        }
+        .content div span img{
+            width: 497px;
+            margin-top: 5px;
+        }
+        .content #miss span{
+            width: 900px;
+        }
+        .east{
+            position: absolute;
+            top: 80px;
+            right: 135px;
+            color: #666;
+            font-size: 60px;
+        }
+        #miss .jieshao{
+            position: absolute;
+            top: 95px;
+            right: 40px;
+            width: 400px;
+            font-size: 16px;
+            color: #666;
+        }
+        .home a img{
+            width: 1000px;
+        }
+    </style>
+</head>
+<body>
+<div class="top">
+    <div class="area">
+        <ul>
+            <li>
+                <img src="./1.png" alt="" class="local">
+            </li>
+            <li>
+                <p>哈尔滨</p>
+            </li>
+            <li><a href="#" class="likeBtn">切换城市</a></li>
+            <li><a href="#" class="aa">[ 晋中</a></li>
+            <li><a href="#">古交</a></li>
+            <li><a href="#">太古 ]</a></li>
+            <li><a href="#" class="moment">立即登录</a></li>
+            <li><a href="#" class="set">注册</a></li>
+        </ul>
+    </div>
+    <div class="else">
+        <ul>
+            <li><a href="#">我的景点</a></li>
+            <li><a href="#">手机APP</a></li>
+            <li><a href="#">上海论坛</a></li>
+            <li><a href="#">美食攻略</a></li>
+        </ul>
+    </div>
+</div>
+<div class="title">
+    <div class="logo">
+        ❥友宝
+    </div>
+    <div class="east">上海</div>
+    <div>
+        <form action="" method="get">
+            <div id="search">
+                <button class="inputBtn">搜索</button>
+                <input type="text" class="inputBox"></input>
+            </div>
+        </form>
+        <div class="words">
+            <ul class="demo">
+                <li><a href="#">上海房源类型</a></li>
+                <li><a href="#">旅游行程计划</a></li>
+                <li><a href="#">出境签证</a></li>
+                <li><a href="#">上海地图</a></li>
+                <li><a href="#">景点门票信息</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="navigation">
+    <ul>
+        <li><a href="#">地理位置</a></li>
+        <li><a href="#">人情风俗</a></li>
+        <li><a href="#">风景名胜</a></li>
+        <li><a href="#">区域简介</a></li>
+    </ul>
+</div>
+<div class="content">
+    <div>
+        <div id="miss">
+            <div class="topic">不可错过</div>
+            <span><img src="2.jpg.jpg" alt=""></span>
+            <p class="jieshao">上海是一座国家历史文化名城，拥有深厚的近代城市文化底蕴和众多历史古迹。江南传统吴越文化与西方传入的工业文化相融合形成上海特有的海派文化上海人多属江浙民系使用吴语。早在宋代就有了“上海”之名，1843年后上海成为对外开放的商埠并迅速发展成为远东第一大城市，今日的上海已经成功举办了2010年世界博览会、中国上海国际艺术节、上海国际电影节等大型国际活动。。</p>
+            <span></span>
+        </div>
+        <div class="topic">行程线路</div>
+        <span><img src="s7.jpg"  alt=""></span>
+        <span><img src="s5.jpg" alt=""></span>
+            <span>
+                <p><a href="#">1.上海港货物吞吐量和集装箱吞吐量均居世界第一，是一个良好的滨江滨海国际性港口。</a></p>
+                <p><a href="#">2.上海与江苏、浙江、安徽共同构成的长江三角洲城市群已成为国际6大世界级城市群之一。</a></p>
+                <p><a href="#">3.上海也是中国大陆首个自贸区“中国（上海）自由贸易试验区”所在地。上海与江苏、浙江、安徽共同构成的长江三角洲城市群已成为国际6大世界级城市群之一。</a></p>
+                <p><a href="#">………</a></p>
+            </span>
+        <span></span>
+    </div>
+
+    <div class="home">
+        <div class="topic">房源类型</div>
+        <a href="#"><img src="s8.jpg" alt=""></a>
+        <span></span>
+        <span></span>
+</div>
+
+</div>
+<div class="v1">
+    <div class="s1"><img src="img/s1.jpg"> </div>
+    <div class="s2"><img src="s2.jpg"> </div>
+    <div class="s3"><img src="s3.jpg"> </div>
+    <div class="s4"><img src="s4.jpg"> </div>
+    <div class="s5"><img src="s6.jpg"> </div>
+</div>
+
+
+</body>
+</html>

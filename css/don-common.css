@@ -1,0 +1,247 @@
+*{
+    border: 0px;
+    font-family: Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,宋体,sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*header部分*/
+
+#header{
+    height: 60px;
+    width: 100%;
+    /*background: yellow;*/
+    position: relative;
+}
+
+#header #logo{
+    width: 126px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 3px;
+    float: left;
+}
+
+#header li{
+    float: left;
+    width: 88px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#header #list{
+    height: 60px;
+    width: 530px;
+    float: left;
+}
+
+#header #list a{
+    font-size: 16px;
+    font-family: 微软雅黑,"Microsoft YaHei";
+    color: #2B2B2B;
+}
+
+#header #list a:hover{
+    color: #ff860d;
+    -webkit-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out
+}
+
+#header #keyword{
+    display: inline-block;
+    width: 190px;
+    height: 30px;
+    font-size: 12px;
+    border: 1px solid #CCCCCC;
+    font-family: 宋体;
+    color: #6e6e6e;
+    border-radius: 5px;
+    margin: 13px 10px 010px 170px;
+    float: left;
+}
+
+#header #search{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    /*background: red;*/
+    position: absolute;
+    top: 14px;
+    left: 1015px;
+    background: url(../image/sprite.png) no-repeat -66px -104px;
+    cursor: pointer;
+
+}
+
+#header #weixin{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#header #weibo{
+    background: url(../image/sprite.png) no-repeat 0px 0px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin:0px 15px;
+}
+
+#header #QQ{
+    background: url(../image/sprite.png) no-repeat -35px 0px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+#header #zonghe{
+    float: left;
+    width: 120px;
+    height: 45px;
+    margin-top: 7px;
+    line-height: 60px;
+    /*background: red;*/
+}
+
+#header #login-register a{
+    font-size: 12px;
+    font-family: 宋体;
+    color: #3E5252;
+}
+
+#header #login-register{
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#header #login-register #login{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#header #login-register #login:hover{
+    color: #ff860d;
+    -webkit-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out
+}
+
+#header #login-register #register:hover{
+    color: #ff860d;
+    -webkit-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out
+}
+
+
+/*footer部分*/
+#footer{
+    height: 550px;
+    width: 100%;
+    background: #333333;
+    position: relative;
+}
+
+#footer #logo{
+    display: inline-block;
+    height: 145px;
+    margin-left: 50px;
+    position: absolute;
+    top: 0px;
+    left: 35px;
+}
+
+#footer #footer-four{
+    margin-left:  85px;
+}
+
+
+#footer #footer-four #one,#two,#three,#four{
+    height: 180px;
+    width: 170px;
+    float: left;
+    margin-right: 10%;
+}
+
+#footer #footer-four #one{
+    width: 140px;
+}
+
+#footer a{
+    color:#7F7C7F;
+    font-size: 13px;
+}
+
+#footer-four{
+    height: 430px;
+    width: 460px;
+    /*background: green;*/
+    float: left;
+    margin-top: 110px;
+}
+
+#footer #footer-four #two,#four{
+    float: left;
+    margin-right: 0px;
+}
+
+#footer #footer-four #three{
+    margin-right: 3%;
+}
+
+#app-download{
+    /*background: yellow;*/
+    height: 430px;
+    width: 150px;
+    float: left;
+    margin-top: 64px;
+    margin-left: 5%;
+}
+
+#app-download .app{
+    height: 150px;
+}
+
+#app-download #download{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#app-download span{
+    font-size: 13px;
+    color: #bcbcbc;
+
+}
+
+#app-download .top{
+    margin-bottom: 20px;
+}
+
+#app-download #weixin{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#footer #kefu{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+}
+
+#footer-wrapper{
+    /*background: blue;*/
+    height: 515px;
+    width: 100%;
+    border: 1px dashed #666666;
+}
+
+#zonghe #weixin{
+    vertical-align: baseline;
+    cursor: pointer;
+}

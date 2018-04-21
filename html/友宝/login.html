@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background: url('./bg.jpg');
+        }
+        
+        #login {
+            width: 600px;
+            height: 600px;
+            background: #cccccc;
+            margin: 100px auto;
+            opacity: .6;
+        }
+        
+        #login h1 {
+            width: 200px;
+            padding: 30px 260px;
+        }
+        
+        #login-input {
+            width: 400px;
+            margin: 20px 180px;
+        }
+        
+        input {
+            width: 150px;
+            margin-top: 20px;
+        }
+        
+        #sub {
+            width: 200px;
+            margin: 30px 250px;
+        }
+        
+        #img {
+            height: 200px;
+            margin: 50px 170px;
+        }
+        
+        #img h4 {
+            width: 200px;
+            color: blue;
+            margin: 10px 180px;
+            cursor: pointer;
+        }
+        
+        #img h4:hover {
+            color: #201380;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h3>旅游登陆</h3>
+    </div>
+    <div id="login">
+        <h1>友宝</h1>
+        <div id="login-input">
+            账号：
+            <input type="text">
+            <br/> 密码：
+            <input type="password">
+        </div>
+        <div id="sub">
+            <button id="on">登录</button>
+            <button>忘记密码</button>
+        </div>
+        <div id="img">
+            <img src="./commit.jpg" alt="">
+            <span>
+                <a href="./reg.html">
+                    <h4>还没有账号？>>去注册>></h4>
+                </a>
+            </span>
+        </div>
+    </div>
+    <script src="./jquery-1.11.2.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#on').on('click', function() {
+                var $login = $('input[type="text"]').val();
+                var $psd = $('input[type="password"]').val();
+                if ($login == "admin" && $psd == "123456") {
+                    alert('登录成功！');
+                } else if ($login == "admin" && $psd != "123456") {
+                    alert('密码错误！');
+                } else {
+                    if ($login == "" || $psd == "") {
+                        alert('密码或账号不能为空！')
+                    }
+                }
+
+            })
+
+
+
+
+
+
+
+        })
+    </script>
+</body>
+
+</html>

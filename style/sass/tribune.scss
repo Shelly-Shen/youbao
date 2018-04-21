@@ -1,0 +1,229 @@
+@import "common";
+
+body{
+    min-width: 900px;
+}
+.header {
+    background: #4cc2c4;
+    width: 100%;
+    padding: 20px 10%;
+    @include clearFix;
+
+    h1 {
+        color: #fff;
+        font-size: 35px;
+        float:left;
+        i.top{
+            font-size: 64px;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+    }
+
+    aside{
+        float: right;
+        padding: 4px 25px;
+        margin-top: 30px;
+        background: #fff;       
+        border-radius: 12px;
+        
+        input {
+            outline: none;
+            border: none;
+            widows: 100px;
+            border-bottom: 1px solid #fff;
+            background: none;
+            transition:border-bottom .5s ease-in,text-indent .5s ease-in;
+            
+            &:focus {
+                text-indent: 10px;
+                font-style: italic;
+                border-bottom:1px solid #ccc;
+            } 
+            
+        }
+        i {
+            cursor: pointer;
+            opacity: 1;
+            font-weight: bold;
+            color: #000;
+            transition: .3s ease-in;
+            &:hover {
+                opacity : 0.5;
+            }
+        }
+    }
+}   
+
+
+.banner {
+    width: 100%;
+    
+    padding: 0 8%;
+    position: relative;
+   
+    nav {
+        color: #777777;
+        background: #f8f8f8;
+        z-index: 3;
+        
+        
+        ul{
+            font-size: 16px;
+            @include clearFix;
+            li{
+                cursor: pointer;
+                float: left;
+                padding: 18px 10px;
+                transition: opacity .3s ease-in;    
+                &:last-of-type {
+                    float:right;
+                }
+
+                
+
+                
+                i{
+                    margin-right:10px;
+                    font-size: 13px;
+                }
+                a{
+                    color: #777777; 
+                    text-decoration: none;
+                    &:link {
+                        color: #777777; 
+                    }
+                    &:visited {
+                        color: #777777;
+                    }
+                    &:hover {
+                        opacity: .7;
+                    }
+                    &:active{
+                        background: #f54785;
+                        color: #777777; 
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+
+.content {
+    width: 84%;
+    margin: 0 8%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #cecece;
+    table {
+        width: 100%;
+        border-collapse:collapse;
+
+        tr {
+            border-bottom: 1px solid #cecece;
+            &:hover{
+                background: #f9f9f9;
+            }
+            th{
+                text-align: left;
+                line-height: 36px;
+                color: #fff;
+                padding:0 5px;
+                &:nth-of-type(1) {
+                    width: 60%;
+                }
+            }
+            td {
+                padding:0 5px;
+                .item {
+                    max-width: 700px;
+                    text-align: left;
+                    line-height: 36px;
+                    @include textOverflow;
+                    a{
+                        color: #000;
+                        text-decoration: none;
+                    }
+
+                }  
+
+            }
+
+        }
+    }
+}
+
+
+.footer {
+
+    table {
+        margin: 40px 0;
+        tr {
+            display: block;
+            padding: 6px 0px;
+            th {
+                width: 130px;
+                color: #333;
+                font-weight: normal;
+                vertical-align: top;
+                line-height: 1.5;
+            }
+            td {
+
+                a{
+                    
+                    margin-right: 20px;
+                    text-decoration: none;
+                    color: #666;
+                    line-height: 1.5;
+                    &:link {
+                        text-decoration: none;
+                    }
+                    &:active {
+                        text-decoration: none;
+                    }
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                    &:visited {
+                        color: #666;
+                    }
+                }
+
+            }
+        }
+    }
+
+    section {
+        padding: 40px 0;
+        background: #202223;
+        color: silver;
+
+        .link_item {
+            text-align: center;
+            a {
+                line-height: 2;
+                cursor: pointer;
+                color: silver;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                } 
+                &:visited,&:active,&:link {
+                    color: silver;  
+                }
+            }
+            .sep {
+                margin: 0 6px;
+            }
+        }
+        .link_item_bottom {
+            a {
+                margin: 0 10px;
+            }
+        }
+    }
+}

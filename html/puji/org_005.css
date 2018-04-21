@@ -1,0 +1,1022 @@
+/* CSS Document */
+html { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+input,select,textarea { font-size:100%;}
+hr{border:1 dashed #f3f3f3;}
+table { border-collapse:collapse; border-spacing:0;}
+button{ border:0;}
+*,*:after,*:before {margin: 0px;	padding: 0px;}
+*:focus {outline: 0;}
+.clearfix:after {display: block;	content: ".";	height: 0px;	overflow: hidden;	visibility: hidden;	clear: both;}
+.clearfix {zoom: 1;}
+.container{margin: 0 auto 20px;width: 1200px;}
+.fl,.left {float: left;}
+.fr,.right {float: right;}
+
+input[type='text'] ,input[type='password'] ,textarea {outline: none;background: none repeat scroll 0 0 #FFFFFF;    border: 1px solid #8C8C8C;    height: 30px;    line-height: 30px;}
+input[type='checkbox'] {float: left;margin:3px;}
+ul,ol {list-style-type: none;	margin: 0px;	padding: 0px;	display: block;}
+li {margin: 0px;	padding: 0px;}
+p {margin: 0px;	padding: 0px;}
+p.hr {clear: both;	height: 3px;	display: block;	width: 100%;	margin: 15px 0px 15px 0px !important;	border-top: 1px dotted #CCC;}
+fieldset {border: none;}h2 {font-size: 14px;}
+img.process{margin-left:10px;}
+a {margin: 0px;	padding: 0px;	text-decoration: none;	color: #000;}
+a:hover {cursor: pointer;}
+a.underline{text-decoration: underline;}
+a.grnlink {margin: 0px;	padding: 3px;	text-decoration: none;	color: #17923c;}
+a.grnlink:hover {background: #17923c;	color: #fff;	padding: 3px;}
+a.redlink {margin: 0px;	padding: 3px;	text-decoration: none;	color: #E53431;}
+a.redlink:hover {padding: 3px;	background: #E53431;	color: #fff;}
+a.bluelink {color: #0066CC; font-size: 14px;    margin: 6px 0;}
+a.bluelink:hover {background: #0066CC;	color: #fff;}
+.lightbtn {-moz-border-bottom-colors: none;	-moz-border-left-colors: none;	-moz-border-right-colors: none;	-moz-border-top-colors: none;	-moz-transition: all 0.1s linear 0s;	background-color: #E6E6E6;	background-image: -moz-linear-gradient(center top, #FFFFFF, #FFFFFF 25%, #E6E6E6);	background-repeat: no-repeat;	border-color: #CCCCCC #CCCCCC #BBBBBB;	border-image: none;	border-radius: 4px 4px 4px 4px;	border-style: solid;	border-width: 1px;	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px	rgba(0, 0, 0, 0.05);	color: #333333;	cursor: pointer;	display: inline-block;	font-size: 13px;	line-height: normal;	padding: 5px 14px 6px;	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);}
+.lightbtn:hover {background-position: 0 -15px;	color: #333333;	text-decoration: none;}
+.lightbtn:focus {outline: 1px dotted #666666;}
+.lightbtn.primary {background-color: #0064CD;	background-image: -moz-linear-gradient(center top, #049CDB, #0064CD);	background-repeat: repeat-x;	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);	color: #FFFFFF;	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);}
+.lightbtn:active {box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25) inset, 0 1px 2px	rgba(0, 0, 0, 0.05);}
+.lightbtn.disabled {background-image: none;	box-shadow: none;	cursor: default;	opacity: 0.65;}
+.lightbtn[disabled] {background-image: none;	box-shadow: none;	cursor: default;	opacity: 0.65;}
+.lightbtn.large {border-radius: 6px 6px 6px 6px;	font-size: 15px;	line-height: normal;	padding: 9px 14px;}
+.lightbtn.small {font-size: 11px;	padding: 7px 9px;}
+img {border: 0px;	margin: 0px;	padding: 0px;}
+img.loading{margin:0px 0px 0px 5px;}
+.clear {margin: 0px;	padding: 0px;	clear: both;	visibility: hidden;}
+.hide{display:none}
+body {background: none repeat scroll 0 0 #F8F8F8;	color: #333;	font: 14px "Microsoft YaHei", Arial, "Helvetica";	width: 100%;	height: 100%;	zoom: 1;	min-width: 1200px}
+
+.htop .phonenum,.htop .app .icon,.logout .user .msgcount,.logout .security,.login .security  {background: url(http://img.yiqihi.com/bg1112.png) no-repeat;}
+/*Top*/
+.htop {width: 100%;	height: 39px;	background: #17923c;	color: #fff;}
+.htop .logo {width: 1200px;	margin: 0 auto;	height: 39px;	line-height: 39px;	position: relative;	z-index: 8;}
+.htop .left {float: left;	font-size: 13px;	height: 39px;	margin-left: 50px;width:200px;}
+.htop .left .hi {background: url("http://img.yiqihi.com/base.png?v=3.36") no-repeat -230px 0px;	overflow: hidden;	position: relative;	width: 48px;	height: 45px;	float: left;	margin: 10px 10px 0 -4px;}
+.htop .right {float: right;	text-align: right;}
+.htop .right p {float: right;}
+.htop .right p a {color: #fff;}
+.htop .right .login {font-size: 14px;	margin-left: 50px;	float: right;}
+.htop .right a {padding: 0 10px;	display: block;	float: right;}
+.htop .right a:hover {background: #147c33;	height: 39px;}
+.htop .right span {margin-top: 7px;	position: relative;	top: 0;	overflow: hidden;	width: 27px;	height: 23px;	display: block;}
+.htop .phonenum {display: block;	float: right;	width: 155px;	height: 24px;	overflow: hidden;	margin: 9px 0px 0px 0px;background-position:-225px -530px;}
+.htop .app {float: right;height: 38px;line-height: 38px;padding: 0 15px;text-decoration: none;}
+.htop .app .icon {background-position: -365px -38px;float: left;margin: 12px 6px 0 0;width: 16px;height: 17px;}
+/*toolbar*/
+.navbar {width: 100%;	background: #F6F6F6;}
+.navbar .shadow {height:10px;  background-image:url(/images/navbar_bg.png);  background-repeat:repeat-x; }
+.navbar .c {width: 1200px;	margin: 0 auto;	z-index: 8;}
+.navbar .c .logo {padding: 16px 0px;	overflow: hidden;	position: relative;	float: left;}
+.navbar .c .logo a span {width: 225px;	height: 45px;	display: block;	background: url("http://img.yiqihi.com/base.png?v=3.36") no-repeat 0px 0px;margin-left:-2px;}
+.navbar .nav {float: right;}
+.navbar .nav .item a {color: #3f3f3f;	font-size: 15px;	margin-bottom: 20px;	display: block;	line-height: 22px;	padding: 4px 8px;}
+.navbar .nav .item a.selected {background: url(http://img.yiqihi.com/base.png?v=3.36) no-repeat -200px -248px;	color: #fff;}
+.navbar .nav .item a.selected span {color: #fff;}
+.navbar .nav .item a span.question {background: url("http://img.yiqihi.com/base.png?v=3.36") no-repeat scroll -402px -11px	rgba(0, 0, 0, 0);	padding-left: 20px;	text-align: right;	width: 20px;	height: 19px}
+.navbar .nav .item a.selected:hover span.question {background: url("http://img.yiqihi.com/base.png?v=3.36") no-repeat scroll -427px -10px	rgba(0, 0, 0, 0);	padding-left: 20px;	text-align: right;	width: 20px;	height: 19px}
+
+.nav .service-hd .icon, .nav .service-hd .nw {background: url("http://img.yiqihi.com/base.png?v=3.36") no-repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.nav .service-hd {text-align: right;}
+.nav .service-hd li {cursor: pointer;display: inline-block;font-family: "microsoft yahei";font-size: 14px;height: 80px;margin: 0 25px 0 12px;text-align: center;width: 60px;}
+.nav .service-hd .icon {display: block;height: 30px;margin: 20px auto 3px;width: 33px;}
+.nav .service-dy .icon {background-position: 0 -245px;}
+.nav .service-ty .icon {background-position: -40px -245px;}
+.nav .service-lx .icon {background-position: -80px -245px;}
+.nav .service-ts .icon {background-position: -120px -245px;}
+.nav .service-sq .icon {background-position: -160px -245px;}
+.nav .service-fw .icon {background-position: -200px -245px;}
+.nav li:hover, .nav li.cur {color: #258b00;}
+.nav .service-dy:hover .icon {background-position: 0 -285px;}
+.nav .service-ty:hover .icon {background-position: -40px -285px;}
+.nav .service-lx:hover .icon {background-position: -80px -285px;}
+.nav .service-ts:hover .icon {background-position: -120px -285px;}
+.nav .service-sq:hover .icon {background-position: -160px -285px;}
+.nav .service-fw:hover .icon {background-position: -200px -285px;}
+.nav .service-dy.cur .icon {background-position: 0 -285px;}
+.nav .service-ty.cur .icon {background-position: -40px -285px;}
+.nav .service-lx.cur .icon {background-position: -80px -285px;}
+.nav .service-ts.cur .icon {background-position: -120px -285px;}
+.nav .service-sq.cur .icon {background-position: -160px -285px;}
+.nav .service-fw.cur .icon {background-position: -200px -285px;}
+.nav .service-hd .nw {background-position: -200px -155px;display: none;float: right;height: 11px;margin: 10px 7px 0 0;width: 9px;}
+.nav .service-hd .new .nw {display: block;}
+
+
+/*logout*/
+.logout {float: right;	text-align: right;	font-size: 13px;}
+.logout li {float: right;	height: 39px;	padding: 0 3px;	display: block;}
+.logout li p {float: left;	margin: 13px 5px 0 5px;}
+.logout li a {color: #fff;}
+.logout .order a:hover {height: 39px;	display: block;	background: #147c33;}
+.logout .order p {width: 20px;	height: 20px;	position: relative;	overflow: hidden;	margin: 10px 6px 0 8px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -343px -59px;}
+.logout .user a:hover {height: 39px;	display: block;	background: #147c33;}
+.logout .user .icon {width: 16px;	height: 13px;	position: relative;	overflow: hidden;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -386px -41px;}
+.logout .user .arw {width: 9px;	height: 4px;	position: relative;	overflow: hidden;	margin-top: 18px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -478px -15px;}
+.logout .user .msgcount {background-position: -377px -12px;float:left;font-size:10px;display: inline-block;height: 18px;line-height: 18px;margin: 10px 5px;text-align: center;vertical-align: middle;width: 18px;}
+.logout .security,.login .security {background-position: -332px -842px;color: #fff;float: right;font: 400 14px/30px "microsoft yahei";height: 42px;text-align: center;width: 84px;}
+.logout .user span {float: left; }
+/*userBox*/
+.htop .popup dl {border-bottom: 1px solid #ccc;	margin: 20px 10px 0 10px;	height: 120px;}
+.htop .popup dl dt {width: 55px;	float: left;	margin-left: 10px;	margin-right: 10px;}
+.htop .popup dl dt img {border: 1px solid #fff;	padding: 2px;}
+.htop .popup dl dd {font-size: 15px;	color: #fff;	line-height: 26px;	float: left;}
+/*nav_list*/
+.nav_list{position:relative;margin: 0 auto;padding:15px 0px;width:1200px;}
+.nav_list dl h3 {font-size: 15px;	color: #363636;}
+.nav_list dl {width: 230px;	float: left;	margin-right: 5px;}
+.nav_list .item {float: left;	width: 220px;	height: 70px;	overflow: hidden;	position: relative;}
+.nav_list .line {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -494px -90px;	display: block;	height: 85px;	width: 2px;	float: left;}
+.nav_list dd {font-size: 14px;	height: 25px;	float: left;	color:#7E7E7E;}
+.nav_list dt {float: right;	height: 34px;	line-height: 34px;	padding-top: 15px;	width: 90px;}
+.nav_list dd a {height: 27px;	padding: 2px;	display: block;	color: #8e8e8e;	line-height: 20px;}
+.nav_list dd a:hover {height: 27px;	display: block;	background: #E53431;	color: #fff;}
+.nav_list dd p {margin:5px 3px 0px 3px;	float: left;}
+.nav_list dd em {font-style: normal;	font-size: 9px;display:none}
+.nav_list .select {width: 1200px;	float: left;	border-right: 0px;}
+.nav_list .select .item {width: 1090px;	float: left;	border-right: 0px;}
+.nav_list .expand {width: 14px;	height: 43px;	position: relative;	overflow: hidden;	position: absolute;	right: 0px;	top: 20px;	display: none;}
+.nav_list .expand a:hover {background: none;}
+.nav_list .expand a span {float: left;	display: block;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -486px -44px;	width: 15px;	height: 46px;}
+.nav_list .select .expand a span {float: left;	display: block;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -469px -44px;	width: 14px;	height: 43px;}
+a.expand em,a.collapse em {width: 10px;	height: 10px;	float: right;	display: block;	margin: 15px 0px 0px 15px;}
+a.expand em {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -318px -194px;}
+a.expand:hover em {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -337px -194px;}
+a.collapse em {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -376px -205px;}
+a.collapse:hover em {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -393px -205px;}
+.navbar .service dl {position: relative;float: left;	padding-left:10px;	padding-right:20px;	width: 360px;}
+.navbar .service dd {padding-top: 15px;	width: 220px;	height: 36px;}
+.navbar .service dl dt {width: 100px;	height: 34px;	float: right;	line-height: 34px;	padding-top: 15px;}
+.infinteBar {width: 1200px;	margin: 20px auto;}
+.infinteBar a {width: 1200px;	float: left;	padding: 6px 0;	margin-bottom: 20px;	_margin-bottom: 0px;	text-align: center;	font-size: 14px;	color: #333;	display: inline;}
+/*nav-icon*/
+.navicon_lists span,
+.navicon_lists a em,
+.navicon_close,
+.navicon_left,.navicon_right{
+  background: url(http://img.yiqihi.com/bg1112.png) no-repeat;}
+.navicon{width: 1200px;}
+.navicon_warp{width: 1000px;margin: 0 auto;overflow:hidden;position:relative;}
+
+.navicon_lists{position: relative;width: 99999px;}
+.navicon_lists li{float: left;width: 200px;height: 88px;text-align:center;}
+.navicon_lists span{display: block;width: 63px;height: 40px;margin:0 68px;}
+.navicon_lists a{display: block;position:relative}
+.navicon_lists a em{display: block;position:absolute;background-position: -340px -980px;width:25px;height:16px;top:0px;right:60px;}
+.navicon_lists a img{display: block;position:absolute;top:0px;right:50px;}
+.navicon_lists a:hover{color: #17923c}
+.navicon_lists .guider{background-position: -175px -1020px;}
+.navicon_lists .trip{background-position: -227px -1020px;}
+.navicon_lists .car{background-position: -325px -1020px;}
+.navicon_lists .exp{background-position: -380px -1020px;}
+.navicon_lists .ship{background-position: -275px -1020px;}
+.navicon_left{float: left;width: 10px;height: 17px;margin:25px 0 0 20px;background-position: -150px -1020px;}
+.navicon_right{float: right;width: 10px;height: 17px;margin:25px 20px 0 0;background-position: -165px -1020px;}
+.navicon_left:hover{background-position:-150px -1040px; }
+.navicon_right:hover{background-position:-165px -1040px; }
+
+.navicon_close{position:absolute;left:50%;width:65px;height:36px;margin-left:-32px;bottom:-30px;z-index:10;background-position: 0 -1020px}
+.navicon_close:hover{background-position:-70px -1020px}
+
+
+/*- Breadcrums -*/
+#breadcrum {padding: 20px 20px 20px 0px;	display: block;	width: 100%;}
+#breadcrum li {color: #666666;	display: inline;	font-size: 12px;	padding: 0 2px 0 0;}
+#breadcrum li a.home span {background: url("http://img.yiqihi.com/bg1112.png") -462px -19px;	display: inline-block;	height: 8px;	margin: 0 4px 0 0;	width: 9px;}
+#breadcrum li a.home:hover {text-decoration: none;}
+#breadcrum li a:hover {text-decoration: underline;}
+#breadcrum li a strong {font-weight: normal;}
+#breadcrum li a strong:hover {text-decoration: underline;}
+.page-title {font-size: 26px;	margin: 20px 0 30px;	display: block;}
+.left {float: left;}
+.middle {float: left;}
+.right {float: right;}
+.w650 {width: 600px;}
+.w320 {width: 320px;}
+.w360 {width: 360px;}
+.w400 {width: 400px;}
+.w450 {width: 450px;}
+.w500 {width: 500px;}
+.w100 {width: 100px;}
+.w70 {width: 70px;}
+.w130 {width: 130px;}
+.w110 {width: 110px;}
+.w150 {width: 150px;}
+.w180 {width: 180px;}
+.w200 {width: 200px;}
+.w300 {width: 300px;}
+.w430 {width: 430px;}
+.w90 {width: 90px;}
+.w900 {width: 800px;}
+blockquote {background: none repeat scroll 0 0 #EEEEEE;	border-left: 8px solid #E53431;	margin: 0 0 20px;	padding: 10px 10px 10px 15px;	font-size: 14px;	line-height: 30px;}
+blockquote p:last-child {margin: 0;}
+.form p {margin: 0 0 0.4em;}
+.form label em,.form sup {color: #CC2A41;	font-size: 16px;}
+.form small {color: #808080;	font-size: 11px;	font-style: italic;}
+p.note{font-size:12px;background:#666;color:#fff;padding: 6px;margin-bottom:10px;}
+p.note em{float:left;display:block;margin-right:5px;width:17px;height:17px;background: url(http://img.yiqihi.com/bg1112.png) no-repeat -389px -252px;}
+p.note span{display:block;}
+select.frame:focus,input.frame:focus {border-color: 1px solid #8c8c8c;  outline: 0;  outline: thin dotted \9;  -webkit-box-shadow: inset 0 0 1px #ccc, 0 0 0 5px #ccc;  -moz-box-shadow: inset 0 0 1px #ccc, 0 0 0 5px #ccc;  box-shadow: inset 0 0 1px #ccc, 0 0 0 5px #ccc;	}
+.form input.input{-webkit-border-radius: 2px;	-moz-border-radius: 2px;	border-radius: 2px;	padding: 3px;	font-size: 18px;	color: #333;	margin: 4px 0;}
+.form select.select {-webkit-border-radius: 2px;	-moz-border-radius: 2px;	outline:none;border-radius: 2px;vertical-align:middle;	border: 1px solid #8c8c8c;	padding:8px 5px 7px 3px;	font-size: 15px;	color: #333;	margin: 4px 0px;}
+.form input.input13 {-webkit-border-radius: 2px;	-moz-border-radius: 2px;	border-radius: 2px;	border: 1px solid #8c8c8c;	padding: 6px 6px;	font-size: 18px;	color: #333;	margin: 4px;}
+#edtBookState,#edtSpecialPrice,#edtRangeStart,#edtRangeStop{border:1px solid #c5c5c5}
+.form button {cursor: pointer;	float: left;}
+.icon_sina {float: left;	margin-right: 3px;	display: block;	height: 32px;	width: 32px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat 0px -165px;}
+.icon_qq {float: left;	margin-right: 3px;	display: block;	height: 32px;	width: 32px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -33px -165px;}
+.icon_163 {float: left;	margin-right: 3px;	display: block;	height: 32px;	width: 32px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -66px -165px;}
+/*msg*/
+.msg_conright {float: left;	height: 24px;	width: 19px;	left: 0;	position: absolute;}
+.msg_tag_favorite {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -63px -315px;}
+.msg_tag_trip {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -83px -315px;}
+.msg_tag_food {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -103px -315px;}
+.msg_tag_help {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -123px -315px;}
+.msg_tag_bed {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -143px -315px;}
+.msg_tag_shop {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -163px -315px;}
+.msg_tag_eye {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -183px -315px;}
+.msg_tag_artical {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -330px -313px;}
+/*iOS-style Popups*/
+.popup,.popup .arrow:after {background: #373737;	-moz-opacity: 0.9;	opacity: 0.9;}
+.popup {width: 170px;	-webkit-border-radius: 7px;	-moz-border-radius: 7px;	border-radius: 7px;	padding: 0;	display: inline-block;	text-indent: 0px;	color: #FFFFFF;	margin: 20px;	-webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, .4);	-moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, .4);	box-shadow: 2px 2px 3px rgba(0, 0, 0, .4);}
+.popup .arrow {border-color: transparent transparent #373737;	border-style: solid;	border-width: 13px 13px;	height: 0;	left: 50%;	position: absolute;	top: -25px;	width: 0;}
+.popup * {color: #fff !important;}
+.popup p {display: block;	padding: 14px 10px;	font-size: 14px;}
+.popup ul {list-style: none;	margin: 0;	padding: 4px 8px;	-webkit-border-radius: 7px;	-moz-border-radius: 7px;	border-radius: 7px;}
+.popup li {border-bottom: solid 1px rgba(20, 20, 20, .4);	border-top: solid 1px rgba(80, 80, 80, .4);	padding: 2px 0 0;	line-height: 1.6em;}
+.popup li:first-child {border-top: none;	margin-top: 0;}
+.popup li:last-child {border-bottom: none;	margin-bottom: 6px;}
+span.private {background: url('http://img.yiqihi.com/bg1112.png') no-repeat -354px -222px;	display: inline-block;	height: 5px;	margin: 2px 0 0 1px;	vertical-align: top;	width: 3px;}
+.public-badge {background: none repeat scroll 0 0 #333;	border-radius: 11px;	color: white;	display: inline-block;	font-size: 12px;	font-weight: normal;	line-height: 18px;	padding-left: 6px;	width: 60px;}
+.public-badge b {background: url("http://img.yiqihi.com/bg1112.png") no-repeat scroll -364px -72px	transparent;	display: inline-block;	height: 12px;	margin: 0 4px;	position: relative;	top: 1px;	width: 18px;}
+.protected-badge {background: none repeat scroll 0 0 #333;	border-radius: 11px;	color: white;	display: inline-block;	font-size: 12px;	font-weight: normal;	line-height: 18px;	padding-left: 6px;}
+.protected-badge b {background: url("http://img.yiqihi.com/bg1112.png") no-repeat scroll -369px -59px	transparent;	display: inline-block;	height: 12px;	margin: 0 4px;	position: relative;	top: 1px;	width: 12px;}
+.table {margin-bottom: 7px;	margin-top: 13px;	margin-right: 7px;	padding: 5px;	display: block;}
+.table td {border-bottom: 1px solid #E5E5E5;	padding: 8px;	text-align: left;}
+.table th {background-color: #EBEBEB;	border-bottom: 1px solid #999999;	border-top: 1px solid #999999;	color: #333333;	padding: 7px;	text-align: left;}
+.table td a {color: #CC2A43;}
+.table td a:hover {background-color: #CC2A43;	color: #FFF;}
+.table .even {background-color: #F0F0F0;}
+.meta .rating {padding-top: 5px;}
+.rating {display: inline-block;}
+.rating b {background: url("http://img.yiqihi.com/bg1112.png") no-repeat scroll -468px -260px	transparent;	display: block;	float: left;	height: 12px;	margin: 3px 0 0;	width: 12px;}
+.rating b.star {background: url("http://img.yiqihi.com/bg1112.png") no-repeat scroll -468px -274px	transparent;}
+.rating em.star {background: url('http://img.yiqihi.com/bg1112.png') no-repeat -466px -258px;	display: inline-block;	float: left;	height: 15px;	margin: 3px 0 0;	width: 15px;}
+.rating em.star.selected {background: url('http://img.yiqihi.com/bg1112.png') no-repeat -466px -271px;}
+.rating strong {float: left;	font-weight: normal;	margin: 0 0 0 18px;	font-weight: normal;}
+.boxbm .tags {width: 260px;	float: left;}
+.icons span.bao {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -190px -402px;	width: 24px;	height: 30px;	float: left;	display: inline;}
+.icons span.huan {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -111px -400px;	width: 35px;	height: 31px;	float: left;	display: inline;}
+.icons span.zhi {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -152px -400px;	width: 29px;	height: 28px;	float: left;	display: inline;}
+.icons span.call {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -244px -473px;	width: 36px;	height: 34px;	float: left;	display: inline;}
+.icons span.position {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -348px -119px;	width: 10px;	height: 15px;	float: left;	margin: 5px 10px 0px 0px;	display: inline;}
+.icons  span.tag {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -321px -121px;	width: 12px;	float: left;	margin: 5px 10px 0px 0px;	display: inline;	height: 12px;}
+.icons  span.person {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -335px -120px;	width: 9px;	float: left;	margin: 5px 10px 0px 0px;	display: inline;	height: 12px;}
+.icons  span.uncheck,.icons  span.checked {cursor: pointer;}
+.icons  span.uncheck em {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -314px -397px;	width: 18px;	float: left;	display: inline;	height: 18px;}
+.icons  span.checked em {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -356px -395px;	width: 20px;	float: left;	display: inline;	height: 18px;}
+.icons  a {float: left;	padding: 2px;	font-size: 13px;	color: #666;}
+.icons  a:hover {background: #E53431;	color: #FFFFFF !important;}
+#rules span.number {background: none repeat scroll 0 0 #147c33;	border-radius: 3px 3px 3px 3px;	color: #FFFFFF;	float: left;	font-size: 10px;	font-style: normal;	height: 14px;	line-height: 14px;	margin: 9px 9px 0px 0px;	padding: 0 5px;}
+/*详细页*/
+.leftbox {float: left;	width: 720px;}
+.rightbox {float: right;	width: 330px;}
+.detailhead {clear: both;	margin-bottom: 20px;}
+.detailtitle {width: 100%;}
+.detailtitle p.text {float: left;	font-size: 28px;	line-height: 35px;	font-weight: bold;	margin-top: 3px;	color: #333333;}
+.meta {height: 29px;	padding-left: 76px;	width: 1000px;	clear: both;}
+.meta .text {float: left;	padding: 4px 10px 0px 0px;	font-size: 15px;	color: #333333;}
+.prop {height: 50px;	padding-left: 70px;	padding-top: 5px;}
+.prop ul li {float: left;	height: 18px;	margin-right: 15px;	width: auto;	display: block;}
+.authyes {float: left;	width: 55px;	height: 45px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -4px -308px;	margin-right: 6px;	overflow: hidden;}
+.authno {float: left;	width: 55px;	height: 45px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -4px -355px;	margin-right: 6px;	overflow: hidden;}
+.authsmile {float: left;	width: 41px;	height: 40px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -292px -351px;	margin-right: 6px;	overflow: hidden;}
+.authtrip {float: left;	width: 38px;	height: 38px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -321px -472px;	margin-right: 6px;	overflow: hidden;}
+.detailbar {height: 46px;	margin-bottom: 13px;}
+.detailbar div {float: left;}
+.detailbarl {width: 13px;	height: 30px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -179px -480px;}
+.detailbarr {width: 13px;	height: 30px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -194px -480px;}
+.detailbarm {height: 30px;	width: 680px;	background: #ececec;	padding-left: 13px;}
+.detailbarm ul li {float: left;	display: inner-block;	height: 38px;	width: 131px;	overflow: hidden;}
+.detailbarm ul li a {display: block;	height: 40px;	width: 131px;	float: left;	overflow: hidden;	cursor: pointer;}
+.detailbarm ul li a.selected {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -103px -788px;	height: 40px;}
+.detailbarm ul li a:hover {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -236px -788px;	height: 40px;}
+.detailbarm ul li a:hover .text {color: white}
+.detailbarm ul li a.selected .text {color: white;}
+.detailbarm .text {width: 144px;	height: 26px;	color: #333333;	font-size: 14px;	font-weight: bold;	padding-top: 6px;	text-align: center;	display: block;}
+.detailbarm .num {float: right;	width: 25px;	height: 23px;	margin-top: -30px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -141px -486px;	font-size: 12px;	color: white;	font-weight: bold;	display: block;	width: 25px;	text-align: center;	line-height: 20px;}
+.detailbarm .num span {margin-right: 3px;}
+.detailbox {margin-bottom: 25px;}
+.rightbox .one {border: 1px solid #DADADA;	display: inline;	float: right;	width: 330px;	padding-bottom: 10px;}
+.rightbox .two {float: right;	width: 330px;	display: inline;	border: 1px solid #DADADA;	margin-top: 20px;}
+.rightbox .two .box {padding: 0;	float: right;	width: 300px;	display: inline;	padding: 20px;}
+.rightbox .two .shadow {background: url("http://img.yiqihi.com/bg1112.png") no-repeat scroll -486px -676px	transparent;	height: 200px;	left: -12px;	position: absolute;	top: 0;	width: 11px;}
+.rightbox .two .box .title {color: #000000;	display: inline;	float: left;	font-size: 20px;	padding: 0px 0px 15px 0px;	width: 300px;}
+.rightbox .two .box .subtitle {color: #000000;	display: block;	font-size: 14px;}
+.tipbar1 {position: relative;	top: 15px;	left: -10px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -3px -528px;	height: 42px;	width: 200px;	float: left;}
+.tipbar1 span {font-size: 14px;	font-weight: normal;	margin: 5px 0px 0px 15px;	color: #fff;	line-height: 25px;}
+.tipbar2 {position: absolute;	top: 15px;	left: 235px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -401px -531px;	height: 26px;	width: 100px;	float: left;	text-align: center;}
+.tipbar2 span {font-size: 13px;	font-weight: normal;	margin-left: 10px;	color: #fff;	line-height: 20px;}
+.sidebtnbox {clear: both;	height: 78px;	width: 330px;	background: #f3f3f3;	border-top: 1px solid #dadada;}
+.sidebtnbox ul li {float: left;	height: 78px;	display: block;}
+.sidebtnbox .line {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -494px -95px;	display: block;	height: 78px;	width: 2px;	float: left;}
+.largeicon a {float: left;	display: block;	background: #f3f3f3;	z-index: 5;	width: 80px;	padding-top: 8px;	text-align: center;	height: 70px;}
+.largeicon a:hover {background: #f7f7f7;}
+.largeicon .label {color: #333333;	cursor: pointer;	font-weight: bold;	padding-left: 24px;}
+.largeicon .time {display: block;	height: 40px;	width: 41px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -65px -355px;	margin-left: 20px;	margin-bottom: 5px;	cursor: pointer;}
+.largeicon .order {display: block;	height: 40px;	width: 41px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -158px -354px;	margin-left: 20px;	margin-bottom: 5px;	cursor: pointer;}
+.largeicon .phone {display: block;	height: 40px;	width: 41px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -203px -355px;	margin-left: 20px;	margin-bottom: 5px;	cursor: pointer;}
+.largeicon .help {display: block;	height: 40px;	width: 41px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -112px -356px;	margin-left: 20px;	margin-bottom: 5px;	cursor: pointer;}
+.sidepricebox {float: right;	width: 103px;	padding-top: 9px;	padding-top: 9px;}
+.sidepricebox .calc {height: 115px;	padding-top: 9px;	padding-left: 5px;	position: relative;}
+.sidepricebox .calc .day {width: 90px;	height: 54px;	border: 1px solid #cccccc;	margin-bottom: 1px;	background: white;	overflow: hidden;}
+.sidepricebox .calc .sum {width: 90px;	height: 50px;	border: 1px solid #cccccc;	background: white;	overflow: hidden;}
+.sidepricebox .calc .day .price {font-size: 15px;	font-weight: bold;	color: #cc2a43;	text-align: center;	padding-top: 6px;}
+.sidepricebox .calc .day .label {color: #999999;	text-align: center;}
+.sidepricebox .calc .sum .label {text-align: right;	padding-right: 12px;	height: 18px;	font-weight: bold;	color: #808080;	display: block;	overflow: hidden;	padding-top: 3px;}
+.sidepricebox .calc .sum .price {font-size: 18px;	color: #cc2a43;	text-align: right;	padding-right: 12px;	display: block;	height: 21px;	overflow: hidden;}
+.arrowd {height: 6px;	width: 8px;	position: absolute;	z-index: 1;	left: 48px;	top: 64px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -392px -362px;	overflow: hidden;}
+.rightbox .three {float: right;	width: 330px;	display: inline;	margin-top: 20px;}
+.rightbox .three dl {display: inline;	float: left;	margin-top: 10px;	width: 370px;}
+.rightbox .three dt {float: left;	width: 50px;}
+.rightbox .three dd {color: #000000;	float: left;	line-height: 24px;	width: 270px;}
+/*附加信息样式*/
+.rightbox .fourh {border-top: 5px solid #ed5c28;	margin-top: 20px;}
+.rightbox .four {border: 1px solid #dadada;	border-top: none;	padding: 10px;}
+.rightbox .four .face img,.rightbox .one .face img {width: 160px;	height: 160px;}
+.rightbox .one .face {padding: 10px;}
+.rightbox .four .face li,.rightbox .one .face li {float: left;	width: 90px;	padding: 6px;	text-align: center;}
+.rightbox .four .face li img,.rightbox .one .face li img {width: 90px;	height: 90px;}
+.rightbox .one .say {font-size: 15px;	padding: 10px;	word-wrap: break-word;}
+.rightbox .four .head,.rightbox .one .head {font-size: 22px;	font-weight: bold;	padding-top: 8px;	color: #333333;	height: 40px;}
+.rightbox .four .head2 {height: 20px;	margin: 15px 0px 5px 0px
+}
+.rightbox .four .head2 p {float: left;}
+.rightbox .four .head2 .r {width: 7px;	height: 20px;	background: #ed5c28;	margin-right: 8px;}
+.rightbox .four .head2 .c {line-height: 20px;	font-weight: bold;	color: #333333;}
+.rightbox .four .c2 {width: 140px;	line-height: 24px;	color: #333333;}
+.rightbox .four .c2 li {border-bottom: 1px dotted #E3E3E3;	display: block;	float: left;	width: 140px;	line-height: 23px;}
+.rightbox .four .c2 li:last-child {border: none;}
+.rightbox .four .c2 li .p1 {width: 60px;	float: left;}
+.rightbox .four .c2 li .p2 {width: 80px;	float: right;}
+.rightbox .four .c2 a {color: #ed5c28;	font-weight: bold;	text-decoration: underline;}
+.rightbox .four .c3 {width: 300px;	border-top: 1px solid #e5e5e5;	padding-top: 8px;	padding-bottom: 5px;	overflow: hidden;}
+.rightbox .four .c3 ul li {display: block;	height: 26px;	margin-bottom: 5px;	overflow: hidden;	width: 300px;}
+.rightbox .four .c3 ul li.high {background: #f3f3f3;}
+.rightbox .four .c3 .p1 {float: left;	height: 20px;	width: 100px;	padding-top: 3px;	margin-right: 120px;	color: #333333;	padding-left: 12px;	overflow: hidden;	display: block;}
+.rightbox .four .c3 .p2 {float: left;	height: 20px;	width: 60px;	padding-top: 3px;	color: #333333;	overflow: hidden;	display: block;}
+.rightbox .four .c4 {width: 300px;	border-top: 1px solid #e5e5e5;	padding-top: 6px;	padding-bottom: 4px;}
+.rightbox .four .c4 ul li {display: block;	height: 18px;	margin-bottom: 8px;}
+.rightbox .four .c4 .p1 {float: left;	color: #333333;	line-height: 18px;}
+.rightbox .four .itemb {width: 300px;	border-top: 1px solid #e5e5e5;	height: 160px;}
+.rightbox .four .itemb .c5 {overflow: hidden;	height: 40px;	line-height: 40px;	font-weight: bold;	color: #333333;	font-size: 14px;	padding-left: 4px;}
+.rightbox .four .itemb .c6 {height: 120px;	padding-left: 4px;	clear: both;}
+.rightbox .four .itemb .c6 .link {float: left;	display: block;	width: 102px;	height: 102px;	margin-right: 6px;	margin-right: 6px;}
+.rightbox .four .itemb .c6 .link a {display: block;	height: 100px;	width: 100px;	margin-top: 3px;	margin-left: 3px;}
+.rightbox .four .itemb .c6 .link a img {height: 100px;	width: 100px;}
+.rightbox .four .itemb .c6 p {float: left;	padding-left: 10px;	display: block;	color: #333333;	line-height: 20px;	width: 160px;}
+.smallcheck {float: left;	display: block;	height: 11px;	width: 10px;	overflow: hidden;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -355px -379px;	margin: 3px 6px 0px 0px;}
+.smalluncheck {float: left;	display: block;	height: 11px;	width: 10px;	overflow: hidden;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -356px -361px;	margin: 3px 6px 0px 0px;}
+.detailinfo {background: none repeat scroll 0 0 #E8E8E8;	display: inline;	float: left;	margin: 15px 0px 15px 0px;	width: 720px;}
+.detaildesc {width: 720px;}
+.grnbar dt {float: left;	height: 31px;	line-height: 31px;}
+.grnbar dt strong {background: none repeat scroll 0 0 #5FAB1D;	color: #FFFFFF;	float: left;	font-size: 15px;	font-weight: normal;	line-height: 31px;	padding: 0px 10px;}
+.grnbar span.dot {float: left;	height: 31px;	width: 43px;	display: block;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -458px -289px;}
+.grnbar dd {display: inline;	float: left;	margin-left: 20px;	margin-top: 4px;}
+.redbar dt {float: left;	height: 27px;	line-height: 27px;}
+.redbar dt strong {background: none repeat scroll 0 0 #EF442B;	color: #FFFFFF;	float: left;	font-size: 15px;	font-weight: normal;	padding: 0px 10px;}
+.redbar span.dot {float: left;	height: 27px;	width: 14px;	display: block;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -448px -245px;}
+.redbar dd {display: inline;	float: left;	margin-left: 20px;	margin-top: 2px;}
+.detailattr {margin-bottom: 30px;}
+.detailattr p {line-height: 28px;	height: 28px;	font-size: 16px;	color: #333333;	border-bottom: 1px dotted #999;}
+.detailattr p span {width: 200px;	float: left;}
+.detailattr p font {float: left;}
+.detailattr p a {width: 500px;	height: 30px;	float: left;	overflow: hidden;	color: #CC2A41;}
+.detaildesc p {line-height: 28px;	font-size: 16px;	color: #333333;}
+.detailtags {height: 102px;	padding-left: 8px;	padding-top: 14px;	margin-bottom: 20px;}
+.detailtags ul li {float: left;	height: 28px;	margin-bottom: 6px;	width: 109px;	display: block;}
+.yesimg {float: left;	height: 17px;	width: 17px;	display: block;	margin-top: 6px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -426px -252px;	margin-right: 8px;}
+.noimg {float: left;	height: 17px;	width: 17px;	display: block;	margin-top: 6px;	background: url(http://img.yiqihi.com/bg1112.png) no-repeat -409px -252px;	margin-right: 8px;}
+.detailtags .caption {float: left;	display: block;	line-height: 28px;	font-size: 13px;}
+.detaillist dl {border-bottom: 1px dashed #EBEBEB;	display: inline;	float: left;	margin-bottom: 20px;	margin-left: 10px;	padding-bottom: 20px;	width: 700px;}
+.detaillist dl dt {float: left;	width: 180px;}
+.detaillist dl dt a {border: 1px solid #CCCCCC;	float: left;	padding: 3px;	width: 160px;}
+.detaillist dl dt a  img {width: 160px;	height: 160px;}
+.detaillist dl dd {float: right;	width: 510px;}
+.detaillist dl dd a {color: #101010;	float: left;	font-size: 15px;	line-height: 30px;}
+.detaillist dl dd p {color: #666666;	line-height: 24px;}
+.detaillist dl dd li {float: left;	width: 535px;}
+.detaillist dl dd .li {color: #666666;	font-size: 14px;	margin-top: 40px;}
+.detaillist dl dd .li strong {font-weight: normal;}
+.detaillist dl dd .li span {float: right;	margin-right: 80px;}
+.detailmore {display: inline;	float: left;	margin: 0px 0 0px 15px;	width: 780px;}
+.photo-gallery li {background: #FFF;	float: left;	padding: 5px;height: 150px;	width: 150px !important;position:relative;}
+.photo-gallery li .i {padding: 3px;;	margin: 0 auto;	height: 140px;	width: 140px;}
+.photo-gallery .i img {display: block;	height: 140px;	margin: 0 auto;	width: 140px;}
+.photo-gallery .b {background: none repeat scroll 0 0 rgba(33, 33, 33, 0.6);	color: #FFFFFF;	font-size: 13px;	height: 23px;	left: 0;	line-height: 23px;	padding: 3px;	position: relative;	top: -30px;}
+.photo-gallery .b span {float: left;white-space:nowrap;max-width:130px;text-overflow:ellipsis;overflow: hidden;	height: 26px;}
+ a.delete{display: block;position: absolute;right: 0px;top: 0px; background: url("http://img.yiqihi.com/backend0619.png") no-repeat scroll -73px -92px rgba(0, 0, 0, 0);height: 25px;width: 25px;}
+.photo-gallery span.insert {display:none;background: url("/images/trip-icons0619.png") no-repeat scroll -0px -937px rgba(0, 0, 0, 0);bottom: 0;height: 30px;left:0;padding: 5px 0 0 8px;position: absolute;width: 71px;z-index: 100;}
+.photo-gallery li:hover span.insert{display:block;}
+.dragPictureHolder div {background-color: white !important;	border: dashed 2px gray !important;	height: 150px;	width: 150px;}
+.photos {display: inline;	float: left;	position: relative;	text-align: center;	z-index: 2;}
+.photos a {display: block;	float: left;}
+.photos a img {cursor: pointer;}
+.photos span.num {background: url("http://img.yiqihi.com/bg1112.png") no-repeat scroll -432px -834px	transparent;	display: block;	height: 52px;	width: 52px;	right: 0;	overflow: hidden;	position: absolute;	top: 0;}
+.photos span.num em {color: #fff;	font-size: 18px;	margin-left: 15px;	font-weight: bold;}
+span.quotefirst {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -375px -189px;	width: 14px;	height: 11px;	display: block;	float: left;	margin-right: 10px;}
+span.quotelast {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -391px -189px;	width: 14px;	height: 11px;	display: block;	float: right;	margin-left: 10px;}
+span.state {display: block; float: left; margin: 5px 5px 0 0;}
+span.markcolor {width: 20px;	height: 26px;	margin-right: 10px;	display: block;	float: left;}
+span.markcolor em {width: 20px;	height: 26px;	display: block;	color: #fff;	padding-left: 2px;	line-height: 20px;}
+span.markcolor .redbk {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -206px -313px;}
+span.markcolor .pinkbk {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -231px -313px;}
+span.markcolor .bluebk {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -257px -313px;}
+span.markcolor .grnbk {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -283px -313px;}
+span.markcolor .yellowbk {background: url(http://img.yiqihi.com/bg1112.png) no-repeat -307px -313px;}
+em.quote {font-family: Georgia;	font-size: 16px;	font-style: normal;	font-weight: bold;	margin: 0px 5px;}
+.two_columns {width: 300px;}
+.four_columns {width: 750px}
+.tablist {margin: 8px 0px 0px 0px;	overflow: hidden;	width: 100%}
+.tablist li {float: left;	margin: 0 3px 0 0;}
+.tablist li span {visibility: hidden;}
+.tablist li.current span {display: block;	margin: -1px auto 0;	visibility: visible;}
+.tablist li:hover span {background: none;}
+.tablist li a {display: block;	padding: 5px 15px;}
+.tablist li.current a,.tablist li:hover>a {border-bottom: 2px solid #CC2A43;}
+.pad20 {padding-top: 30px;}
+.adstitle {background: url("http://img.yiqihi.com/bg1112.png") no-repeat scroll 0 -976px	transparent;	height: 26px;	line-height: 26px;}
+.adstitle p {background: none repeat scroll 0 0 #FFFFFF;	color: #575757;	font-size: 14px;	height: 26px;	line-height: 26px;}
+.adstext ul {margin: 8px 5px;}
+.adstext li a {width: 170px;	float: left;	height: 24px;	line-height: 24px;	overflow: hidden;}
+.adstext li span {width: 60px;	float: left;	height: 24px;	line-height: 24px;	color: #CC2A41;	text-align: right;}
+.adssx {text-align: center;}
+.adssx dl {margin-top: 30px;}
+.adssx div a {color: #00561F;	line-height: 22px;}
+.adssx dd p {color: #CC2A41;	font-size: 14px;}
+.adssx dd p span {color: #AAACAF;}
+.adssx dd p span.position {background: url("http://img.yiqihi.com/bg1112.png") no-repeat scroll -348px -119px	transparent;	display: inline-block;	height: 15px;	margin: 5px 5px 0 0;	width: 10px;}
+.adszy li {margin: 30px 5px 0 5px;}
+.adszy li img {float: left;	width: 108px;}
+.adszy li p {float: left;	width: 120px;	margin-left: 5px;	line-height: 22px;}
+.adszy li p a {color: #00561F;}
+.adszy li p span {color: #CC2A41;}
+/**wizard*/
+.wizard {background-color: #F7F8F9;border: 1px solid #E0E4E8;font-size: 14px;padding: 0;}
+.wizard .badge-success {background-color: #3FCF7F;}
+.wizard ul li b {margin-right:10px; font-size:20px; font-style:italic;}
+.wizard ul li em{height:20px;line-height:20px;font-style:italic;color:#CC2A43;}
+.wizard ul li span{ display:block; width:16px; height:16px; position:absolute; right:10px; top:5px; background-image:url(http://img.yiqihi.com/backend0619.png);}
+.wizard ul li span.check{ background-position:-289px -132px;}
+.wizard ul li span.none{ background:none;}
+.wizard ul li span.fail{ background-position:-289px -158px;}
+.wizard ul li span.success{ background-position:-288px -184px;}
+.wizard ul li.complete, .wizard ul li.complete:hover {background: none repeat scroll 0 0 #F1F5F9;cursor: pointer;}
+.wizard ul li.complete:after {border-left-color: #F1F5F9;}
+.wizard ul {list-style: none outside none;margin: 0;padding: 0;overflow: hidden;}
+.wizard ul li {color: #333;cursor: pointer;float: left;height: 60px;line-height: 60px;margin: 0;padding: 0 15px 0 25px;position: relative;-moz-user-select:none;-webkit-user-select:none;user-select:none;}
+.wizard ul li:hover {color: #17923c}
+.wizard.wizard-vertical {border-bottom: medium none;float: left;}
+.wizard.wizard-vertical + .step-content {overflow: hidden;padding-left: 40px;}
+.wizard.wizard-vertical ul li {border-bottom: 1px solid #E0E4E8;float: none;padding-left: 15px;position: relative;}
+.wizard.wizard-vertical ul li:last-child {}
+.wizard ul li:first-child {border-radius: 4px 0 0;padding:0 15px 0 25px;}
+.wizard .actions {float: right; margin: 8px 10px 0 0;}
+.wizard ul li:after {content: "";bottom: -1px;position: absolute;right: -10px;top: 0px;display: block;width: 20px;height: 60px;background: url(/images/wizard_backend.png) -40px 0;}
+.wizard ul li.active {background:#FFFFFF;color: #17923C;}
+.wizard ul li.active:before{content: "";bottom: -1px;position: absolute;left: -10px;top: 0px;display: block;width: 20px;height: 60px;background: url(/images/wizard_backend.png) 0 0;}
+.wizard ul li.active:first-child:before{background:none;}
+.wizard ul li.active:after {background-position:-20px 0;}
+/**dlgpicture*/
+#dlgpicture .items li {float: left;width: 143px;height: 160px;padding: 6px;}
+#dlgpicture .items span {float: left;display: inline;}
+#dlgpicture .items span font,#dlgpicture .icons label{float: left;color:#666;font-size:13px;display: inline;width:110px;max-width: 110px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+#dlgpicture .items li img {width: 143px;height: 100px;cursor: pointer;}
+#dlgpicture .items li .join {background: none repeat scroll 0 0 rgba(33, 33, 33, 0.6);color: #FFFFFF;font-size: 13px;height: 13px;left: 0;line-height: 13px;padding: 5px;position: relative;width: 50px;top: -23px;}
+#dlgpicture .op {width: 130px;max-height: 60px;float: left;margin: 5px 0px 0px 0px;overflow: hidden;font-size: 15px;float: left;}
+#dlgpicture .icons span.tag {float: left;margin: 5px 3px 0px 3px;}
+#dlgpicture p.desc {margin-bottom: 10px;}
+#dlgpicture p.desc span {font-size: 13px;color: #666;float: left;width: 120px;}
+#dlgpicture p.desc font {font-size: 12px;color: #999;margin-left: 5px;float: left;width: 120px;}
+#dlgPicLoading {float: left;}
+/****************************************
+ * popupBox
+ ****************************************/
+ .popupBox{	display: none;}
+.popupBox .mask { position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: url(/images/bg_cover.png) repeat; z-index: 9;}
+.popupBox .popupBox_lr { position: absolute; left: 50%; top: 0; margin-left: -300px; padding: 20px; width: 560px; background-color: #fff; z-index: 9;border:solid 6px #555;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;-webkit-box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.30);-moz-box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.30);box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.30);}
+.popupBox .close { position: absolute; right: 20px; top: 20px; display: block; width: 20px; height: 20px; overflow: hidden; background: url(http://img.yiqihi.com/bg1112.png) no-repeat -417px -66px; text-indent: -999px;}
+.popupBox .close:hover { background-position: -417px -87px;}
+/****************************************
+ * top_nav
+ ****************************************/
+.top_nav { margin: 0 -20px; padding-top: 20px; height: 42px; border-bottom: 1px solid #E6E6E6;}
+.top_nav ul { position: relative; bottom: -1px; text-align: center; height: 42px; z-index: 10px;}
+.top_nav ul li { display: inline-block;*display:inline;*zoom:1;}
+.top_nav ul li a { display: block; width: 152px; height: 38px; line-height: 38px; text-align: center; font-family: "Microsoft Yahei", sans-serif; font-size: 18px; font-weight: bold; color: #5E5E5E;}
+.top_nav ul li .current { border-bottom: 4px solid #17923c; color: #17923c;}
+/****************************************
+ * login
+ ****************************************/
+.loginbox {  padding: 20px; color: #5E5E5E;}
+.loginbox h2 { margin-bottom: 20px; font-family: "Microsoft Yahei", sans-serif; font-size: 14px; font-weight: bold; color: #5E5E5E;}
+.loginbox .item { position: relative; padding-bottom:5px;}
+.loginbox .check_item { padding-bottom: 10px; font-size: 12px;}
+.loginbox .item .lbl { float: left; width: 100px; height: 43px; line-height: 43px; text-align: right;}
+.loginbox .check_item .lbl { height: 18px; line-height: 18px;}
+.loginbox .item .char { display: inline-block; *display: inline; *zoom: 1; width: 1em;}
+.loginbox .item  input[type='text'],.loginbox .item  input[type='password'] { float: left; margin: 3px; padding: 0 5px; width: 320px; height: 35px; line-height: 35px; background-color: #fff; }
+.loginbox .item .verif_img { float: left; margin-right: 10px;}
+.loginbox .item .verif_img img { display: block;}
+.loginbox .item .forget_psd { *margin-top: -18px; padding-right: 5px;}
+.loginbox .item .forget_psd:hover { text-decoration: underline;}
+.loginbox .item .btn_regs { width: 186px; background-position: 0 -400px; letter-spacing: 0;}
+.loginbox .item .btn_regs_hover, .loginbox .item .btn_regs:hover { background-position: 0 -450px;}
+.seperate { position: relative; padding: 5px 0; height: 28px; overflow: hidden;}
+.seperate .line { position: absolute; left: 0; top: 13px; _top: -6px; width: 100%; height: 0; border-bottom: 2px solid #E6E6E6;}
+.seperate .union { position: absolute; left: 251px; *left: 260px; top: 0; display: block; padding: 0 5px; line-height: 28px; background-color: #fff; font-family: "Microsoft Yahei", sans-serif; font-size: 18px; font-weight: bold; color: #5E5E5E;}
+.union_login { padding: 0 20px;}
+.union_login ul li { float: left; margin-right: 20px;text-align: center;}
+.union_login ul li em { display: inline-block; *display: inline; *zoom: 1; margin-right: 5px; width: 22px; height: 22px; background: url(http://img.yiqihi.com/bg1112.png) no-repeat; vertical-align: middle;}
+.union_login ul em.xl { width: 27px; background-position: -6px -166px;}
+.union_login ul em.qq { background-position: -35px -166px;}
+.union_login ul em.wx { width: 26px; background-position: -64px -166px;}
+
+/***************************************
+ * succ_mod
+ ***************************************/
+.succ_mod { padding: 20px;}
+.succ_mod .succ_info { margin: 30px 0; padding-left: 50px; background: url(/images/bg_login.png) no-repeat -270px -400px; color: #A5A5A5; font-size: 12px;}
+.succ_mod .succ_info h3 { margin-bottom: 10px; line-height: 26px; font-family: "Microsoft Yahei", sans-serif; font-size: 18px; font-weight: normal; color: #17923c;}
+.succ_mod .connect { display: block; width: 112px; height: 40px; line-height: 40px; background: url(/images/bg_login.png) no-repeat 0 -500px; text-align: center; font-family: "Microsoft Yahei", sans-serif; font-size: 18px; color: #fff;}
+.succ_mod .connect:hover { background-position: -120px -500px;}
+
+/************************************
+ * find_psd
+ ************************************/
+.find_psd { padding: 20px 120px 0;}
+.find_psd h2 { margin-bottom: 10px; font-family: "Microsoft Yahei", sans-serif; font-size: 18px; font-weight: bold; color: #17923c;}
+.find_psd .step li { float: left;}
+.find_psd .step .seq { width: 20px; height: 20px; line-height: 20px; background: url(http://img.yiqihi.com/bg1112.png) no-repeat -114px -184px; text-align: center; font-family: Arial, sans-serif; font-size: 14px; color: #fff;}
+.find_psd .step .done { background-position: -114px -164px;}
+.find_psd .step .line { margin-top: 10px; width: 180px; height: 1px; background-color: #ccc;}
+.loginbox .item .btn_find { letter-spacing: 0;}
+.step_mod .input_text { height: 26px; line-height: 26px; color: #17923c; font-weight: bold;}
+.step_mod .item .txt3 { width: 174px;}
+.step_3 .item .btn_sub { width: 80px; background-position: 0 -550px; letter-spacing: 3px;}
+.step_3 .item .btn_sub_hover, .step_3 .item .btn_sub:hover { background-position: -100px -550px;}
+.step_mod h3 { padding: 5px 0; height: 30px; line-height: 30px;}
+.psd_degree { position: absolute; right: -35px; top: 3px; padding: 10px 0 0 10px; width: 241px; height: 71px; border: 1px solid #E6E6E6;}
+.psd_degree p { font-size: 12px; color: #333;}
+.psd_degree label { font-weight: bold;}
+.psd_degree .bar { position: relative; margin: 10px 0 20px; width: 210px; height: 5px; background-color: #E6E6E6;}
+.psd_degree .bar .bar_done { position: absolute; left: 0; top: 0; height: 5px;}
+.psd_degree .bar .low { width: 70px; background-color: #c00;}
+.psd_degree .bar .middle { width: 140px; background-color: #FF9A00;}
+.psd_degree .bar .power { width: 210px; background-color: #7AB246;}
+.psd_degree .arrow { position: absolute; left: -9px; top: 12px; display: block; width: 11px; height: 17px; overflow: hidden; background: url(http://img.yiqihi.com/bg1112.png) no-repeat -230px -400px;}
+
+.date {background: url("http://img.yiqihi.com/bg1112.png") no-repeat scroll -414px -657px rgba(0, 0, 0, 0);float: left;height: 57px;margin-right: 5px;overflow: hidden;width: 57px;}
+.date li {color: #777777;font-size: 12px;font-weight: bold;height: 20px;line-height: 20px;text-align: center;}
+.date li.yue {color: #147c33;}
+.date li.ri {font-size: 20px;height: 18px;line-height: 22px;}
+.box1 {padding:0; width:890px; overflow:hidden; margin-top:6px;}
+.box1-left {padding:0; width:800px; overflow:hidden; margin-top:6px}
+.box1-tl {float:left; margin:0; padding:0; background:url(http://img.yiqihi.com/bg1112.png) -305px -477px no-repeat; width:46px; height:16px; overflow:hidden;}
+.box1-tc {float:left; margin:0; padding:0; background-color:#F8F8F8; width:840px; height:16px; overflow:hidden}
+.box1-tc-left {float:left; margin:0; padding:0; background-color:#F8F8F8; width:750px; height:16px; overflow:hidden}
+.box1-tc01-left { border-bottom:1px solid #DEDEDE; background-color:#fff; width:759px; height:12px; overflow:hidden}
+.box1-tr{float:left; margin:0; padding:0; background:url(http://img.yiqihi.com/bg1112.png) -353px -477px no-repeat; width:4px; height:16px; overflow:hidden;}
+.box1-c-left {float:left; margin:0; padding-top:20px; border-left:1px solid #DEDEDE; border-right:1px solid #DEDEDE; background-color:#F8F8F8; width:798px; overflow:hidden;}
+.box1-bl {float:left; margin:0; padding:0; background:url(http://img.yiqihi.com/bg1112.png) -304px -495px no-repeat; width:4px; height:4px}
+.box1-c{padding:0px 0px 20px 20px;}
+.box1-bc {float:left; margin:0; padding:0; border-bottom:1px solid #DEDEDE; background-color:#F8F8F8; width:882px; height:3px; overflow:hidden}
+.box1-bc-left {float:left; margin:0; padding:0; border-bottom:1px solid #DEDEDE; background-color:#F8F8F8; width:792px; height:3px; overflow:hidden}
+.box1-br{float:left; margin:0; padding:0; background:url(http://img.yiqihi.com/bg1112.png) -353px -495px no-repeat; width:4px; height:4px}
+
+.popbox-warp{position:absolute;z-index:9;display: inline-block;min-width: 250px;border: 1px solid #CCC;border-radius: 4px;background-color: #FFF;  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);display:none}
+.popbox-warp .triangle{position: absolute;left:50%;top: -11px;margin-left: -13px;width: 27px;height: 11px;background: url(http://img.yiqihi.com/bg1112.png) no-repeat -469px -444px;}
+.popbox-warp .title {background-color: #F7F7F7;color:#666;border-bottom: 1px solid #EBEBEB;border-radius: 5px 5px 0 0;font-size: 14px;font-weight: normal;line-height: 18px;margin: 0;padding: 8px 14px;}
+.popbox-warp .bottom {margin:5px 10px;text-align:right;}
+.popbox-warp .bottom a{float:right;width:90px;margin-left:9px;}
+.popbox{overflow: hidden;min-height:100px;padding: 10px 14px;}
+.popbox dl{display:block;line-height:23px;height:23px;}
+.popbox dl dt{display:block;float:left;}
+.popbox dl dd{display:block;float:left}
+.popbox dl input{;border: 1px solid #ccc;height: 23px;line-height: 23px;outline: medium none;}
+.popbox b{display: inline-block;width: 24px;height:24px;margin-right: 5px;vertical-align: middle;}
+.popbox{overflow: hidden;min-height:100px;padding: 10px 14px;}
+.popbox label{display:block;cursor:pointer;padding:3px;font-weight:bold}
+.popbox label input{margin-right:6px;}
+.popbox #userResults{padding-top:10px;}
+.popbox #serviceResults{padding-top:10px;}
+
+.orderbtn {width: 315px;height: 72px;background: url(http://img.yiqihi.com/bgpage.png?v=1) no-repeat 0 -210px;cursor: pointer;}
+.orderbtn.big {width: 382px;height: 75px;background: url(http://img.yiqihi.com/trp-icon.png?v=0505) no-repeat -13px -1218px;cursor: pointer;}
+.orderbtn.big:hover{	background-position: -13px -1296px;}
+.orderbtn:hover, .mod_order .total_hover {	background-position: 0 -282px;}
+.orderbtn span {	font-family: "Microsoft Yahei", sans-serif;font-size: 14px;color: #fff; float:left;width:155px;padding:8px 0 0 30px;}
+.orderbtn em {	display: block;font-style: normal;font-family: Arial, sans-serif;font-size: 30px;color: #fff;}
+.orderbtn em font.totalPrice{display:none;float:left;}
+.orderbtn em font.totalPrice.current{display:block}
+.orderbtn .tet{float:left; width:120px;height:72px;text-align:center;color:#FFF;font:400 20px/72px "microsoft yahei"}
+.orderbtn.big .tet{float:left; width:180px;height:72px;text-align:center;color:#FFF;font:400 20px/72px "microsoft yahei"}
+
+/* Form Progress */
+.progress{margin: 20px 10px;}
+.progress .circle,
+.progress .bar{display: inline-block;text-align: center;background: #e5e5e5;width: 40px; height: 40px;border-radius: 40px;border: 1px solid #d5d5da;cursor:pointer;}
+.progress .bar{position: relative;width: 80px;height: 6px;top: -33px;margin-left: -5px;margin-right: -5px;border-left: none;border-right: none;border-radius: 0;}
+.progress .circle .label{cursor:pointer;display: inline-block;width: 32px;height: 32px;line-height: 32px;border-radius: 32px;margin-top: 3px;color: #666;font-size: 17px;}
+.progress .circle .title{cursor:pointer;color: #555;font-size: 13px;line-height: 30px;width:200px;display:inline-block;margin-left: -78px;}
+.progress .circle:hover .label{color: #FFF;background: #0c95be;box-shadow: inset 0 0 2px rgba(0,0,0,.2);}
+.progress .circle:hover .title{color: #0c95be;}
+
+/* Done / Active */
+.progress .bar.done,
+.progress .circle.done{background: #eee;}
+.progress .bar.active{background: linear-gradient(to right, #EEE 40%, #FFF 60%);}
+.progress .circle.done .label{color: #FFF;background: #8bc435;box-shadow: inset 0 0 2px rgba(0,0,0,.2);}
+.progress .circle.done .title{color: #444;}
+.progress .circle.active .label{color: #FFF;background: #0c95be;box-shadow: inset 0 0 2px rgba(0,0,0,.2);}
+.progress .circle.active .title{color: #0c95be;font-weight:bold}
+
+
+.footer {background-color: #f3f3f3;clear: both;line-height: 24px;padding: 0 0 40px;}
+.footer a {color: #333;}
+.footer .about, .footer .faq, .footer .contact, .footer .down {float: left;padding-left: 40px;width: 170px;}
+.footer .tit {color: #333;font-size: 12px;font-weight: 700;height: 32px;line-height: 32px;margin-bottom: 15px;}
+.footer dl dd {height:30px;line-height:30px;}
+.footer .tit .ico {background: url("http://img.yiqihi.com/base.png?v=3.36") no-repeat scroll -160px -625px rgba(0, 0, 0, 0);float: left;height: 32px;margin-left: -40px;width: 32px;}
+.footer .faq .ico {background-position: -200px -625px;}
+.footer .contact .ico {background-position: -240px -625px;}
+.footer .down .ico {background-position: -160px -675px;}
+.footer .mailto {background: url("http://img.yiqihi.com/base.png?v=3.36") no-repeat scroll -260px -700px rgba(0, 0, 0, 0);display: inline-block;height: 18px;margin-right: 5px;vertical-align: middle;width: 18px;}
+.footer .sina {background: url("http://img.yiqihi.com/base.png?v=3.36") no-repeat scroll -334px -137px rgba(0, 0, 0, 0);display: inline-block;height: 18px;padding-left: 3px;vertical-align: middle;width: 18px;}
+.footer .tel {background: url("http://img.yiqihi.com/base.png?v=3.36") no-repeat scroll -317px -138px rgba(0, 0, 0, 0);display: inline-block;height: 18px;padding-left: 3px;vertical-align: middle;width: 13px;}
+.footer .app-store, .footer .google-play {float: left;height: 55px;width: 143px;background: url("http://img.yiqihi.com/bg1112.png") -161px -59px;margin-bottom: 3px;display: block;}
+.footer .google-play {background-position:-14px -59px;}
+.footer .telphonr-schedule {float: left;width: 290px;margin-top:36px;}
+.footer .telphonr {margin-top: 10px;padding-left: 60px;}
+.footer .telphonr i {background: url("http://img.yiqihi.com/base.png?v=3.36") no-repeat scroll -200px -675px rgba(0, 0, 0, 0);float: left;height: 50px;margin-left: -60px;width: 50px;}
+.footer .telphonr .num {color: #333;font: 400 30px/30px Georgia;}
+.footer .telphonr .time {color: #888;}
+.footer .schedule {margin-top: 45px;}
+.footer .schedule .inpout {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;background-color: #fff;border-color: #e0e0e0 -moz-use-text-color #e0e0e0 #e0e0e0;border-image: none;border-style: solid none solid solid;border-width: 1px 0 1px 1px;color: #333;float: left;height: 33px;line-height: 33px;text-indent: 5px;width: 168px;}
+.footer .schedule .btnsub {background-color: #90cf00;color: #fff;float: left;height: 35px;line-height: 35px;text-align: center;width: 90px;}
+.footer .schedule .btnsub:hover {color: #fff !important;text-decoration: none;}
+
+div.heading{padding-top:15px;}
+div.heading .subtitle{padding-top:5px;}
+#page-heading { position:relative;height: 100px;margin-bottom:35px;}
+#page-heading.b19_24 {background: url("http://img.yiqihi.com/19-24.jpeg") no-repeat scroll center -260px transparent;}
+#page-heading.b5_8 {background: url("http://img.yiqihi.com/5-8.jpeg") no-repeat scroll center center transparent;}
+#page-heading.b9_17 {background: url("http://img.yiqihi.com/9-17.jpeg") no-repeat scroll center -200px transparent;}
+#page-heading.b17_19 {background: url("http://img.yiqihi.com/17-19.jpeg") no-repeat scroll center center transparent;}
+#page-heading .country-bg{height: 420px;position: absolute;top: -30px;width: 100%;z-index: 3;}
+#page-heading .shadow-bg{background: url("../images/repeatY.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);height: 10px;position: absolute;top: -1px;width: 100%;z-index: 3;}
+#page-heading .bottom{background:url("/images/spike.png") repeat-x scroll -6px 0 rgba(0, 0, 0, 0);bottom:0px;display: block;    height: 8px;    left: 0;    position: absolute;    width: 100%;}
+#page-heading .city {color: #fff;float:left;}
+#page-heading .city h2 { color: #fff;margin-bottom: 0;max-width: 10em; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+#page-heading .city h2 a{ color:#fff}
+#page-heading #localTime {   color: #FFF;margin-top:5px;}
+.apply-cooperation{width: 100px;height:60px; display: inline-block;color: #DA372B; border:#DA372B dashed 2px; position: absolute; bottom: 13px; left: 50%; margin-left:490px; z-index: 1; text-align: center; }
+.apply-cooperation em{ display:block;width:16px;height:14px;background:url("../images/icons_sprite_orange.png") -0px -161px;margin:9px auto;}
+.apply-cooperation span{ display:block;margin:0px auto;font-size:16px;}
+
+span.licence em {background: url("../images/bg_userinfo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);display:block;width:53px;height:58px;}
+span.licence em.not {background-position:0px 0px;}
+span.licence em.a {background-position:-54px 0px;}
+span.licence em.aa {background-position:-108px 0px;}
+span.licence em.aaa {background-position:-162px 0px;}
+
+/*footer*/
+.blank20 {clear: both;height: 20px;}
+.w1200 {width: 1260px;	margin: 0 auto;}
+.w{width:1260px;margin:0 auto}
+.wrap {width: 1200px;margin: 0 auto 60px;}
+#item-foot{
+    width: 100%;
+    clear: both;
+    background:#272727 url(http://img.yiqihi.com/footer:footerbg.png) 0 0 repeat-x;
+    color:#a5a5a5;
+    overflow: hidden;
+    padding-top: 35px;
+    font-family: "Microsoft YaHei";
+    color:#9e9e9e;
+    font-size: 13px;
+}
+#item-foot h2{
+    font:700 20px "Microsoft YaHei";
+    color: #fff;
+    margin-bottom: 10px;
+}
+#item-foot h3{
+    font: 400 16px "Microsoft YaHei";
+    color: #fff;
+    margin-bottom:10px;
+}
+#item-foot .item-foot-content{ width: 1260px; margin: 0 auto;}
+#item-foot .item-foot-content .together-hi{ float: left; height:370px;}
+#item-foot .item-foot-content .together-hi .together-hi-box .about-us,
+#item-foot .item-foot-content .together-hi .together-hi-box .contact-us,
+#item-foot .item-foot-content .together-hi .together-hi-box .common-problem,
+#item-foot .item-foot-content .together-hi .together-hi-box .money-conversion{
+    float: left;
+    padding-left: 40px;
+    width: 230px;
+    height: 138px;
+    margin-bottom: 20px;
+}
+#item-foot .item-foot-content .together-hi .together-hi-box{width:540px;margin-top:30px}
+#item-foot .item-foot-content .together-hi .together-hi-box span{
+    width: 24px;
+    height: 24px;
+    background: url(http://img.yiqihi.com/footer:footer.png) no-repeat;
+    display: inline-block;
+    float: left;
+    margin-left: -35px;
+    margin-top:-3px;
+}
+#item-foot a{
+    color:#8a8a8a;
+    font-size: 13px;
+    line-height:25px;
+}
+#item-foot .item-foot-content .together-hi .together-hi-box .about-us span{
+    background-position: 0 0;
+}
+#item-foot .item-foot-content .together-hi .together-hi-box .contact-us span{
+    background-position: -70px 0;
+}
+#item-foot .item-foot-content .together-hi .together-hi-box .common-problem span{
+    background-position: -35px 0;
+}
+#item-foot .item-foot-content .together-hi .together-hi-box .money-conversion span{
+    background-position: -105px 0;
+}
+#item-foot .item-foot-content .together-hi .together-hi-box a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+#item-foot .item-foot-content .together-hi .together-hi-box .money-conversion .hl,#item-foot .item-foot-content .together-hi .together-hi-box .money-conversion .qdrmb{
+    margin-top: 10px;
+}
+#item-foot .item-foot-content .together-hi .together-hi-box .money-conversion .hl a{
+    width: 108px;
+    height: 32px;
+    background-color: #323232;
+    border: 1px solid #323232;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+}
+#item-foot .item-foot-content .together-hi .together-hi-box .money-conversion .qdrmb a{
+    width: 108px;
+    height: 32px;
+    background-color: #2fb163;
+    border: 1px solid #2fb163;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+}
+#item-foot .item-foot-content .down-app{
+    float: left;
+    width:350px;
+}
+#item-foot .item-foot-content .call-center{
+    float: left;
+}
+#item-foot .item-foot-content .down-app .down-app-box li{
+    margin-right: 35px;
+    float: left;
+}
+#item-foot .item-foot-content .down-app .down-app-box .titl{
+    margin: 15px 0 8px;
+    color:#bcbcbc;
+}
+#item-foot .item-foot-content .down-app .down-app-box .logo{
+    width: 98px;
+    height: 98px;
+    border:5px solid #fff;
+    border-radius: 3px;
+}
+#item-foot .item-foot-content .down-app .down-app-box .logo-i{
+    background: url(http://img.yiqihi.com/common:qr-ios.png)  no-repeat;
+    background-size: 98px;
+}
+#item-foot .item-foot-content .down-app .down-app-box .logo-a{
+    background: url(http://img.yiqihi.com/common:qr-android.png)  no-repeat;
+    background-size: 98px;
+}
+#item-foot .item-foot-content .down-app .down-app-box .logo-y{
+    background: url(http://img.yiqihi.com/common:qr-weixin.png)  no-repeat;
+    background-size: 98px;
+
+}
+#item-foot .item-foot-content .call-center{
+    margin-left: 80px;
+}
+#item-foot .item-foot-content .call-center .call-center-box p{
+    margin-bottom: 6px;
+}
+#item-foot .item-foot-content .call-center .call-center-box .call-num-logo{
+    width: 260px;
+    height: 40px;
+    background: url(http://img.yiqihi.com/footer:footer.png) no-repeat -150px -5px;
+}
+#item-foot .item-foot-content .call-center .call-center-box span{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+#item-foot .item-foot-content .call-center .call-center-box .logo{
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    background: url(http://img.yiqihi.com/footer:footer.png) no-repeat 0 -45px;
+}
+#item-foot .item-foot-content .call-center .call-center-box .phone-num{
+    margin-left: 10px;
+    color: #b3b3b3;
+    line-height: 20px;
+    width: 120px;
+}
+#friendlyLink .item-foot-content li{
+    float:left;
+    margin-left:20px;
+}
+#item-foot .item-foot-version{
+    clear: both;
+    height:56px;
+    line-height: 56px;
+    font-size: 12px;
+}
+.service-time{
+    padding-left:18px;
+    height:28px;
+    line-height: 28px;
+}
+/**/
+#bottomScoll{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: -100%;
+    z-index: 99999;
+    height: 180px;
+    width:100%;
+}
+
+#bottomScoll .foot-code-qr{
+    width: 198px;
+    height: 180px;
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+    left:50%;
+    margin-left:460px
+}
+#bottomScoll .foot-code-qr dl{
+    float: left;
+    color: #fff;
+    font-size: 15px;
+}
+#bottomScoll .foot-code-qr dl dd{
+    border:5px solid #fff;
+}
+#bottomScoll .foot-code-qr dl dt{
+}
+#bottomScoll .foot-code-qr dd img{
+    width: 130px;
+    height: 130px;
+    display:block;
+}
+#bottomScoll ul{
+    display: inline-block;
+    margin-top: 25px;
+}
+#bottomScoll li{
+    width: 80px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 15px;
+    color: #fff;
+}
+#bottomScoll  em{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    line-height: 40px;
+    cursor: pointer;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    left:50%;
+    margin-left:630px;
+    z-index:2;
+}
+#bottomScoll  em:hover{
+    color: #626262
+}
+#bottomScoll .hide{
+    position:relative;
+    right: -128px;
+    top:-180px;
+    display:block;
+}
+#bottomScoll .show{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background:#181818 url(http://img.yiqihi.com/footer:bottom_img.png?v=8) no-repeat  center 0;
+    right: 0;
+    text-align: center;
+}
+#bottomScoll .hide-box{
+    float: right;
+    width: 128px;
+    height: 116px;
+    background: url(http://img.yiqihi.com/footer:bottom_img.png?v=8) no-repeat 0 -210px;
+    cursor: pointer;
+}
+.hide-box{ overflow: hidden;}
+/**/
+.item-title{
+    width: 100%;
+    background-color: #000;
+    height: 55px;
+}
+.item-title .item-title-left{
+    width: 100%;
+    background-color: #000;
+}
+
+.item-title .onfixed-l{
+    position: fixed;
+    top: 0px;
+    z-index: 11;
+    width: 100%;
+}
+.item-title .onfixed-r{
+    position: fixed;
+    top: 0px;
+    z-index: 11;
+    width: 100%;
+    margin-top: 0px;
+}
+.item-title .head-title li{
+    display: inline-block;
+    height: 51px;
+}
+.item-title .head-title li a{
+    float: left;
+    color: #fff;
+    font: 20px/20px  "Microsoft YaHei";
+    padding: 16px 20px;
+    cursor: pointer;
+}
+.item-title .head-title li .aboutUs-img{
+    width: 55px;
+    height: 55px;
+    float: left;
+    padding-left: 22px;
+    padding-right: 23px;
+    display: none;
+}
+.item-title .cur,.item-title .head-title li:hover a{
+    border-bottom: 3px solid #c00;
+    text-decoration: none;
+}
+.item-title .head-title li:hover .aboutUs-img{
+    display: inline-block;
+}
+.item-title .head-title li:hover .aboutUs-cont{
+    display: none;
+}
+.item-title-box{
+    position: relative;
+    width: 1260px;
+    margin:0 auto;
+}
+.item-title .head-title{
+    width: 820px;
+}
+.cahd{ background: #fff; }
+.cahd li{ margin-top: -5px;}
+.xboxGreyInner-img{ background: #fff}
+
+
+#item-foot .item-foot-links{
+    border-top: 1px dashed #666;
+    overflow: hidden;
+    padding:10px 0;
+    background: url(http://img.yiqihi.com/footer:footerlink.png);
+}
+
+#item-foot .item-foot-links li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}

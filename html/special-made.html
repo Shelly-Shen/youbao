@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>专属定制</title>
+
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- bootstrap-wysiwyg -->
+    <link href="../vendors/google-code-prettify/bin/prettify.min.css" rel="stylesheet">
+    <!-- Select2 -->
+    <link href="../vendors/select2/dist/css/select2.min.css" rel="stylesheet">
+    <!-- Switchery -->
+    <link href="../vendors/switchery/dist/switchery.min.css" rel="stylesheet">
+    <!-- starrr -->
+    <link href="../vendors/starrr/dist/starrr.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+
+
+    <!--index css-->
+
+<link rel="stylesheet" href="./../css/yz-fe-frame.css">
+<link rel="stylesheet" href="./../css/yz-date-picker.css">
+<link rel="stylesheet" href="./../css/yz-index.css">
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/专属.css">
+<link rel="stylesheet" href="../css/after-submit.css">
+<!--<link rel="stylesheet" href="../css/search-function.css">-->
+
+<style>
+.step_no, .wizard_horizontal ul.wizard_steps li a.selected:before {
+  background-color: #1bcdae;
+}
+.btn-primary {
+  background-color: #38f;
+}
+.caption {
+  background-color: #fff;
+}
+.hottravels .item .travel .inner .info .avatar {
+  margin-left: 100px;
+}
+.txt{
+  display: none;
+}
+.hottravels .item .travel .inner .caption  {
+  height: 60px;
+}
+.hottravels .item .travel .inner{
+  background-color: #fff;
+}
+.hottravels .item .travel:hover .photo img {
+  transform: none;
+  -webkit-transform: none;
+}
+.hottravels .item .travel .inner {
+  transition: all .8s ease;
+  -webkit-transition: all .8s ease;
+  border: none;
+}
+.hottravels .item .travel:hover .inner  {
+  transform: translateY(-60px);
+  -webkit-transform: translateY(-60px);
+}
+.hottravels .item .travel .inner .caption {
+  text-align: center;
+}
+</style>
+  </head>
+
+  <body class="nav-md" style="min-width: 1200px;">
+  <div id="header">
+      <img id="logo" src="../image/logo.png">
+      <ul id="list">
+          <li><a href="../html/index.html">首页</a></li>
+          <li><a href="../html/special-made.html">专属定制</a></li>
+          <li><a href="../html/游友大社区.html">游友社区</a></li>
+          <li><a href="../html/good-school-travel.html">畅游名校</a></li>
+          <li><a href="../html/donation.html">公益机制</a></li>
+          <li><a href="../html/关于我们.html">关于我们</a></li>
+      </ul>
+      <input id="keyword" type="text" value="搜索你想去的大学">
+      <input id="search" type="text" >
+      <div id="zonghe">
+          <img id ="weixin"src="../image/weichat.png" href = "../html/login.html">
+          <a id="weibo" href="../html/login.html"></a>
+          <a id="QQ" href="../html/login.html"></a>
+      </div>
+      <div id="login-register">
+          <a href="../html/login.html" id="login">登陆</a>
+          <a href="../html/login.html" id="register">注册</a>
+      </div>
+  </div>
+    <div class="container body">
+      <div class="main_container">
+        
+
+
+        <!-- page content -->
+        <div class="right_col" role="main" style="margin-left: 0;min-width: 1200px;">
+          <div class="">
+            
+            <div class="clearfix"></div>
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>请补全您的基本信息 <small>different form elements</small></h2>
+                    
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                  
+                     <div id="wizard" class="form_wizard wizard_horizontal">
+                      <ul class="wizard_steps" style="width: 400px;margin: 0 auto 20px auto; ">
+                        <li>
+                          <a href="#step-1">
+                            <span class="step_no">1</span>
+                            <span class="step_descr">
+                                              第一步<br />
+                                              <small></small>
+                                          </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-2">
+                            <span class="step_no">2</span>
+                            <span class="step_descr">
+                                              第二步<br />
+                                              <small></small>
+                                          </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-3">
+                            <span class="step_no">3</span>
+                            <span class="step_descr">
+                                              第三步<br />
+                                              <small></small>
+                                          </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-4">
+                            <span class="step_no">4</span>
+                            <span class="step_descr">
+                                              第四步<br />
+                                              <small></small>
+                                          </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+
+                    <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">姓名<span class="required"> *</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                        </div>
+                      </div>
+                     
+                      
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">性别<span class="required"> *</span></label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <div id="gender" class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                              <input type="radio" name="gender" value="男"> 男 
+                            </label>
+                            <label class="btn btn-primary" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                              <input type="radio" name="gender" value=" 女"> 女
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">手机号<span class="required"> *</span></label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">邮箱<span class="required"> *</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" required="required" type="text">
+                        </div>
+                      </div>
+
+                       <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">请写出您的个性化方案<span class="required"> *</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input type="text" id="big-input" required="required" class="form-control col-md-7 col-xs-12">
+                        </div>
+                      </div>
+                      <div id = "after">
+                        <span id ＝ "after-submit">填好您的个人信息和需求，点击提交订单，大约10分钟后，游友平台的客服人员就会与您取得联系。</span>
+                      </div>
+
+                    </form>
+                    <div class="x_title">
+                    <h2>请补全您的订单 <small>different form elements</small></h2>
+                    
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="well" style="overflow: auto">
+                      <div class="col-md-4">
+                        请选择时间
+                        <form class="form-horizontal" style="margin-top: 10px;">
+                          <fieldset>
+                            <div class="control-group">
+                              <div class="controls">
+                                <div class="input-prepend input-group">
+                                  <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                  <input type="text" style="width: 200px" name="reservation" id="reservation" class="form-control" value="01/01/2016 - 01/25/2016" />
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+
+                        </form>
+                      </div>
+
+                      <div class="col-md-4">
+                        请选则开团人数
+                        <form class="form-horizontal" style="margin-top: 10px;">
+                          <fieldset>
+                            <div class="form-group" class="col-md-4">
+                        
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <select class="form-control">
+                            <option>1 ~ 5人</option>
+                            <option>5 ~ 10人</option>
+                            <option>10 ~ 15人</option>
+                            <option>15 ~ 20人</option>
+                            <option>20 ~ 25人</option>
+                          </select>
+                        </div>
+                      </div>
+                          </fieldset>
+
+                        </form>
+                      </div>
+
+                      <div class="col-md-4" >
+                        有无自己制定的路线
+                        <form class="form-horizontal" style="margin-top: 10px;">
+                          <fieldset>
+                            <div class="form-group" class="col-md-4">
+                       
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <div id="gender" class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                              <input type="radio" name="gender" value="男"> 有 
+                            </label>
+                            <label class="btn btn-primary" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                              <input type="radio" name="gender" value=" 女"> 无
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                          </fieldset>
+
+                        </form>
+                      </div>
+
+                      
+
+                      
+
+                      
+                    </div>
+                    <div class="ln_solid"></div>
+                      
+                       <div class="form-group">
+                        <div class="col-md-12  col-sm-6 col-xs-12 " style="position: relative;height: 40px;">
+                          <button type="button" class="btn btn-warning" style="width: 140px; margin-left: -70px;position: absolute;left: 50%;">提交</button>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+
+      <!-- 游记攻略 hottravels -->
+<div class="section">
+    <div class="wrapper">
+        <h2 class="title">热门旅行方案</h2>
+        <div id="hottravels" class="hottravels"><div class="slider slider-hottravels"><div class="slider-inner"><div class="item" style="display: block;"><ul><li><div class="travel" title="冀蒙晋装逼小环线，别人都以为你在新西兰。"><div class="photo"><a data-bn-ipg="index-hotThread-pic-00" __href="http://bbs.qyer.com/thread-2759691-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2759691"><img class="lazy" src="https://pic1.qyer.com/album/user/2300/85/Q0pVQhICYkg/index/275x185" width="275" height="185"></a><div class="like total_replies">20</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-00" __href="http://www.qyer.com/u/1212089" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic1.qyer.com/avatar/001/21/20/89/index/200?v=1438998899"></a></span><span class="txt"><span class="auth_avatar_q s"> <i class="icon qyer" data-toggle="tooltip" data-placement="top" data-original-title="游友网论坛社区管理员"></i></span></span></div><a data-bn-ipg="index-hotThread-title-00" __href="http://bbs.qyer.com/thread-2759691-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2759691"><div class="caption">冀蒙晋装逼小环线，别人都以为你在新西兰。</div></a></div></div></li><li><div class="travel" title="曲折朦胧的巴朗山，成都半日游汶川钟楼。"><div class="photo"><a data-bn-ipg="index-hotThread-pic-01" __href="http://bbs.qyer.com/thread-2750740-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2750740"><img class="lazy" src="https://pic.qyer.com/album/user/2286/49/Q0tdRB4OYkw/index/275x185" data-original="https://pic1.qyer.com/album/user/2286/49/Q0tdRB4OYkw/index/275x185" width="275" height="185"></a><div class="like total_replies">15</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-01" __href="http://www.qyer.com/u/7166770" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png"></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-01" __href="http://bbs.qyer.com/thread-2750740-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2750740"><div class="caption">东欧行摄攻略 机位大揭秘（全程公共交通  法兰克福－捷克－匈牙利－克罗地亚－斯洛文尼亚－慕尼黑 更新中）</div></a></div></div></li><li><div class="travel" title="单人单车自驾色达佛学院+色达县。"><div class="photo"><a data-bn-ipg="index-hotThread-pic-02" __href="http://bbs.qyer.com/thread-2746075-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2746075"><img class="lazy" src="https://pic1.qyer.com/album/user/2274/93/Q0tSRhMEZU4/index/275x185" data-original="https://pic.qyer.com/album/user/2274/93/Q0tSRhMEZU4/index/275x185" width="275" height="185"></a><div class="like total_replies">26</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-02" __href="http://www.qyer.com/u/162773" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic1.qyer.com/avatar/000/16/27/73/index/200?v=1429854475"></a></span><span class="txt"><span class="auth_avatar_q s"> <i onclick="window.location=&#39;//www.qyer.com/u/member/xuan&#39;;" class="icon member" data-toggle="tooltip" data-placement="top" data-original-title="游友资深精华作者，问答探路者"></i></span></span></div><a data-bn-ipg="index-hotThread-title-02" __href="http://bbs.qyer.com/thread-2746075-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2746075"><div class="caption">泰国清迈自由行攻略之古城、拜县。</div></a></div></div></li><li><div class="travel" title="【美西大环线★黄石大提顿★房车自驾】迷你房车游美西，十一月龄小小少年看世界（附详细的房车自驾吃住行和带宝宝徒步攻略行程）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-03" __href="http://bbs.qyer.com/thread-2734541-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2734541"><img class="lazy" src="https://pic1.qyer.com/album/user/2246/77/Q0tRRB0AY0k/index/275x185" data-original="https://pic.qyer.com/album/user/2246/77/Q0tRRB0AY0k/index/275x185" width="275" height="185"></a><div class="like total_replies">126</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-03" __href="http://www.qyer.com/u/201249" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic4.qyer.com/avatar/000/20/12/49/index/200?v=1408978090"></a></span><span class="txt"><span class="auth_avatar_q s"> <i onclick="window.location=&#39;//www.qyer.com/u/member/xuan&#39;;" class="icon member" data-toggle="tooltip" data-placement="top" data-original-title="东非资深旅行者"></i></span></span></div><a data-bn-ipg="index-hotThread-title-03" __href="http://bbs.qyer.com/thread-2734541-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2734541"><div class="caption">【美西大环线★黄石大提顿★房车自驾】迷你房车游美西，十一月龄小小少年看世界（附详细的房车自驾吃住行和带宝宝徒步攻略行程）</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="2017，历史照进现实，寻找一个真实的古巴"><div class="photo"><a data-bn-ipg="index-hotThread-pic-04" __href="http://bbs.qyer.com/thread-2748437-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2748437"><img class="lazy" src="https://pic.qyer.com/album/user/2280/91/Q0tdQhMGZ04/index/275x185" data-original="https://pic1.qyer.com/album/user/2280/91/Q0tdQhMGZ04/index/275x185" width="275" height="185"></a><div class="like total_replies">17</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-04" __href="http://www.qyer.com/u/9303607" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic1.qyer.com/avatar/009/30/36/07/1495075048/index/200?v=1495075048"></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-04" __href="http://bbs.qyer.com/thread-2748437-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2748437"><div class="caption">2017，历史照进现实，寻找一个真实的古巴</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="泰国清迈自由行攻略之古城、拜县。"><div class="photo"><a data-bn-ipg="index-hotThread-pic-05" __href="http://bbs.qyer.com/thread-2681008-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2681008"><img class="lazy" src="../image/西藏.jpeg" data-original="https://pic.qyer.com/album/user/2164/39/Q0hTRhkOYUk/index/275x185" width="275" height="185"></a><div class="like total_replies">117</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-05" __href="http://www.qyer.com/u/4672618" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic1.qyer.com/avatar/004/67/26/18/index/200?v=1442721512"></a></span><span class="txt">read-name-05" __href="http://www.qyer.com/u/4672618" target="_blank">招财8175</a></span></div><a data-bn-ipg="index-hotThread-title-05" __href="http://bbs.qyer.com/thread-2681008-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2681008"><div class="caption">圣地西藏（一），多少次幻想着这块土地。</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="＊陈陈vs渡渡酱＊亲子游澳门珠海，邂逅纸醉金迷+文艺清新（全文更新完）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-06" __href="http://bbs.qyer.com/thread-2687597-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2687597"><img class="lazy" src="../image/奥尔良.jpeg" data-original="https://pic.qyer.com/album/user/2247/82/Q0tRRRIFYkE/index/275x185" width="275" height="185"></a><div class="like total_replies">23</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-06" __href="http://www.qyer.com/u/4321117" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic1.qyer.com/avatar/004/32/11/17/1479818404/index/200?v=1479818404"></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-06" __href="http://bbs.qyer.com/thread-2687597-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2687597"><div class="caption">新奥尔良没有烤鸡翅，留学旅行。</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="果果小姐环球婚纱旅拍终结篇--日落普卡基，背着20个月的小宝宝，我的梦想有了你的陪伴（新西兰14天房车自驾航拍）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-07" __href="http://bbs.qyer.com/thread-2728206-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2728206"><img class="lazy" src="https://pic.qyer.com/album/user/2260/20/Q0tTQhgHZk4/index/275x185" data-original="https://pic.qyer.com/album/user/2260/20/Q0tTQhgHZk4/index/275x185" width="275" height="185"></a><div class="like total_replies">134</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-07" __href="http://www.qyer.com/u/1088071" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic.qyer.com/avatar/001/08/80/71/1492559243/index/200?v=1492559244"></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-07" __href="http://bbs.qyer.com/thread-2728206-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2728206"><div class="caption">在城市中穿梭，三个文化底蕴深厚且充满故事的城市之行。</div></a></div><em class="tip">精华</em></div></li></ul></div><div class="item" style="">
+
+
+            <ul><li><div class="travel" title="【乍见之欢。】—— 蜜月环摩洛哥自驾12日（索维拉+马拉喀什+撒哈拉+菲斯+舍夫沙万+丹吉尔+艾希拉+卡萨布兰卡）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-10" __href="http://bbs.qyer.com/thread-2725367-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2725367"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2223/47/Q0tXQR4AZ0s/index/275x185" width="275" height="185"></a><div class="like total_replies">74</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-10" __href="http://www.qyer.com/u/6675169" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic1.qyer.com/avatar/006/67/51/69/index/200?v=1450322735"></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-10" __href="http://bbs.qyer.com/thread-2725367-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2725367"><div class="caption">【乍见之欢。】—— 蜜月环摩洛哥自驾12日（索维拉+马拉喀什+撒哈拉+菲斯+舍夫沙万+丹吉尔+艾希拉+卡萨布兰卡）</div></a></div></div></li><li><div class="travel" title="这里的太阳永不落下——环游西班牙(13天巴塞罗那、马德里、科尔多瓦、塞维利亚、格拉纳达）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-11" __href="http://bbs.qyer.com/thread-2696997-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2696997"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2145/90/Q0hRRxMHYkk/index/275x185" width="275" height="185"></a><div class="like total_replies">52</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-11" __href="http://www.qyer.com/u/1139930" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic1.qyer.com/avatar/001/13/99/30/1487551487/index/200?v=1487551487"></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-11" __href="http://bbs.qyer.com/thread-2696997-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2696997"><div class="caption">这里的太阳永不落下——环游西班牙(13天巴塞罗那、马德里、科尔多瓦、塞维利亚、格拉纳达）</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="一次说走就跑的旅行——马尔代夫密度帕茹与马富施蜜月双岛游"><div class="photo"><a data-bn-ipg="index-hotThread-pic-12" __href="http://bbs.qyer.com/thread-2701743-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2701743"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2162/14/Q0hTQBsDZEk/index/275x185" width="275" height="185"></a><div class="like total_replies">42</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-12" __href="http://www.qyer.com/u/1986244" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic1.qyer.com/avatar/001/98/62/44/1488343903/index/200?v=1488343904"></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-12" __href="http://bbs.qyer.com/thread-2701743-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2701743"><div class="caption">一次说走就跑的旅行——马尔代夫密度帕茹与马富施蜜月双岛游</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="二度游瑞士，经典补充+小众探索，14天瑞士深度游"><div class="photo"><a data-bn-ipg="index-hotThread-pic-13" __href="http://bbs.qyer.com/thread-2706504-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2706504"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2176/56/Q0hSRB8BaE8/index/275x185" width="275" height="185"></a><div class="like total_replies">34</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-13" __href="http://www.qyer.com/u/8307364" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic1.qyer.com/avatar/008/30/73/64/1472437408/index/200?v=1472437408"></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-13" __href="http://bbs.qyer.com/thread-2706504-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2706504"><div class="caption">二度游瑞士，经典补充+小众探索，14天瑞士深度游</div></a></div></div></li><li><div class="travel" title="在极致文艺的西贡——生活不要太匆忙（私藏最好咖啡店/酒吧 list)"><div class="photo"><a data-bn-ipg="index-hotThread-pic-14" __href="http://bbs.qyer.com/thread-2729482-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2729482"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2224/24/Q0tXRhgDZEk/index/275x185" width="275" height="185"></a><div class="like total_replies">10</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-14" __href="http://www.qyer.com/u/1243527" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic.qyer.com/avatar/001/24/35/27/index/200?v="></a></span><span class="txt"><span class="auth_avatar_q s"> <i onclick="window.location=&#39;//www.qyer.com/u/member/xuan&#39;;" class="icon member" data-toggle="tooltip" data-placement="top" data-original-title="游友精华作者，摄影资深用户"></i></span></span></div><a data-bn-ipg="index-hotThread-title-14" _href="http://bbs.qyer.com/thread-2729482-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2729482"><div class="caption">在极致文艺的西贡——生活不要太匆忙（私藏最好咖啡店/酒吧 list)</div></a></div></div></li><li><div class="travel" title="小闺蜜把臂同游新加坡（良心楼主一次性更完）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-15" _href="http://bbs.qyer.com/thread-2676236-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2676236"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2099/76/Q0lcSx0BZkE/index/275x185" width="275" height="185"></a><div class="like total_replies">132</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-15" _href="http://www.qyer.com/u/157711" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic1.qyer.com/avatar/000/15/77/11/index/200?v="></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-15" _href="http://bbs.qyer.com/thread-2676236-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2676236"><div class="caption">小闺蜜把臂同游新加坡（良心楼主一次性更完）</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="【Karen看世界】东非肯尼亚——追寻自然与狂野，探索生命的意义（含高清视频）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-16" _href="http://bbs.qyer.com/thread-2749694-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2749694"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2283/94/Q0tdQRMDZE4/index/275x185" width="275" height="185"></a><div class="like total_replies">70</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-16" _href="http://www.qyer.com/u/1767089" target="_blank"><img class="lazy" src="./../image/yz-image/gone.png" data-original="http://pic1.qyer.com/avatar/001/76/70/89/1456636118/index/200?v=1456636119"></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-16" _href="http://bbs.qyer.com/thread-2749694-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2749694"><div class="caption">【Karen看世界】东非肯尼亚——追寻自然与狂野，探索生命的意义（含高清视频）</div></a></div></div></li><li><div class="travel" title="（完结）无声相见。【15天自驾6000km探秘美西五大国家公园】【大峡谷、拱门、黄石、大提顿、优胜美地】+急情处理经验"><div class="photo"><a data-bn-ipg="index-hotThread-pic-17" _href="http://bbs.qyer.com/thread-2665555-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2665555"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2089/76/Q0ldSx0BY0A/index/275x185" width="275" height="185"></a><div class="like total_replies">42</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-17" _href="http://www.qyer.com/u/1741092" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic2.qyer.com/avatar/001/74/10/92/1484938524/index/200?v=1484938524"></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-17" _href="http://bbs.qyer.com/thread-2665555-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2665555"><div class="caption">（完结）无声相见。【15天自驾6000km探秘美西五大国家公园】【大峡谷、拱门、黄石、大提顿、优胜美地】+急情处理经验</div></a></div><em class="tip">精华</em></div></li></ul></div><div class="item" style=""><ul><li><div class="travel" title="冬日玩转西班牙色彩——实景重现《权力的游戏》（戏服道具、斗牛士装、水手服等趣味变装！小众景点分享）全文完"><div class="photo"><a data-bn-ipg="index-hotThread-pic-20" _href="http://bbs.qyer.com/thread-2703424-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2703424"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2167/30/Q0hTRRkHZEg/index/275x185" width="275" height="185"></a><div class="like total_replies">98</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-20" _href="http://www.qyer.com/u/5604216" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic3.qyer.com/avatar/005/60/42/16/1490602165/index/200?v=1490602165"></a></span><span class="txt"></span></div><a data-bn-ipg="index-hotThread-title-20" _href="http://bbs.qyer.com/thread-2703424-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2703424"><div class="caption">冬日玩转西班牙色彩——实景重现《权力的游戏》（戏服道具、斗牛士装、水手服等趣味变装！小众景点分享）全文完</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="生生不息的旧时光——四国的铁道、温泉与冷暖人间（日本最佳观光列车与青春18海报人气小站全体验）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-21" _href="http://bbs.qyer.com/thread-2725438-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2725438"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2223/66/Q0tXQRwBaEs/index/275x185" width="275" height="185"></a><div class="like total_replies">52</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-21" _href="http://www.qyer.com/u/1122934" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic4.qyer.com/avatar/001/12/29/34/index/200?v="></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-21" _href="http://www.qyer.com/u/1122934" target="_blank">epic14</a><span class="auth_avatar_q s"> <i onclick="window.location=&#39;//www.qyer.com/u/member/xuan&#39;;" class="icon member" data-toggle="tooltip" data-placement="top" data-original-title="游友精华作者，日本资深旅行者"></i></span></span></div><a data-bn-ipg="index-hotThread-title-21" _href="http://bbs.qyer.com/thread-2725438-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2725438"><div class="caption">生生不息的旧时光——四国的铁道、温泉与冷暖人间（日本最佳观光列车与青春18海报人气小站全体验）</div></a></div></div></li><li><div class="travel" title="【澳洲留学生10天小众之旅】资深玩家带你漫游悉尼、大堡礁跳伞+帆船+浮潜、墨尔本+本迪戈艺术风情，体验local隐秘玩法"><div class="photo"><a data-bn-ipg="index-hotThread-pic-22" _href="http://bbs.qyer.com/thread-2674540-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2674540"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2095/32/Q0lcRxkFZEE/index/275x185" width="275" height="185"></a><div class="like total_replies">44</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-22" _href="http://www.qyer.com/u/2283112" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/002/28/31/12/1485070925/index/200?v=1485070926"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-22" _href="http://www.qyer.com/u/2283112" target="_blank">Frande_Ong</a></span></div><a data-bn-ipg="index-hotThread-title-22" _href="http://bbs.qyer.com/thread-2674540-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2674540"><div class="caption">【澳洲留学生10天小众之旅】资深玩家带你漫游悉尼、大堡礁跳伞+帆船+浮潜、墨尔本+本迪戈艺术风情，体验local隐秘玩法</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="吃货夫妇带你吃遍香港最好吃的网红餐厅--厄尔尼诺现象也阻挡不了的港澳行，超强干货贴~"><div class="photo"><a data-bn-ipg="index-hotThread-pic-23" _href="http://bbs.qyer.com/thread-2756637-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2756637"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2286/59/Q0tdRB8OZ0o/index/275x185" width="275" height="185"></a><div class="like total_replies">6</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-23" _href="http://www.qyer.com/u/8964475" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic.qyer.com/avatar/008/96/44/75/1490777305/index/200?v=1490777305"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-23" _href="http://www.qyer.com/u/8964475" target="_blank">xiaoputao0501</a></span></div><a data-bn-ipg="index-hotThread-title-23" _href="http://bbs.qyer.com/thread-2756637-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2756637"><div class="caption">吃货夫妇带你吃遍香港最好吃的网红餐厅--厄尔尼诺现象也阻挡不了的港澳行，超强干货贴~</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="岁月不可辜负之二－－听海神庙涛声，观圣泉寺神明，居乌布清幽山谷，醉宝格丽绚烂日落"><div class="photo"><a data-bn-ipg="index-hotThread-pic-24" _href="http://bbs.qyer.com/thread-2707704-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2707704"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2179/62/Q0hSSxwFZEA/index/275x185" width="275" height="185"></a><div class="like total_replies">149</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-24" _href="http://www.qyer.com/u/1314579" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/001/31/45/79/1472618040/index/200?v=1472618042"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-24" _href="http://www.qyer.com/u/1314579" target="_blank">jane007</a><span class="auth_avatar_q s"> <i onclick="window.location=&#39;//www.qyer.com/u/member/xuan&#39;;" class="icon member" data-toggle="tooltip" data-placement="top" data-original-title="游友精华作者"></i></span></span></div><a data-bn-ipg="index-hotThread-title-24" _href="http://bbs.qyer.com/thread-2707704-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2707704"><div class="caption">岁月不可辜负之二－－听海神庙涛声，观圣泉寺神明，居乌布清幽山谷，醉宝格丽绚烂日落</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="孤单是一个人的狂欢——23天埃及、约旦、以色列（含北部自驾）行记（全文终）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-25" _href="http://bbs.qyer.com/thread-2724058-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2724058"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2208/57/Q0tVSh8AYks/index/275x185" width="275" height="185"></a><div class="like total_replies">158</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-25" _href="http://www.qyer.com/u/4005289" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic4.qyer.com/avatar/004/00/52/89/index/200?v=1425259509"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-25" _href="http://www.qyer.com/u/4005289" target="_blank">cathydawnlight</a></span></div><a data-bn-ipg="index-hotThread-title-25" _href="http://bbs.qyer.com/thread-2724058-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2724058"><div class="caption">孤单是一个人的狂欢——23天埃及、约旦、以色列（含北部自驾）行记（全文终）</div></a></div></div></li><li><div class="travel" title="【月半夫妇】Lands End，不能完美更多的冰岛追光之旅～2017春节，赫尔辛基+冰岛9日"><div class="photo"><a data-bn-ipg="index-hotThread-pic-26" _href="http://bbs.qyer.com/thread-2679959-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2679959"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2112/99/Q0hUQBMOaE4/index/275x185" width="275" height="185"></a><div class="like total_replies">190</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-26" _href="http://www.qyer.com/u/46922" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/000/04/69/22/index/200?v="></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-26" _href="http://www.qyer.com/u/46922" target="_blank">milkkitty</a><span class="auth_avatar_q s"> <i onclick="window.location=&#39;//www.qyer.com/u/member/xuan&#39;;" class="icon member" data-toggle="tooltip" data-placement="top" data-original-title="英国资深旅行者，问答探路者"></i></span></span></div><a data-bn-ipg="index-hotThread-title-26" _href="http://bbs.qyer.com/thread-2679959-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2679959"><div class="caption">【月半夫妇】Lands End，不能完美更多的冰岛追光之旅～2017春节，赫尔辛基+冰岛9日</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="穿越铁幕，拥抱世界（德捷奥斯匈五国首都，布达佩斯更新中）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-27" _href="http://bbs.qyer.com/thread-2711219-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2711219"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2189/33/Q0hdSxkEaU4/index/275x185" width="275" height="185"></a><div class="like total_replies">54</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-27" _href="http://www.qyer.com/u/5772841" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/005/77/28/41/1453706792/index/200?v=1453706792"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-27" _href="http://www.qyer.com/u/5772841" target="_blank">EthanRyan</a></span></div><a data-bn-ipg="index-hotThread-title-27" _href="http://bbs.qyer.com/thread-2711219-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2711219"><div class="caption">穿越铁幕，拥抱世界（德捷奥斯匈五国首都，布达佩斯更新中）</div></a></div></div></li></ul></div><div class="item" style=""><ul><li><div class="travel" title="【伊比利亚的两颗牙】2017年2月西班牙&amp;葡萄牙自由行15天~超详攻略"><div class="photo"><a data-bn-ipg="index-hotThread-pic-30" _href="http://bbs.qyer.com/thread-2706263-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2706263"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2168/85/Q0hTShICZE4/index/275x185" width="275" height="185"></a><div class="like total_replies">17</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-30" _href="http://www.qyer.com/u/2209223" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/002/20/92/23/index/200?v=1413937597"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-30" _href="http://www.qyer.com/u/2209223" target="_blank">maggie0315</a></span></div><a data-bn-ipg="index-hotThread-title-30" _href="http://bbs.qyer.com/thread-2706263-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2706263"><div class="caption">【伊比利亚的两颗牙】2017年2月西班牙&amp;葡萄牙自由行15天~超详攻略</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="【天晴姐步履不停之】终于和你饮过冰，零度天气看风景（2017春节北海道之旅）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-31" _href="http://bbs.qyer.com/thread-2703881-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2703881"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2168/0/Q0hTShoHYUg/index/275x185" width="275" height="185"></a><div class="like total_replies">77</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-31" _href="http://www.qyer.com/u/5099035" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic2.qyer.com/avatar/005/09/90/35/index/200?v=1416654186"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-31" _href="http://www.qyer.com/u/5099035" target="_blank">天晴姐</a></span></div><a data-bn-ipg="index-hotThread-title-31" _href="http://bbs.qyer.com/thread-2703881-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2703881"><div class="caption">【天晴姐步履不停之】终于和你饮过冰，零度天气看风景（2017春节北海道之旅）</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="2017年春节，在挪威蹲守极光（Tromso &amp; Loften自驾，Bodo轮渡）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-32" _href="http://bbs.qyer.com/thread-2706949-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2706949"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2179/84/Q0hSSxIDZ0E/index/275x185" width="275" height="185"></a><div class="like total_replies">32</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-32" _href="http://www.qyer.com/u/5226606" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic.qyer.com/avatar/005/22/66/06/1490608846/index/200?v=1490608846"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-32" _href="http://www.qyer.com/u/5226606" target="_blank">zhengwei198803</a></span></div><a data-bn-ipg="index-hotThread-title-32" _href="http://bbs.qyer.com/thread-2706949-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2706949"><div class="caption">2017年春节，在挪威蹲守极光（Tromso &amp; Loften自驾，Bodo轮渡）</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="2017摩洛哥旅行摄影报告（主线四个城市+撒哈拉，纯摄影向，从行前准备到后期教程，更新中）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-33" _href="http://bbs.qyer.com/thread-2708240-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2708240"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2186/46/Q0hdRB4BaEs/index/275x185" width="275" height="185"></a><div class="like total_replies">20</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-33" _href="http://www.qyer.com/u/4625465" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/004/62/54/65/1465476985/index/200?v=1465476993"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-33" _href="http://www.qyer.com/u/4625465" target="_blank">EzioHsu</a><span class="auth_avatar_q s"> <i onclick="window.location=&#39;//www.qyer.com/u/member/xuan&#39;;" class="icon member" data-toggle="tooltip" data-placement="top" data-original-title="游友精华作者，摄影资深用户"></i></span></span></div><a data-bn-ipg="index-hotThread-title-33" _href="http://bbs.qyer.com/thread-2708240-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2708240"><div class="caption">2017摩洛哥旅行摄影报告（主线四个城市+撒哈拉，纯摄影向，从行前准备到后期教程，更新中）</div></a></div></div></li><li><div class="travel" title="2017寒假美西16天自驾亲子游，满满干货（含蒙特雷观鲸，洛杉矶环球影城，迪士尼双园，死亡谷，大峡谷南缘直升机等）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-34" _href="http://bbs.qyer.com/thread-2685480-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2685480"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2135/34/Q0hWRxkDaE8/index/275x185" width="275" height="185"></a><div class="like total_replies">78</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-34" _href="http://www.qyer.com/u/63253" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/000/06/32/53/index/200?v=1444466828"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-34" _href="http://www.qyer.com/u/63253" target="_blank">godstudy</a></span></div><a data-bn-ipg="index-hotThread-title-34" _href="http://bbs.qyer.com/thread-2685480-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2685480"><div class="caption">2017寒假美西16天自驾亲子游，满满干货（含蒙特雷观鲸，洛杉矶环球影城，迪士尼双园，死亡谷，大峡谷南缘直升机等）</div></a></div></div></li><li><div class="travel" title="八天时间探秘三千年的以色列，寻觅应许之地的美和魅"><div class="photo"><a data-bn-ipg="index-hotThread-pic-35" _href="http://bbs.qyer.com/thread-2748278-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2748278"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2277/12/Q0tSRRsFYEE/index/275x185" width="275" height="185"></a><div class="like total_replies">13</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-35" _href="http://www.qyer.com/u/1063325" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic3.qyer.com/avatar/001/06/33/25/1487915016/index/200?v=1487915018"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-35" _href="http://www.qyer.com/u/1063325" target="_blank">荒梁</a></span></div><a data-bn-ipg="index-hotThread-title-35" _href="http://bbs.qyer.com/thread-2748278-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2748278"><div class="caption">八天时间探秘三千年的以色列，寻觅应许之地的美和魅</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="最美法式小城，最美越式梯田-骑自行车畅游河内和沙巴"><div class="photo"><a data-bn-ipg="index-hotThread-pic-36" _href="http://bbs.qyer.com/thread-2750282-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2750282"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2285/2/Q0tdRxoFYUw/index/275x185" width="275" height="185"></a><div class="like total_replies">17</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-36" _href="http://www.qyer.com/u/1092777" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/001/09/27/77/index/200?v=1435078486"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-36" _href="http://www.qyer.com/u/1092777" target="_blank">蓝田玉烟</a><span class="auth_avatar_q s"> <i onclick="window.location=&#39;//www.qyer.com/u/member/xuan&#39;;" class="icon member" data-toggle="tooltip" data-placement="top" data-original-title="游友精华作者"></i></span></span></div><a data-bn-ipg="index-hotThread-title-36" _href="http://bbs.qyer.com/thread-2750282-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2750282"><div class="caption">最美法式小城，最美越式梯田-骑自行车畅游河内和沙巴</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="天高地厚IV—重返安纳布尔纳（冬季ACT via Thorung La+Poon Hill）（全文完）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-37" _href="http://bbs.qyer.com/thread-2698215-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2698215"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2174/5/Q0hSRhoCYEo/index/275x185" width="275" height="185"></a><div class="like total_replies">65</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-37" _href="http://www.qyer.com/u/1058520" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/001/05/85/20/1489287788/index/200?v=1489287793"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-37" _href="http://www.qyer.com/u/1058520" target="_blank">镜之形而</a><span class="auth_avatar_q s"> <i onclick="window.location=&#39;//www.qyer.com/u/member/xuan&#39;;" class="icon member" data-toggle="tooltip" data-placement="top" data-original-title="游友精华作者"></i></span></span></div><a data-bn-ipg="index-hotThread-title-37" _href="http://bbs.qyer.com/thread-2698215-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2698215"><div class="caption">天高地厚IV—重返安纳布尔纳（冬季ACT via Thorung La+Poon Hill）（全文完）</div></a></div><em class="tip">精华</em></div></li></ul></div><div class="item" style=""><ul><li><div class="travel" title="关西关东15天的蜜月之旅，带着胃和相机上路吧！【大阪京都奈良神户东京】"><div class="photo"><a data-bn-ipg="index-hotThread-pic-40" _href="http://bbs.qyer.com/thread-2720319-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2720319"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2211/25/Q0tUQxgCZEg/index/275x185" width="275" height="185"></a><div class="like total_replies">12</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-40" _href="http://www.qyer.com/u/5565648" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/005/56/56/48/1493042434/index/200?v=1493042435"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-40" _href="http://www.qyer.com/u/5565648" target="_blank">interdark</a></span></div><a data-bn-ipg="index-hotThread-title-40" _href="http://bbs.qyer.com/thread-2720319-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2720319"><div class="caption">关西关东15天的蜜月之旅，带着胃和相机上路吧！【大阪京都奈良神户东京】</div></a></div></div></li><li><div class="travel" title="【世界美如斯】抓住盛夏的尾巴——伊比利亚半岛10月10日漫行记（巴塞 塞维 马德里 里斯本 波尔图）内附大量美图攻略"><div class="photo"><a data-bn-ipg="index-hotThread-pic-41" _href="http://bbs.qyer.com/thread-2745578-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2745578"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2273/84/Q0tSQRIDZUE/index/275x185" width="275" height="185"></a><div class="like total_replies">45</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-41" _href="http://www.qyer.com/u/9333660" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic2.qyer.com/avatar/009/33/36/60/1496207964/index/200?v=1496207966"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-41" _href="http://www.qyer.com/u/9333660" target="_blank">Plato_Whisper</a></span></div><a data-bn-ipg="index-hotThread-title-41" _href="http://bbs.qyer.com/thread-2745578-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2745578"><div class="caption">【世界美如斯】抓住盛夏的尾巴——伊比利亚半岛10月10日漫行记（巴塞 塞维 马德里 里斯本 波尔图）内附大量美图攻略</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="【花间雪，湖畔春，晴潋雨蒙入梦深】（瑞士9日自驾游）"><div class="photo"><a data-bn-ipg="index-hotThread-pic-42" _href="http://bbs.qyer.com/thread-2727732-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2727732"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2225/21/Q0tXRxgGaUA/index/275x185" width="275" height="185"></a><div class="like total_replies">55</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-42" _href="http://www.qyer.com/u/6765065" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic3.qyer.com/avatar/006/76/50/65/1491981025/index/200?v=1491981027"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-42" _href="http://www.qyer.com/u/6765065" target="_blank">JOE帮主</a></span></div><a data-bn-ipg="index-hotThread-title-42" _href="http://bbs.qyer.com/thread-2727732-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2727732"><div class="caption">【花间雪，湖畔春，晴潋雨蒙入梦深】（瑞士9日自驾游）</div></a></div></div></li><li><div class="travel" title="英国签证申请攻略(17年3月版最新出炉，自由行，上海送签，所有材料自己准备/翻译)"><div class="photo"><a data-bn-ipg="index-hotThread-pic-43" _href="http://bbs.qyer.com/thread-2712284-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2712284"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2193/75/Q0hcQR0CZEg/index/275x185" width="275" height="185"></a><div class="like total_replies">109</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-43" _href="http://www.qyer.com/u/1635008" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic3.qyer.com/avatar/001/63/50/08/1476362272/index/200?v=1476362272"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-43" _href="http://www.qyer.com/u/1635008" target="_blank">sasasisi929</a></span></div><a data-bn-ipg="index-hotThread-title-43" _href="http://bbs.qyer.com/thread-2712284-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2712284"><div class="caption">英国签证申请攻略(17年3月版最新出炉，自由行，上海送签，所有材料自己准备/翻译)</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="神焰绽放之地，南太平洋秘境-瓦努阿图"><div class="photo"><a data-bn-ipg="index-hotThread-pic-44" _href="http://bbs.qyer.com/thread-2698238-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2698238"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic.qyer.com/album/user/2148/66/Q0hRShwBYE0/index/275x185" width="275" height="185"></a><div class="like total_replies">38</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-44" _href="http://www.qyer.com/u/1709903" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic3.qyer.com/avatar/001/70/99/03/1456402651/index/200?v=1456402651"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-44" _href="http://www.qyer.com/u/1709903" target="_blank">张大枪</a></span></div><a data-bn-ipg="index-hotThread-title-44" _href="http://bbs.qyer.com/thread-2698238-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2698238"><div class="caption">神焰绽放之地，南太平洋秘境-瓦努阿图</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="北美秘境---Havasupai，大自然的蓝宝石，「一个鲜为人知的世外桃源」【游友独家首发】"><div class="photo"><a data-bn-ipg="index-hotThread-pic-45" _href="http://bbs.qyer.com/thread-2701521-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2701521"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/1989/49/QEBdSx4OYU8/index/275x185" width="275" height="185"></a><div class="like total_replies">33</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-45" _href="http://www.qyer.com/u/4238414" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/004/23/84/14/1463187586/index/200?v=1463187586"></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-45" _href="http://www.qyer.com/u/4238414" target="_blank">蕉囝</a><span class="auth_avatar_q s"> <i onclick="window.location=&#39;//www.qyer.com/u/member/xuan&#39;;" class="icon member" data-toggle="tooltip" data-placement="top" data-original-title="游友精华作者"></i></span></span></div><a data-bn-ipg="index-hotThread-title-45" _href="http://bbs.qyer.com/thread-2701521-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2701521"><div class="caption">北美秘境---Havasupai，大自然的蓝宝石，「一个鲜为人知的世外桃源」【游友独家首发】</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="意马平川·致垮掉的蓝窗：17天再游意大利及马耳他。"><div class="photo"><a data-bn-ipg="index-hotThread-pic-46" _href="http://bbs.qyer.com/thread-2686941-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2686941"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2181/88/Q0hdQxIPY04/index/275x185" width="275" height="185"></a><div class="like total_replies">74</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-46" _href="http://www.qyer.com/u/13597" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/000/01/35/97/index/200?v="></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-46" _href="http://www.qyer.com/u/13597" target="_blank">浅白色</a></span></div><a data-bn-ipg="index-hotThread-title-46" _href="http://bbs.qyer.com/thread-2686941-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2686941"><div class="caption">意马平川·致垮掉的蓝窗：17天再游意大利及马耳他。</div></a></div><em class="tip">精华</em></div></li><li><div class="travel" title="花最少钱带你上天-玻利维亚天空之镜绝美图片+超实用攻略"><div class="photo"><a data-bn-ipg="index-hotThread-pic-47" _href="http://bbs.qyer.com/thread-2760111-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2760111"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="https://pic1.qyer.com/album/user/2299/99/Q0tcSxMOZ0s/index/275x185" width="275" height="185"></a><div class="like total_replies">6</div></div><div class="inner"><div class="info"><span class="avatar"><a data-bn-ipg="index-hotThread-writerPic-47" _href="http://www.qyer.com/u/3828247" target="_blank"><img class="lazy" src="./【游友网】出境游_旅游攻略_自助游攻略_游记攻略_境外旅游 - 游友网,旅途永无穷尽_files/grey.gif" data-original="http://pic1.qyer.com/avatar/003/82/82/47/index/200?v="></a></span><span class="txt"><a data-bn-ipg="index-hotThread-name-47" _href="http://www.qyer.com/u/3828247" target="_blank">叶梓颐-巡天者</a></span></div><a data-bn-ipg="index-hotThread-title-47" _href="http://bbs.qyer.com/thread-2760111-1.html" target="_blank" data-ra_arg="0a9966d400fa4d5c0019d1ad91a552d699a380aa|2760111"><div class="caption">花最少钱带你上天-玻利维亚天空之镜绝美图片+超实用攻略</div></a></div></div></li></ul></div></div></div></div>
+    </div>
+</div>
+            <div id="footer">
+                <div id="footer-wrapper">
+                    <img id="logo" src="../image/logo.gif">
+                    <div id="footer-four">
+                        <div id="one">
+                            <img src="../image/关于我们.png">
+                            <ul>
+                                <li><a href="../html/关于我们.html">服务条款</a></li>
+                                <li><a href="../html/关于我们.html">关于我们</a></li>
+                                <li><a href="../html/关于我们.html">加入我们</a></li>
+                                <li><a href="../html/关于我们.html">商务合作</a></li>
+                            </ul>
+                        </div>
+                        <div id="two">
+                            <img src="../image/联系我们.png">
+                            <ul>
+                                <li><a href="javascript:;">www.gaoyuxin163@qq.com</a></li>
+                                <li><a href="javascript:;">关注官方微博</a></li>
+                            </ul>
+                        </div>
+                        <div id="three">
+                            <img src="../image/常见问题.png">
+                            <ul>
+                                <li><a href="../html/关于我们.html">大学生做导游靠谱吗？</a></li>
+                                <li><a href="../html/关于我们.html">我的服务质量可以得到保证吗？</a></li>
+                                <li><a href="../html/关于我们.html">我想预约服务，怎么进行？</a></li>
+                                <li><a href="../html/关于我们.html">有交易纠纷怎么办？</a></li>
+                            </ul>
+                        </div>
+                        <div id="four">
+                            <img src="../image/货币转换.png">
+                        </div>
+                    </div>
+
+                    <div id="app-download">
+                        <img id="download" src="../image/app下载.png"><br>
+
+                        <span id="weixin">扫码关注微信公众号</span>
+                        <img class="app top" src="../image/二维码.jpg">
+                        <span>扫码下载手机app</span>
+                        <img class="app bot" src="../image/二维码.jpg">
+                    </div>
+                    <img id = "kefu" src="../image/客服.png">
+                </div>
+            </div>
+
+        <!-- /page content -->
+
+       
+      </div>
+    </div>
+    
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="../vendors/moment/min/moment.min.js"></script>
+    <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!-- bootstrap-wysiwyg -->
+    <script src="../vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
+    <script src="../vendors/jquery.hotkeys/jquery.hotkeys.js"></script>
+    <script src="../vendors/google-code-prettify/src/prettify.js"></script>
+    <!-- jQuery Tags Input -->
+    <script src="../vendors/jquery.tagsinput/src/jquery.tagsinput.js"></script>
+    <!-- Switchery -->
+    <script src="../vendors/switchery/dist/switchery.min.js"></script>
+    <!-- Select2 -->
+    <script src="../vendors/select2/dist/js/select2.full.min.js"></script>
+    <!-- Parsley -->
+    <script src="../vendors/parsleyjs/dist/parsley.min.js"></script>
+    <!-- Autosize -->
+    <script src="../vendors/autosize/dist/autosize.min.js"></script>
+    <!-- jQuery autocomplete -->
+    <script src="../vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
+    <!-- starrr -->
+    <script src="../vendors/starrr/dist/starrr.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+    
+  </body>
+</html>

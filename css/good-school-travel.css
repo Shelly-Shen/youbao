@@ -1,0 +1,183 @@
+
+
+#banner{
+    width: 100%;
+    height: 400px;
+    background: url(../image/名校游.jpeg) no-repeat center;
+    position: relative;
+}
+
+#banner #good-choice{
+    font-size: 40px;
+    font-family: 微软雅黑,"Microsoft YaHei";
+    color: white;
+}
+
+#banner-wrapper{
+    width: 1200px;
+    height: 125px;
+    /*background: yellow;*/
+    margin: 0 auto;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    margin-left: -600px;
+}
+
+#banner #banner-wrapper #good-choice{
+    display: block;
+    text-align: center;
+}
+
+#banner #banner-wrapper h2{
+    text-align: center;
+    color: #fff;
+    font: normal 18px/24px 微软雅黑,"Microsoft YaHei";
+    padding: 22px 0px 18px 0px;
+}
+
+#banner #banner-wrapper #Aus{
+    display: block;
+    margin-left: 448px;
+}
+
+#feature-spot{
+    width: 1425px;
+    height: 86px;
+    background: #fff;
+    position: relative;
+}
+
+#feature-spot span{
+    font-size: 34px;
+    font-weight: 700px;
+    color: #636363;;
+    font-family: Hiragino Sans GB,Microsoft YaHei,黑体,宋体,sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -150px;
+}
+
+#feature-spot #right,#left{
+    width: 530px;
+    height: 43px;
+    margin-left: 25px;
+}
+
+#feature-spot #right{
+    border-bottom: solid 1px #989598;
+}
+
+#feature-spot #left{
+    float: right;
+    border-top: solid 1px #989598;
+    margin-right: 25px;
+}
+
+#china{
+    width: 100%;
+    height: 1270px;
+    /*background: #ccc;*/
+}
+
+#chinasch-wrapper{
+    width: 1310px;
+    height: 1180px;
+    /*background: red;*/
+    margin: 0 auto;
+}
+
+#china .china-one{
+    width: 600px;
+    height: 530px;
+    border: solid 1px #ccc;
+    background: white;
+    margin: 20px 20px 20px 30px;
+    float: left;
+}
+
+#china .china-one .china-ch{
+    width: 600px;
+    vertical-align: bottom;
+}
+
+#china .china-one .xiamen, .zhongshan{
+    width: 600px;
+    height: 450px;
+}
+
+#china .china-one .wuhan{
+    display: inline-block;
+    width: 600px;
+    height: 438px;
+}
+
+#china #chinasch-wrapper .china-one .word{
+    width: 389px;
+    height: 90px;
+    padding-top: 13px;
+    /*background: red;*/
+    float: left;
+    position: relative;
+    background: #FFF;
+}
+
+#china #chinasch-wrapper .china-one span a{
+    color: #CCCCCC;
+    overflow: hidden;
+    font-size: 13px;
+    -webkit-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out
+}
+
+#china #chinasch-wrapper .china-one .dingyue{
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+#china #chinasch-wrapper .china-one span a:hover {
+    color: #636363;
+}
+
+#china #chinasch-wrapper .china-one .xini{
+    height: 438px;
+}
+
+#china #moresch{
+    display: block;
+    width: 170px;
+    height: 50px;
+    margin: 0 auto;
+    background: #FF9900;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+#china #chinasch-wrapper .china-one{
+    overflow: hidden;
+}
+#china #chinasch-wrapper .china-ch{
+    transition: transform .3s ease-in;
+}
+#china #chinasch-wrapper .china-ch:hover{
+    transform: scale(1.1,1.1);
+}
+
+#china #chinasch-wrapper .img-wrapper{
+    width: 600px;
+    height: 441px;
+    overflow: hidden;
+    margin-bottom: -30px;
+}
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+#header #search {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    /* background: red; */
+    position: absolute;
+    top: 14px;
+    left: 1017px;
+    background: url(../image/sprite.png) no-repeat -66px -104px;
+    cursor: pointer;
+    border: 0px;
+}

@@ -1,0 +1,2965 @@
+
+body {
+    color: #323232;
+    background: #fff;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased
+}
+
+article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul {
+    margin: 0;
+    padding: 0;
+    outline: none
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block
+}
+
+audio,canvas,video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+body,button,input,select,textarea {
+    font: 12px/1.5 Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5b8b\4f53,sans-serif
+}
+
+button,input,select,textarea {
+    font-size: 100%;
+    color: #636363;
+    outline: none
+}
+
+textarea {
+    resize: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+fieldset,img {
+    border: 0
+}
+
+iframe {
+    display: block
+}
+
+abbr,acronym {
+    border: 0;
+    font-variant: normal
+}
+
+del {
+    text-decoration: line-through
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style: normal;
+    font-weight: 500
+}
+
+ol,ul {
+    list-style: none
+}
+
+caption,th {
+    text-align: left
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+    font-weight: 500
+}
+
+q:after,q:before {
+    content: ""
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+a {
+    text-decoration: none;
+    color: #0073b6
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+a:focus,input:focus {
+    outline: none
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    outline: none;
+    border: 0;
+    padding: 0
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    color: #959595
+}
+
+input:-moz-placeholder,input::-moz-placeholder,textarea:-moz-placeholder,textarea::-moz-placeholder {
+    color: #959595
+}
+
+input:-ms-input-placeholder,textarea:-ms-input-placeholder {
+    color: #959595
+}
+
+.f12 {
+    font-size: 12px
+}
+
+.f14 {
+    font-size: 14px
+}
+
+.f16 {
+    font-size: 16px
+}
+
+.f18 {
+    font-size: 18px
+}
+
+.fb {
+    font-weight: 700
+}
+
+.fn {
+    font-weight: 500
+}
+
+.t2 {
+    text-indent: 2em
+}
+
+.lh18 {
+    line-height: 18px
+}
+
+.lh24 {
+    line-height: 24px
+}
+
+.lh28 {
+    line-height: 28px
+}
+
+.lh36 {
+    line-height: 36px
+}
+
+.unl {
+    text-decoration: underline
+}
+
+.no_unl {
+    text-decoration: none
+}
+
+.tl {
+    text-align: left
+}
+
+.tc {
+    text-align: center
+}
+
+.tr {
+    text-align: right
+}
+
+.bc {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.fl {
+    float: left
+}
+
+.fl,.fr {
+    display: inline
+}
+
+.fr {
+    float: right
+}
+
+.cb,.clear {
+    clear: both
+}
+
+.clear {
+    height: 0;
+    overflow: hidden
+}
+
+.cl {
+    clear: left
+}
+
+.cr {
+    clear: right
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.vm {
+    vertical-align: middle
+}
+
+.pr {
+    position: relative
+}
+
+.pa {
+    position: absolute
+}
+
+.zoom {
+    zoom: 1
+}
+
+.hidden {
+    visibility: hidden
+}
+
+.visible {
+    visibility: visible
+}
+
+.none {
+    display: none
+}
+
+.block {
+    display: block
+}
+
+.inline {
+    display: inline
+}
+
+.hand {
+    cursor: pointer
+}
+
+.cdefault {
+    cursor: default
+}
+
+.ofhidden {
+    overflow: hidden
+}
+
+.m5 {
+    margin: 5px
+}
+
+.m8 {
+    margin: 8px
+}
+
+.m10 {
+    margin: 10px
+}
+
+.m15 {
+    margin: 15px
+}
+
+.m16 {
+    margin: 16px
+}
+
+.m20 {
+    margin: 20px
+}
+
+.m25 {
+    margin: 25px
+}
+
+.m30 {
+    margin: 30px
+}
+
+.mt5 {
+    margin-top: 5px
+}
+
+.mt-5 {
+    margin-top: -5px
+}
+
+.mt7 {
+    margin-top: 7px
+}
+
+.mt8 {
+    margin-top: 8px
+}
+
+.mt10 {
+    margin-top: 10px
+}
+
+.mt15 {
+    margin-top: 15px
+}
+
+.mt16 {
+    margin-top: 16px
+}
+
+.mt20 {
+    margin-top: 20px
+}
+
+.mt25 {
+    margin-top: 25px
+}
+
+.mt30 {
+    margin-top: 30px
+}
+
+.mb5 {
+    margin-bottom: 5px
+}
+
+.mb-5 {
+    margin-bottom: -5px
+}
+
+.mb7 {
+    margin-bottom: 7px
+}
+
+.mb8 {
+    margin-bottom: 8px
+}
+
+.mb10 {
+    margin-bottom: 10px
+}
+
+.mb15 {
+    margin-bottom: 15px
+}
+
+.mb16 {
+    margin-bottom: 16px
+}
+
+.mb20 {
+    margin-bottom: 20px
+}
+
+.mb25 {
+    margin-bottom: 25px
+}
+
+.mb30 {
+    margin-bottom: 30px
+}
+
+.ml5 {
+    margin-left: 5px
+}
+
+.ml8 {
+    margin-left: 8px
+}
+
+.ml10 {
+    margin-left: 10px
+}
+
+.ml15 {
+    margin-left: 15px
+}
+
+.ml16 {
+    margin-left: 16px
+}
+
+.ml20 {
+    margin-left: 20px
+}
+
+.ml25 {
+    margin-left: 25px
+}
+
+.ml30 {
+    margin-left: 30px
+}
+
+.mr5 {
+    margin-right: 5px
+}
+
+.mr8 {
+    margin-right: 8px
+}
+
+.mr10 {
+    margin-right: 10px
+}
+
+.mr15 {
+    margin-right: 15px
+}
+
+.mr16 {
+    margin-right: 16px
+}
+
+.mr20 {
+    margin-right: 20px
+}
+
+.mr25 {
+    margin-right: 25px
+}
+
+.mr30 {
+    margin-right: 30px
+}
+
+.p5 {
+    padding: 5px
+}
+
+.p8 {
+    padding: 8px
+}
+
+.p10 {
+    padding: 10px
+}
+
+.p15 {
+    padding: 15px
+}
+
+.p16 {
+    padding: 16px
+}
+
+.p20 {
+    padding: 20px
+}
+
+.p30 {
+    padding: 30px
+}
+
+.pt5 {
+    padding-top: 5px
+}
+
+.pt7 {
+    padding-top: 7px
+}
+
+.pt8 {
+    padding-top: 8px
+}
+
+.pt10 {
+    padding-top: 10px
+}
+
+.pt15 {
+    padding-top: 15px
+}
+
+.pt16 {
+    padding-top: 16px
+}
+
+.pt20 {
+    padding-top: 20px
+}
+
+.pt30 {
+    padding-top: 30px
+}
+
+.pb5 {
+    padding-bottom: 5px
+}
+
+.pb7 {
+    padding-bottom: 7px
+}
+
+.pb8 {
+    padding-bottom: 8px
+}
+
+.pb10 {
+    padding-bottom: 10px
+}
+
+.pb15 {
+    padding-bottom: 15px
+}
+
+.pb16 {
+    padding-bottom: 16px
+}
+
+.pb20 {
+    padding-bottom: 20px
+}
+
+.pb30 {
+    padding-bottom: 30px
+}
+
+.pl5 {
+    padding-left: 5px
+}
+
+.pl8 {
+    padding-left: 8px
+}
+
+.pl10 {
+    padding-left: 10px
+}
+
+.pl15 {
+    padding-left: 15px
+}
+
+.pl16 {
+    padding-left: 16px
+}
+
+.pl20 {
+    padding-left: 20px
+}
+
+.pl30 {
+    padding-left: 30px
+}
+
+.pr5 {
+    padding-right: 5px
+}
+
+.pr8 {
+    padding-right: 8px
+}
+
+.pr10 {
+    padding-right: 10px
+}
+
+.pr15 {
+    padding-right: 15px
+}
+
+.pr16 {
+    padding-right: 16px
+}
+
+.pr20 {
+    padding-right: 20px
+}
+
+.pr30 {
+    padding-right: 30px
+}
+
+.fontTahoma {
+    font-family: tahoma,\5b8b\4f53,sans-serif
+}
+
+.fontArial {
+    font-family: helvetica,arial,\5b8b\4f53,sans-serif
+}
+
+.fontSong {
+    font-family: \5b8b\4f53,sans-serif
+}
+
+.fontYaHei {
+    font-family: Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft YaHei,\9ED1\4F53,\5b8b\4f53,sans-serif
+}
+
+.cBlack {
+    color: #323232
+}
+
+.cGray {
+    color: #636363
+}
+
+.cLightgray {
+    color: #959595
+}
+
+.cWhite {
+    color: #fff
+}
+
+.cRed {
+    color: #790000
+}
+
+.cBlue {
+    color: #0073b6
+}
+
+.cGreen {
+    color: #077345
+}
+
+.cRed_caution {
+    color: #ed1c24
+}
+
+.qyWrap {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.qySide {
+    width: 270px
+}
+
+.qyMain {
+    width: 680px
+}
+
+.gapline20,.gapline30 {
+    width: 100%;
+    height: 1px;
+    overflow: hidden;
+    background-color: #ececec
+}
+
+.gapline20 {
+    margin: 20px 0
+}
+
+.gapline30 {
+    margin: 30px 0
+}
+
+.ui_input {
+    height: 22px;
+    padding: 0 5px;
+    line-height: 22px
+}
+
+.ui_input,.ui_textarea {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family: Helvetica,Arial,Hiragino Sans GB,\5b8b\4f53,sans-serif
+}
+
+.ui_textarea {
+    padding: 2px 5px
+}
+
+.ui_input_focus {
+    border-color: #096
+}
+
+.ui_input_error {
+    border-color: #c00
+}
+
+.ui_select {
+    border: 1px solid #ccc;
+    height: 24px;
+    padding-left: 1px;
+    margin: 0
+}
+
+.ui_button,.ui_button_cancel,.ui_button_disabled,.ui_button_load,.ui_buttonA,.ui_buttonB,.ui_buttonC {
+    display: inline-block;
+    height: 28px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 3px;
+    overflow: visible;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer
+}
+
+.ui_button {
+    background-color: #3f9f5f
+}
+
+.ui_button:hover {
+    background-color: #5cad77;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_button:active {
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_button:active,.ui_buttonB {
+    background-color: #3f9f5f
+}
+
+.ui_buttonB:hover {
+    background-color: #5cad77;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_buttonB:active {
+    background-color: #3f9f5f;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_buttonA {
+    background-color: #1995dd
+}
+
+.ui_buttonA:hover {
+    background-color: #3ba5e2;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_buttonA:active {
+    background-color: #1995dd;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_buttonC {
+    background-color: #f26622
+}
+
+.ui_buttonC:hover {
+    background-color: #f5802d;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_buttonC:active {
+    background-color: #f26622;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_button_cancel {
+    height: 26px;
+    line-height: 26px;
+    background-color: #f5f5f5;
+    border: 1px solid silver;
+    padding: 0 14px;
+    color: #323232
+}
+
+.ui_button_cancel:hover {
+    background-color: #fff;
+    border-color: #959595;
+    text-decoration: none;
+    color: #323232
+}
+
+.ui_button_cancel:active {
+    background-color: #f5f5f5;
+    border-color: #959595;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_button_disabled {
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #d7d7d7;
+    padding: 0 14px;
+    background-color: #eaeaea;
+    cursor: default;
+    color: silver
+}
+
+.ui_button_disabled,.ui_button_disabled:hover {
+    text-decoration: none
+}
+
+.ui_button_load {
+    height: 26px;
+    padding: 0 28px;
+    line-height: 26px;
+    border: 1px solid #d7d7d7;
+    background: #fff url(//static.qyer.com/images/common/tpl/wait_16.gif) no-repeat 50%;
+    color: #999;
+    text-indent: -200px;
+    cursor: default
+}
+
+.ui_button_load:hover {
+    text-decoration: none;
+    color: #999;
+    cursor: default
+}
+
+button.ui_button_cancel,button.ui_button_disabled,button.ui_button_load,input.ui_button_cancel,input.ui_button_disabled,input.ui_button_load {
+    height: 28px;
+    line-height: normal
+}
+
+.ui_button14,.ui_button14_disabled,.ui_button14_load,.ui_button14A {
+    display: inline-block;
+    height: 28px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 3px;
+    overflow: hidden;
+    font: 700 14px/28px helvetica,arial,\5b8b\4f53,sans-serif;
+    color: #fff;
+    cursor: pointer;
+    overflow: visible
+}
+
+.ui_button14 {
+    background-color: #147850
+}
+
+.ui_button14:hover {
+    background-color: #5fa678;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_button14A {
+    background-color: #0073b6
+}
+
+.ui_button14A:hover {
+    background-color: #2b8fc8;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_button14_disabled,.ui_button14_disabled:hover {
+    background-color: #bcbbbb;
+    text-decoration: none;
+    cursor: default
+}
+
+.ui_button14_load {
+    height: 26px;
+    padding: 0 24px;
+    line-height: 26px;
+    border: 1px solid #ccc;
+    background: #fff url(//static.qyer.com/images/common/tpl/wait_16.gif) no-repeat 50%;
+    color: #999;
+    text-indent: -200px;
+    cursor: default
+}
+
+.ui_button14_load:hover {
+    text-decoration: none;
+    color: #999;
+    cursor: default
+}
+
+button.ui_button14_load,input.ui_button14_load {
+    height: 28px;
+    line-height: normal
+}
+
+.ui_btn_big,.ui_btn_big_cancel,.ui_btn_big_disabled,.ui_btn_big_load,.ui_btn_bigA,.ui_btn_bigC {
+    display: inline-block;
+    height: 36px;
+    padding: 0 25px;
+    border: none;
+    border-radius: 3px;
+    overflow: visible;
+    font-size: 18px;
+    line-height: 36px;
+    font-family: Hiragino Sans GB,Microsoft YaHei,\9ED1\4F53,\5b8b\4f53,sans-serif;
+    color: #fff;
+    text-align: center;
+    cursor: pointer
+}
+
+.ui_btn_big {
+    background-color: #3f9f5f
+}
+
+.ui_btn_big:hover {
+    background-color: #5cad77;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_btn_big:active {
+    background-color: #3f9f5f;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_btn_bigA {
+    background-color: #1995dd
+}
+
+.ui_btn_bigA:hover {
+    background-color: #3ba5e2;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_btn_bigA:active {
+    background-color: #1995dd;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_btn_bigC {
+    background-color: #f26622
+}
+
+.ui_btn_bigC:hover {
+    background-color: #f5802d;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_btn_bigC:active {
+    background-color: #f26622;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_btn_big_cancel {
+    height: 34px;
+    line-height: 34px;
+    background-color: #f5f5f5;
+    border: 1px solid silver;
+    padding: 0 24px;
+    color: #323232
+}
+
+.ui_btn_big_cancel:hover {
+    background-color: #fff;
+    border-color: #959595;
+    text-decoration: none;
+    color: #323232
+}
+
+.ui_btn_big_cancel:active {
+    background-color: #f5f5f5;
+    border-color: #959595;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_btn_big_disabled {
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #d7d7d7;
+    padding: 0 24px;
+    background-color: #eaeaea;
+    text-decoration: none;
+    cursor: default;
+    color: silver
+}
+
+.ui_btn_big_disabled:hover {
+    text-decoration: none
+}
+
+.ui_btn_big_load {
+    height: 34px;
+    padding: 0 42px;
+    line-height: 34px;
+    border: 1px solid #ccc;
+    background: #fff url(//static.qyer.com/images/common/tpl/wait_16.gif) no-repeat 50%;
+    color: #999;
+    text-indent: -200px;
+    cursor: default
+}
+
+.ui_btn_big_load:hover {
+    text-decoration: none;
+    color: #999;
+    cursor: default
+}
+
+button.ui_btn_big_cancel,button.ui_btn_big_disabled,button.ui_btn_big_load,input.ui_btn_big_cancel,input.ui_btn_big_disabled,input.ui_btn_big_load {
+    height: 36px;
+    line-height: normal
+}
+
+.ui_btn_small,.ui_btn_small_cancel,.ui_btn_small_disabled,.ui_btn_small_load,.ui_btn_smallA,.ui_btn_smallB,.ui_btn_smallC {
+    display: inline-block;
+    height: 24px;
+    padding: 0 13px;
+    border: none;
+    border-radius: 3px;
+    overflow: visible;
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer
+}
+
+.ui_btn_small {
+    background-color: #3f9f5f
+}
+
+.ui_btn_small:hover {
+    background-color: #5cad77;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_btn_small:active {
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_btn_small:active,.ui_btn_smallB {
+    background-color: #3f9f5f
+}
+
+.ui_btn_smallB:hover {
+    background-color: #5cad77;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_btn_smallB:active {
+    background-color: #3f9f5f;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_btn_smallA {
+    background-color: #1995dd
+}
+
+.ui_btn_smallA:hover {
+    background-color: #3ba5e2;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_btn_smallA:active {
+    background-color: #1995dd;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_btn_smallC {
+    background-color: #f26622
+}
+
+.ui_btn_smallC:hover {
+    background-color: #f5802d;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui_btn_smallC:active {
+    background-color: #f26622;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_btn_small_cancel {
+    height: 22px;
+    line-height: 22px;
+    background-color: #f5f5f5;
+    border: 1px solid silver;
+    padding: 0 12px;
+    color: #323232
+}
+
+.ui_btn_small_cancel:hover {
+    background-color: #fff;
+    border-color: #959595;
+    text-decoration: none;
+    color: #323232
+}
+
+.ui_btn_small_cancel:active {
+    background-color: #f5f5f5;
+    border-color: #959595;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2)
+}
+
+.ui_btn_small_disabled {
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #d7d7d7;
+    padding: 0 12px;
+    background-color: #eaeaea;
+    text-decoration: none;
+    cursor: default;
+    color: silver
+}
+
+.ui_btn_small_disabled:hover {
+    text-decoration: none
+}
+
+.ui_btn_small_load {
+    height: 22px;
+    padding: 0 24px;
+    line-height: 22px;
+    border: 1px solid #d7d7d7;
+    background: #fff url(//static.qyer.com/images/common/tpl/wait_16.gif) no-repeat 50%;
+    color: #999;
+    text-indent: -200px;
+    cursor: default
+}
+
+.ui_btn_small_load:hover {
+    text-decoration: none;
+    color: #999;
+    cursor: default
+}
+
+button.ui_btn_small_cancel,button.ui_btn_small_disabled,button.ui_btn_small_load,input.ui_btn_small_cancel,input.ui_btn_small_disabled,input.ui_btn_small_load {
+    height: 24px;
+    line-height: normal
+}
+
+.dropdown {
+    float: left
+}
+
+.dropdown a,.dropdown a:visited {
+    color: #636363;
+    text-decoration: none;
+    outline: none;
+    font-family: arial,\5b8b\4f53,sans-serif
+}
+
+.dropdown a:hover {
+    color: #636363
+}
+
+.dropdown span.value {
+    display: none
+}
+
+.dropdown dt a {
+    display: block;
+    height: 22px;
+    border: 1px solid #ccc;
+    padding: 0 15px 0 5px;
+    background: url(//static.qyer.com/images/common/select_bg.png) right 9px no-repeat;
+    line-height: 22px
+}
+
+.dropdown dd {
+    position: relative;
+    z-index: 9
+}
+
+.dropdown dd ul {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    top: 2px;
+    width: auto;
+    min-width: 170px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #636363
+}
+
+.dropdown dd ul li a {
+    display: block;
+    padding: 3px 5px
+}
+
+.dropdown dd ul li a:hover {
+    background-color: #e6f4d9
+}
+
+.ui_pulldown {
+    float: left;
+    position: relative
+}
+
+.ui_pulldown a,.ui_pulldown a:visited {
+    color: #636363;
+    text-decoration: none;
+    outline: none;
+    font-family: arial,\5b8b\4f53,sans-serif
+}
+
+.ui_pulldown_tit a {
+    display: block;
+    height: 22px;
+    border: 1px solid #ccc;
+    padding: 0 15px 0 5px;
+    background: url(//static.qyer.com/images/common/select_bg.png) right 9px no-repeat;
+    line-height: 22px;
+    color: #636363
+}
+
+.ui_pulldown_cnt {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 22px;
+    width: auto;
+    min-width: 168px
+}
+
+.ui_pulldown_list {
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #636363
+}
+
+.ui_pulldown_list_item {
+    position: relative
+}
+
+.ui_pulldown_list_item_current {
+    background-color: #e6f4d9
+}
+
+.ui_pulldown_list_item_tit {
+    display: block;
+    padding: 3px 5px
+}
+
+.ui_pulldown_list_item_tit:hover {
+    background-color: #e6f4d9
+}
+
+.ui_pulldown_sublist {
+    display: none;
+    position: absolute;
+    top: -1px;
+    left: 166px;
+    width: 200px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #636363
+}
+
+.ui_pulldown_sublist_item a {
+    display: block;
+    padding: 3px 5px
+}
+
+.ui_pulldown_sublist_item a:hover {
+    background-color: #e6f4d9
+}
+
+.ui_tab_cnt_item {
+    display: none
+}
+
+.ui_tab_cnt_item_current {
+    display: block
+}
+
+.ui_page {
+    float: right
+}
+
+.ui_page_item {
+    display: inline-block;
+    padding: 0 6px;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 24px;
+    color: #636363
+}
+
+.ui_page_item:hover {
+    background: #e0f1e1;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #323232
+}
+
+.ui_page_item_current,.ui_page_item_current:hover {
+    background: #5ea67c;
+    border-radius: 3px;
+    font-weight: 700;
+    color: #fff
+}
+
+.ui_page_next,.ui_page_prev {
+    font-size: 12px
+}
+
+.ui_page.load {
+    position: relative
+}
+
+.ui_page.load:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    background-color: hsla(0,0%,100%,.7)
+}
+
+.ui_pupBox_bg {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(//static.qyer.com/images/common/popup_bg.png)
+}
+
+.ui_pupBox {
+    position: relative;
+    widows: 200px;
+    margin: 100px auto 0;
+    border: 5px solid #aeadad;
+    border-color: rgba(0,0,0,.3);
+    border-radius: 8px
+}
+
+.ui_pupBox_close {
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    right: 5px;
+    width: 26px;
+    height: 26px;
+    background: url(//static.qyer.com/images/common/tpl/pup_close.png) no-repeat 0 0;
+    cursor: pointer
+}
+
+.ui_pupBox_close:hover {
+    background-position: 0 -26px
+}
+
+.ui_pupBox_main {
+    background-color: #fff;
+    border: 1px solid #7e7e7e
+}
+
+.ui_pupBox_head {
+    position: relative;
+    height: 36px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ddd;
+    background: #f7f7f7 url(//static.qyer.com/images/common/tpl/pup_headbg.png) repeat-x;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 700
+}
+
+.ui_pupBox_headtag {
+    position: absolute;
+    left: 5px;
+    bottom: -1px
+}
+
+.ui_pupBox_headtag li {
+    float: left;
+    margin-right: -1px;
+    margin-top: 2px;
+    border: 1px solid #ddd;
+    border-top: none;
+    background-color: #fff;
+    cursor: pointer
+}
+
+.ui_pupBox_headtag li span {
+    display: block;
+    border-top: 1px solid #ddd;
+    line-height: 26px;
+    padding: 0 20px
+}
+
+.ui_pupBox_headtag li.current {
+    margin-top: 0;
+    border-bottom-color: #fff;
+    cursor: default
+}
+
+.ui_pupBox_headtag li.current span {
+    border-top: 3px solid #147850;
+    color: #145a3c
+}
+
+.ui_pupBox_content {
+    padding: 10px;
+    color: #636363;
+    word-wrap: break-word;
+    word-break: break-all
+}
+
+.ui_pupBox_foot {
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px 10px
+}
+
+.ui_fullpupBox_bg {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#4c000000',EndColorStr='#4c000000');
+    overflow: auto
+}
+
+:root .ui_fullpupBox_bg {
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#00000000',EndColorStr='#00000000')
+}
+
+.ui_fullpupBox {
+    position: relative;
+    width: 910px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #666;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: 0 0 10px #666
+}
+
+.ui_fullpupBox_headfix {
+    height: 36px
+}
+
+.ui_fullpupBox_head {
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 3px #ddd;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 36px;
+    text-indent: 10px
+}
+
+.ui_fullpupBox_close {
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    right: 5px;
+    width: 26px;
+    height: 26px;
+    background: url(//static.qyer.com/images/common/tpl/pup_close.png) no-repeat 0 0;
+    cursor: pointer
+}
+
+.ui_fullpupBox_close:hover {
+    background-position: 0 -26px
+}
+
+.ui_fullpupBox_cnt {
+    padding: 20px;
+    font-size: 14px
+}
+
+.ui_message {
+    position: fixed;
+    _position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 300px;
+    padding: 11px 10px 11px 54px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px #999;
+    background: #666 url(//static.qyer.com/images/place/icon_message.png) no-repeat 0 0;
+    text-align: center;
+    color: #fff
+}
+
+.ui_upward_wrapper {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 60px;
+    border: 1px solid #d7d7d7;
+    box-shadow: 0 0 3px rgba(0,0,0,.15);
+    background: #fff
+}
+
+.ui_upward_icon {
+    width: 100%;
+    height: 25px;
+    padding-top: 53px;
+    background: #fff url(//static.qyer.com/images/common/tpl/icon_gotop.png) no-repeat center 16px;
+    cursor: pointer;
+    color: #959595;
+    text-align: center
+}
+
+.ui_upward_icon:hover {
+    color: #636363
+}
+
+.ui_feedback {
+    position: fixed;
+    _position: absolute;
+    z-index: 99;
+    top: 120px;
+    right: 0
+}
+
+.ui_feedback_icon {
+    float: left;
+    width: 24px;
+    height: 150px;
+    background: url(//static.qyer.com/images/common/tpl/icon_feedback.png) 0 0 no-repeat;
+    cursor: pointer
+}
+
+.ui_feedback_icon_current {
+    background-position: -29px 0
+}
+
+.ui_feedback_cnt {
+    display: none;
+    float: left;
+    width: 246px;
+    height: 280px;
+    background-color: #e8e4df
+}
+
+.ui_feedback_cnt form {
+    padding: 10px
+}
+
+.ui_feedback_cnt textarea {
+    width: 214px;
+    height: 192px;
+    padding: 2px 5px;
+    border: 1px solid #ccc
+}
+
+.ui_feedback_cnt input {
+    float: right;
+    margin-top: 10px
+}
+
+.ui_feedback_help {
+    position: relative;
+    top: -1px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background: #fefdc9;
+    height: 24px;
+    line-height: 22px;
+    text-align: center
+}
+
+.ui_feedback_help a {
+    font-weight: 700
+}
+
+.ui_guide {
+    position: fixed;
+    _position: absolute;
+    z-index: 98;
+    bottom: 287px;
+    right: 0
+}
+
+.ui_guide_icon {
+    float: left;
+    width: 24px;
+    height: 240px;
+    background: url(//static.qyer.com/images/common/bbs/ui_guide_icon.png) -25px 0 no-repeat;
+    cursor: pointer
+}
+
+.ui_guide_icon_current {
+    background-position: 0 0
+}
+
+.ui_guide_item {
+    width: 160px;
+    float: left;
+    height: 240px;
+    position: relative;
+    display: none;
+    background: #fff
+}
+
+.ui_guide_item a {
+    display: block
+}
+
+.ui_guide_item a:hover {
+    text-decoration: none
+}
+
+.ui_guide_item a .ui_guide_down_icon {
+    background: url(//static.qyer.com/images/common/bbs/ui_down_icon.png) no-repeat;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.ui_guide_item a .ui_guide_down_text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 28px;
+    background: #000;
+    display: block;
+    width: 100%;
+    height: 28px;
+    overflow: hidden
+}
+
+.ui_guide_item a:hover .ui_guide_down_text {
+    background: #61a579
+}
+
+.ui_guide_item a .ui_guide_down_text span {
+    color: #7ebd94;
+    font-weight: 700;
+    font-size: 14px;
+    background: url(//static.qyer.com/images/common/bbs/ui_down_sl.png) no-repeat 100%;
+    padding-right: 22px
+}
+
+.ui_guide_item a:hover .ui_guide_down_text span {
+    color: #000
+}
+
+.ui_headPort {
+    position: relative
+}
+
+.ui_headPort_img {
+    display: block
+}
+
+.ui_headPort_float {
+    display: none;
+    position: absolute;
+    top: -112px;
+    left: -110px;
+    width: 260px;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid silver;
+    background: #fff
+}
+
+.ui_headPort_float_triangle {
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    overflow: hidden;
+    background: url(//static.qyer.com/images/place/triangle_down.png) no-repeat top
+}
+
+.ui_headPort_float_gender {
+    position: absolute;
+    top: 8px;
+    right: 8px
+}
+
+.ui_headPort_float_cnt {
+    height: 80px;
+    padding-left: 90px;
+    overflow: hidden
+}
+
+.ui_headPort_float_cnt_img {
+    float: left;
+    margin-left: -90px
+}
+
+.ui_headPort_float_cnt_name {
+    margin-top: -2px
+}
+
+.ui_headPort_float_cnt_name_en {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.ui_headPort_float_cnt_numbers {
+    width: 170px;
+    margin-top: 15px;
+    overflow: hidden
+}
+
+.ui_headPort_float_cnt_numbers li {
+    float: left;
+    padding-right: 7px;
+    padding-left: 5px;
+    border-left: 1px solid #e8e5df;
+    line-height: 14px;
+    color: #636363
+}
+
+.ui_headPort_float_cnt_numbers .first {
+    padding-left: 0;
+    border-left: none
+}
+
+.ui_headPort_float_cnt_numbers li span {
+    display: block
+}
+
+.ui_headPort_float_cnt_tool {
+    padding-top: 10px
+}
+
+.ui_map_float {
+    display: none;
+    position: absolute;
+    float: left;
+    top: -112px;
+    left: -110px;
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid silver;
+    background: #fff
+}
+
+.ui_map_float_triangle {
+    position: absolute;
+    bottom: -9px;
+    left: 126px;
+    width: 16px;
+    height: 9px;
+    overflow: hidden;
+    background: url(//static.qyer.com/images/place/triangle_down.png) no-repeat 0 0
+}
+
+.ui_map_float_cnt {
+    float: left;
+    height: 80px;
+    padding-left: 90px;
+    overflow: hidden;
+    line-height: 16px;
+    color: #636363
+}
+
+.ui_map_float_cnt_img {
+    float: left;
+    margin-left: -90px!important
+}
+
+.ui_map_float_cnt_ellipsis {
+    width: 210px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.ui_map_float_cnt_grade {
+    height: 10px;
+    margin: 10px 0
+}
+
+.ui_map_prompt {
+    position: absolute;
+    float: left;
+    top: 10px;
+    left: 400px;
+    padding: 5px 10px;
+    background-color: rgba(0,0,0,.6);
+    background-color: #333\9;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #fff
+}
+
+.ui_face_layer {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 328px;
+    padding: 4px;
+    background: url(//static.qyer.com/images/common/tpl/card_bg.png)
+}
+
+.ui_face_layer_box {
+    border: 1px solid silver;
+    background: #fff
+}
+
+.ui_face_layer_arrow {
+    position: absolute;
+    bottom: -10px;
+    left: 35px;
+    width: 20px;
+    height: 15px;
+    overflow: hidden;
+    background: url(//static.qyer.com/images/common/tpl/card_arrow.png) no-repeat 0 0
+}
+
+.arrow_t {
+    top: -10px;
+    background-position: 0 -13px
+}
+
+.ui_face_layer_gender {
+    position: absolute;
+    top: 16px;
+    right: 16px
+}
+
+.ui_face_layer_cnt {
+    padding: 10px 10px 10px 100px;
+    height: 80px;
+    overflow: hidden
+}
+
+.ui_face_layer_cnt_img {
+    float: left;
+    margin-left: -90px
+}
+
+.ui_face_layer_name {
+    margin-top: -2px;
+    font-weight: 700
+}
+
+.ui_face_layer_address {
+    height: 18px;
+    color: #636363
+}
+
+.ui_face_layer_number {
+    padding-top: 9px
+}
+
+.ui_face_layer_number li {
+    float: left;
+    width: 72px;
+    line-height: 20px
+}
+
+.ui_face_layer_number .digit {
+    margin-left: 5px;
+    font-weight: 700;
+    color: #636363
+}
+
+.ui_face_layer_sign {
+    padding: 0 10px 10px 46px
+}
+
+.ui_face_layer_signtit {
+    float: left;
+    display: inline;
+    margin-left: -36px
+}
+
+.ui_face_layer_signtxt {
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-all
+}
+
+.ui_face_layer_tool {
+    height: 20px;
+    padding: 8px 10px;
+    background-color: #f0efef;
+    text-align: right
+}
+
+.ui_delete {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 160px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.2)
+}
+
+.ui_delete_box {
+    padding: 10px;
+    border: 1px solid silver;
+    background-color: #fff;
+    text-align: center
+}
+
+.ui_delete_btns {
+    padding-top: 15px
+}
+
+.ui_delete_btns .ui_button_cancel {
+    margin-right: 6px
+}
+
+.ui_coast {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    width: 360px;
+    padding: 0 15px;
+    border: 6px solid rgba(0,0,0,.2);
+    border: 6px solid #ccc\0;
+    *border: 6px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    background-clip: padding-box
+}
+
+:root .ui_coast {
+    border: 6px solid rgba(0,0,0,.2)
+}
+
+.ui_coast_cnt {
+    line-height: 34px;
+    padding: 8px 0
+}
+
+.ui_coast_img {
+    float: left;
+    margin-right: 10px
+}
+
+.ui_coast_num {
+    margin-left: 44px;
+    border-top: 1px dotted #e2e2e2
+}
+
+.ui_coast_num li {
+    float: right;
+    line-height: 36px;
+    margin-left: 20px
+}
+
+.ui_coast_num li span {
+    font-size: 24px;
+    color: #f30;
+    vertical-align: middle
+}
+
+.icon_doubt,.icon_error,.icon_finish,.icon_info,.icon_warn {
+    display: inline-block;
+    padding-left: 20px;
+    background: url(//static.qyer.com/images/common/tpl/icon_word.png) no-repeat 0 0
+}
+
+.icon_finish {
+    background-position: 0 1px
+}
+
+.icon_error {
+    background-position: 0 -19px;
+    color: #c00
+}
+
+.icon_warn {
+    background-position: 0 -39px
+}
+
+.icon_info {
+    background-position: 0 -59px
+}
+
+.icon_doubt {
+    background-position: 0 -79px
+}
+
+.ui_prompt {
+    display: none;
+    position: absolute;
+    float: left;
+    left: 0;
+    top: 0;
+    border: 1px solid #ffd088;
+    padding: 3px 9px;
+    background: #ffffe5;
+    line-height: 18px
+}
+
+.ui_prompt_awbtm,.ui_prompt_awtop {
+    position: absolute;
+    left: 20px;
+    width: 9px;
+    height: 6px;
+    overflow: hidden;
+    background: url(//static.qyer.com/images/common/tpl/prompt_aw.png) no-repeat
+}
+
+.ui_prompt_awtop {
+    top: -6px
+}
+
+.ui_prompt_awbtm {
+    bottom: -6px;
+    background-position: 0 -10px
+}
+
+.icon_gender_man,.icon_gender_woman {
+    display: block;
+    width: 16px;
+    height: 15px;
+    overflow: hidden;
+    background: url(//static.qyer.com/images/place/icon_gender.png) no-repeat
+}
+
+.icon_gender_man {
+    background-position: 0 -20px
+}
+
+.icon_gender_woman {
+    background-position: 0 0
+}
+
+.icon_gender_he,.icon_gender_she {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url(//static.qyer.com/images/common/tpl/icon_gender.png) no-repeat
+}
+
+.icon_gender_he {
+    background-position: -16px 0
+}
+
+.icon_gender_she {
+    background-position: 0 -16px
+}
+
+.icon_praise {
+    background: url(//static.qyer.com/images/place/icon_praise.png) no-repeat 0 2px;
+    padding-left: 15px
+}
+
+.icon_grade18,.icon_grade18_half,.icon_grade18_null {
+    float: left;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    padding-right: 2px;
+    background: url(//static.qyer.com/images/place/icon_grade.png) no-repeat
+}
+
+.icon_grade18 {
+    background-position: 0 0
+}
+
+.icon_grade18_half {
+    background-position: 0 -23px
+}
+
+.icon_grade18_null {
+    background-position: 0 -46px
+}
+
+.icon_grade10,.icon_grade10_half,.icon_grade10_null {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    padding-right: 1px;
+    background: url(//static.qyer.com/images/place/icon_grade.png) no-repeat
+}
+
+.icon_grade10 {
+    background-position: 0 -69px
+}
+
+.icon_grade10_half {
+    background-position: 0 -84px
+}
+
+.icon_grade10_null {
+    background-position: 0 -99px
+}
+
+.icon_user_care,.icon_user_care_already,.icon_user_care_cancel,.icon_user_care_mutual,.icon_user_email {
+    display: inline-block;
+    width: 58px;
+    height: 20px;
+    overflow: hidden;
+    background: url(//static.qyer.com/images/place/icon_user_tool.png) no-repeat;
+    line-height: 200px
+}
+
+.icon_user_care {
+    background-position: 0 0
+}
+
+.icon_user_care_already {
+    background-position: 0 -25px
+}
+
+.icon_user_care_cancel {
+    background-position: 0 -50px
+}
+
+.icon_user_care_mutual {
+    background-position: 0 -75px
+}
+
+.icon_user_email {
+    background-position: -63px 0
+}
+
+.ui_remore {
+    height: 32px;
+    background-color: #f5f4ef;
+    text-align: center;
+    line-height: 32px;
+    color: #636363;
+    cursor: pointer
+}
+
+.ui_reload,.ui_remore:hover {
+    background-color: #f8f7f4
+}
+
+.ui_reload {
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #ccc;
+    cursor: pointer
+}
+
+.ask_tag {
+    display: inline-block;
+    line-height: 18px;
+    color: #077345;
+    background: url(//static.qyer.com/images/common/tpl/tag_ask.png) no-repeat 0 0;
+    _background: #e6f4d9;
+    margin: 5px 0;
+    padding-left: 10px
+}
+
+.ask_tag:hover {
+    background: url(//static.qyer.com/images/common/tpl/tag_ask.png) no-repeat 0 -18px;
+    _background: #077345;
+    color: #fff;
+    text-decoration: none
+}
+
+.ask_tag .ask_tag_strong {
+    display: inline-block;
+    padding: 0 10px 0 0;
+    background: url(//static.qyer.com/images/common/tpl/tag_ask.png) no-repeat right -36px;
+    _background: #e6f4d9;
+    white-space: nowrap;
+    font-family: \5b8b\4f53,sans-serif
+}
+
+.ask_tag:hover .ask_tag_strong {
+    background: url(//static.qyer.com/images/common/tpl/tag_ask.png) no-repeat right -54px;
+    _background: #077345
+}
+
+.ui_private_btn {
+    font-family: \5b8b\4f53,sans-serif;
+    background: #fcfcfc url(//static.qyer.com/images/user2/private_icon.png) no-repeat 8px;
+    line-height: 22px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    color: #323232;
+    padding: 0 8px 0 27px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    display: inline-block
+}
+
+.ui_private_btn:hover {
+    border: 1px solid #d7d7d7;
+    background-color: #fff;
+    text-decoration: none
+}
+
+.ui_private_btn:active {
+    border: 1px solid silver;
+    background-color: #f5f8f6;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.1)
+}
+
+.ui_attent_btn {
+    display: inline-block;
+    height: 24px;
+    text-indent: -9999px;
+    cursor: pointer;
+    width: 60px;
+    vertical-align: middle;
+    background: url(//common2.qyerstatic.com/home/common/images/common/attent_icon.png) no-repeat -90px 0
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:2),screen and (max-moz-device-pixel-ratio:2) {
+    .ui_attent_btn {
+        background: url(//common2.qyerstatic.com/home/common/images/common/attent_icon2x.png) no-repeat -90px 0;
+        background-size: 175px 168px
+    }
+}
+
+.ui_attent_btn:hover {
+    background-position: -90px -24px
+}
+
+.ui_attent_btn:active {
+    background-position: -90px -48px
+}
+
+.ui_attent_btn_yes {
+    background-position: -90px -72px;
+    width: 73px
+}
+
+.ui_attent_btn_yes:hover {
+    background-position: -90px -120px;
+    width: 67px
+}
+
+.ui_attent_btn_yes:active {
+    background-position: -90px -144px;
+    width: 67px
+}
+
+.ui_attent_btn_each {
+    background-position: -90px -96px;
+    width: 85px
+}
+
+.ui_attent_btn_each:hover {
+    background-position: -90px -120px;
+    width: 67px
+}
+
+.ui_attent_btn_each:active {
+    background-position: -90px -144px;
+    width: 67px
+}
+
+.ui_sort {
+    color: #636363
+}
+
+.ui_sort_title {
+    margin-right: 10px
+}
+
+.ui_sort_item_current {
+    color: #636363;
+    font-weight: 700
+}
+
+.ui_sort_gap {
+    padding: 0 8px
+}
+
+#auto_text_shadow,.auto_text {
+    overflow: hidden
+}
+
+#auto_text_shadow {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-width: 0;
+    padding: 0;
+    visibility: hidden
+}
+
+.mod_edittext .ui_input {
+    width: 545px
+}
+
+.mod_edittext .ui_textarea {
+    width: 545px;
+    height: 72px;
+    min-height: 72px
+}
+
+.mod_edittext_btn {
+    margin-top: 10px
+}
+
+.mod_edittext_wordnb {
+    display: none;
+    color: #636363
+}
+
+.mod_edittext_transpond {
+    line-height: 28px
+}
+
+.mod_edittext_transpond label {
+    margin-right: 10px
+}
+
+.mod_edittext_transpond input {
+    margin-right: 3px
+}
+
+.mod_discuss {
+    width: 670px;
+    margin-bottom: 10px
+}
+
+.mod_discuss .ui_reload,.mod_discuss .ui_remore {
+    margin-top: 5px
+}
+
+.mod_discuss .operate {
+    display: none
+}
+
+.mod_discuss_face {
+    float: left;
+    display: inline;
+    width: 80px;
+    height: 80px
+}
+
+.mod_discuss_cnt {
+    position: relative;
+    float: right;
+    display: inline;
+    width: 577px
+}
+
+.mod_discuss_cnt_triangle {
+    position: absolute;
+    left: -8px;
+    top: 16px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border-right: 8px solid #f5f4f0;
+    border-top: 8px solid #fff;
+    border-bottom: 8px solid #fff
+}
+
+.mod_discuss_box {
+    padding: 5px 10px;
+    background-color: #f5f4ef
+}
+
+.mod_discuss_box_name {
+    color: #636363
+}
+
+.mod_discuss_box_text {
+    padding: 2px 0 8px;
+    word-wrap: break-word;
+    word-break: break-all
+}
+
+.mod_discuss_box_tool {
+    padding: 4px 0 2px;
+    border-top: 1px dotted #e2e2e2
+}
+
+.mod_discuss_box .icon_discuss {
+    padding-left: 20px;
+    background: url(//static.qyer.com/images/common/tpl/icon_discuss.png) no-repeat 0 2px
+}
+
+.mod_discuss_box .icon_discuss span {
+    padding-right: 12px;
+    background: url(//static.qyer.com/images/common/tpl/icon_discuss.png) no-repeat right -16px
+}
+
+.mod_discuss_box .icon_discuss span.openup {
+    padding-right: 12px;
+    background: url(//static.qyer.com/images/common/tpl/icon_discuss.png) no-repeat right -39px
+}
+
+.mod_discuss_reply {
+    display: none
+}
+
+.mod_discuss_reply .ui_textarea {
+    height: 18px;
+    min-height: 18px
+}
+
+.mod_discuss_reply_item {
+    min-height: 48px;
+    margin-top: 5px;
+    background-color: #f5f4f0
+}
+
+.mod_discuss_reply_face {
+    float: left;
+    display: inline;
+    width: 48px;
+    height: 48px
+}
+
+.mod_discuss_reply_box {
+    margin-left: 58px;
+    padding: 5px 10px 5px 0
+}
+
+.mod_discuss_reply_box_name {
+    color: #636363
+}
+
+.mod_discuss_reply_box_text {
+    padding-top: 2px;
+    word-wrap: break-word;
+    word-break: break-all
+}
+
+.mod_discuss_reply_post {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #f5f4f0
+}
+
+.mod_discuss_speak {
+    padding: 10px;
+    background-color: #f5f4ef
+}
+
+.mod_discuss_brief_all {
+    border-bottom: 1px solid #e8e5df;
+    margin: 10px 0 5px;
+    line-height: 24px;
+    text-align: right;
+    color: #636363
+}
+
+.jiathis_style_title {
+    color: #959595;
+    margin-right: 5px
+}
+
+body .jiathis_style {
+    padding-top: 1px
+}
+
+body .jiathis_style a {
+    float: left;
+    margin-left: 10px
+}
+
+body .jiathis_style a:first-child {
+    margin-left: 0
+}
+
+body .jiathis_style .jtico {
+    padding-left: 16px!important;
+    background: url(//static.qyer.com/images/common/tpl/share16.png) no-repeat 0
+}
+
+body .jiathis_style .jtico_tsina {
+    background-position: 0 0
+}
+
+body .jiathis_style .jtico_tqq {
+    background-position: -26px 0
+}
+
+body .jiathis_style .jtico_qzone {
+    background-position: -52px 0
+}
+
+body .jiathis_style .jtico_renren {
+    background-position: -78px 0
+}
+
+body .jiathis_style .jtico_douban {
+    background-position: -104px 0
+}
+
+body .jiathis_style_24x24 a {
+    float: left;
+    margin-left: 10px
+}
+
+body .jiathis_style_24x24 a:first-child {
+    margin-left: 0
+}
+
+body .jiathis_style_24x24 .jtico {
+    padding-left: 24px!important;
+    background: url(//static.qyer.com/images/common/tpl/share25.png) no-repeat 0
+}
+
+body .jiathis_style_24x24 .jtico_tsina {
+    background-position: 0 0
+}
+
+body .jiathis_style_24x24 .jtico_tqq {
+    background-position: -34px 0
+}
+
+body .jiathis_style_24x24 .jtico_qzone {
+    background-position: -68px 0
+}
+
+body .jiathis_style_24x24 .jtico_renren {
+    background-position: -102px 0
+}
+
+body .jiathis_style_24x24 .jtico_douban {
+    background-position: -136px 0
+}
+
+body .jiathis_style_24x24 .jtico_weixin {
+    background-position: -170px 0
+}
+
+.ui_usercard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 298px;
+    border: 1px solid silver;
+    background-color: #fff;
+    color: #636363;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1)
+}
+
+.ui_usercard_top {
+    position: relative
+}
+
+.ui_usercard_img {
+    width: 100%
+}
+
+.ui_usercard_userinfo {
+    position: absolute;
+    left: 0;
+    top: 67px;
+    padding-left: 90px
+}
+
+.ui_usercard_userinfo .face {
+    float: left;
+    margin-left: -70px
+}
+
+.ui_usercard_userinfo .face img {
+    display: block;
+    border-radius: 50%
+}
+
+.ui_usercard_userinfo .name {
+    padding-top: 4px;
+    font-size: 18px;
+    line-height: 20px
+}
+
+.ui_usercard_userinfo .name a {
+    color: #fff
+}
+
+.ui_usercard_userinfo .name a:hover {
+    text-decoration: none
+}
+
+.ui_usercard_userinfo .btns {
+    padding-top: 13px
+}
+
+.ui_usercard_userinfo .btns a {
+    margin-right: 5px
+}
+
+.ui_usercard_grade {
+    padding-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 14px
+}
+
+.ui_usercard_grade span {
+    margin-left: 20px
+}
+
+.ui_usercard_grade span:first-child {
+    margin-left: 0
+}
+
+.ui_usercard_intro {
+    margin: -3px 0 17px;
+    padding: 0 5px;
+    text-align: center
+}
+
+.ui_usercard_intro p {
+    display: inline-block;
+    padding-left: 25px;
+    background: url(//static.qyer.com/images/common/tpl/usercard_quote_l.png) no-repeat 0 0
+}
+
+.ui_usercard_intro span {
+    display: inline-block;
+    padding-right: 25px;
+    background: url(//static.qyer.com/images/common/tpl/usercard_quote_r.png) no-repeat 100% 100%;
+    text-align: left;
+    word-break: break-all;
+    word-wrap: break-word
+}
+
+.ui_usercard_nums {
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.ui_usercard_nums li {
+    display: inline-block;
+    line-height: 20px;
+    padding-left: 32px;
+    background: url(//static.qyer.com/images/common/tpl/usercard_numgap.png) no-repeat 16px
+}
+
+.ui_usercard_nums li:first-child {
+    padding-left: 0;
+    background: none
+}
+
+.ui_usercard_nums em {
+    margin-right: 5px;
+    font-size: 18px;
+    font-style: italic
+}
+
+.ui_usercard_nums em a {
+    color: #636363
+}
+
+.ui_usercard_nums em a:hover {
+    color: #0073b6;
+    text-decoration: none
+}
+
+.ui_usercard_medals {
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.ui_usercard_medals span {
+    margin-left: 15px
+}
+
+.ui_usercard_medals span:first-child {
+    margin-left: 0
+}
+
+.ui_textboxShare {
+    padding: 2px 0;
+    line-height: 24px
+}
+
+.ui_textboxShare .title {
+    float: left
+}
+
+.ui_textboxShare label {
+    float: left;
+    margin-left: 10px
+}
+
+.ui_textboxShare label.weibo {
+    margin-left: 0
+}
+
+.ui_textboxShare input {
+    margin-right: 10px;
+    vertical-align: middle
+}
+
+.ui_textboxShare .icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    background: url(//static.qyer.com/images/common/tpl/textbox_share.png) no-repeat 0 0;
+    vertical-align: middle
+}
+
+.ui_textboxShare label.weibo .icon {
+    background-position: 0 0
+}
+
+.ui_textboxShare label.qzone .icon {
+    background-position: -30px 0
+}
+
+.ui_textboxShare label.weibo .iconnull {
+    background-position: 0 -30px
+}
+
+.ui_textboxShare label.qzone .iconnull {
+    background-position: -30px -30px
+}
+
+.ui_textboxShareSmall {
+    padding: 4px 0;
+    line-height: 16px
+}
+
+.ui_textboxShareSmall input {
+    margin-right: 3px
+}
+
+.ui_textboxShareSmall .icon {
+    width: 16px;
+    height: 16px
+}
+
+.ui_textboxShareSmall label.weibo .icon {
+    background-position: 0 -60px
+}
+
+.ui_textboxShareSmall label.qzone .icon {
+    background-position: -30px -60px
+}
+
+.ui_textboxShareSmall label.weibo .iconnull {
+    background-position: 0 -90px
+}
+
+.ui_textboxShareSmall label.qzone .iconnull {
+    background-position: -30px -90px
+}
+
+.borderbox {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+.auth_avatar_q {
+    vertical-align: -3px
+}
+
+.auth_avatar_q a {
+    text-decoration: none!important
+}
+
+.auth_avatar_q.posa {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    bottom: 0
+}
+
+.auth_avatar_q.ml {
+    right: -5px;
+    bottom: -5px
+}
+
+.auth_avatar_q .icon {
+    display: inline-block;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background: url(//common2.qyerstatic.com/home/common/images/common/auth_avatar_q.png) no-repeat 0 0
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:2),screen and (max-moz-device-pixel-ratio:2) {
+    .auth_avatar_q .icon {
+        background: url(//common2.qyerstatic.com/home/common/images/common/auth_avatar_qx2.png) no-repeat 0 0;
+        background-size: 150px 150px
+    }
+}
+
+.auth_avatar_q .icon.qyer {
+    background-position: 0 0
+}
+
+.auth_avatar_q .icon.member {
+    background-position: -100px 0
+}
+
+.auth_avatar_q .icon.company {
+    background-position: -50px 0
+}
+
+.auth_avatar_q.m .icon {
+    width: 16px;
+    height: 16px
+}
+
+.auth_avatar_q.s .icon.qyer {
+    background-position: 0 0
+}
+
+.auth_avatar_q.s .icon.member {
+    background-position: -100px 0
+}
+
+.auth_avatar_q.s .icon.company {
+    background-position: -50px 0
+}
+
+.auth_avatar_q.m .icon {
+    width: 24px;
+    height: 24px
+}
+
+.auth_avatar_q.m .icon.qyer {
+    background-position: 0 -50px
+}
+
+.auth_avatar_q.m .icon.member {
+    background-position: -100px -50px
+}
+
+.auth_avatar_q.m .icon.company {
+    background-position: -50px -50px
+}
+
+.auth_avatar_q.l .icon {
+    width: 32px;
+    height: 32px
+}
+
+.auth_avatar_q.l .icon.qyer {
+    background-position: 0 -100px
+}
+
+.auth_avatar_q.l .icon.member {
+    background-position: -100px -100px
+}
+
+.auth_avatar_q.l .icon.company {
+    background-position: -50px -100px
+}
+
+#nprogress {
+    pointer-events: none
+}
+
+#nprogress .bar {
+    background: #2fd685;
+    position: fixed;
+    z-index: 1031;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px
+}
+
+#nprogress .peg {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 10px #2fd685,0 0 5px #2fd685;
+    opacity: 1;
+    -webkit-transform: rotate(3deg) translateY(-4px);
+    -ms-transform: rotate(3deg) translateY(-4px);
+    transform: rotate(3deg) translateY(-4px)
+}
+
+#nprogress .spinner {
+    display: block;
+    position: fixed;
+    z-index: 1031;
+    top: 15px;
+    right: 15px
+}
+
+#nprogress .spinner-icon {
+    display: none;
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-top-color: #2fd685;
+    border-left-color: #2fd685;
+    border-radius: 50%;
+    -webkit-animation: nprogress-spinner .4s linear infinite;
+    animation: nprogress-spinner .4s linear infinite
+}
+
+.nprogress-custom-parent {
+    overflow: hidden;
+    position: relative
+}
+
+.nprogress-custom-parent #nprogress .bar,.nprogress-custom-parent #nprogress .spinner {
+    position: absolute
+}
+
+@-webkit-keyframes nprogress-spinner {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(1turn)
+    }
+}
+
+@keyframes nprogress-spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+} 

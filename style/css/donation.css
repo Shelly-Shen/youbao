@@ -1,0 +1,273 @@
+@charset "UTF-8";
+body, h1, ul, li, p {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+.header h1 a {
+  color: #fff;
+  text-decoration: none; }
+  .header h1 a:link {
+    color: #fff; }
+  .header h1 a:visited {
+    color: #fff; }
+  .header h1 a:hover {
+    color: #fff; }
+  .header h1 a:active {
+    color: #fff; }
+
+*, :before, :after {
+  box-sizing: border-box;
+  font-family: "微软雅黑",arial; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../../font/ux_1468979151_4721773/iconfont.eot");
+  /* IE9*/
+  src: url("../../font/ux_1468979151_4721773/iconfont.eot?#iefix") format("embedded-opentype"), url("../../font/ux_1468979151_4721773/iconfont.woff") format("woff"), url("../../font/ux_1468979151_4721773/iconfont.ttf") format("truetype"), url("../../font/ux_1468979151_4721773/iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */ }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  min-width: 1000px; }
+
+/*.header {*/
+  /*background: #4cc2c4;*/
+  /*width: 100%;*/
+  /*padding: 20px 10%; }*/
+  /*.header {*/
+    /**overflow: hidden;*/
+    /**zoom: 1; }*/
+  /*.header:after {*/
+    /*display: block;*/
+    /*visibility: hidden;*/
+    /*height: 0;*/
+    /*content: "";*/
+    /*clear: left; }*/
+  /*.header h1 {*/
+    /*color: #fff;*/
+    /*font-size: 35px;*/
+    /*float: left; }*/
+    /*.header h1 i.top {*/
+      /*font-size: 64px;*/
+      /*font-weight: normal;*/
+      /*margin-right: 20px; }*/
+  /*.header aside {*/
+    /*float: right;*/
+    /*padding: 4px 25px;*/
+    /*margin-top: 30px;*/
+    /*background: #fff;*/
+    /*border-radius: 12px; }*/
+    /*.header aside input {*/
+      /*outline: none;*/
+      /*border: none;*/
+      /*widows: 100px;*/
+      /*border-bottom: 1px solid #fff;*/
+      /*background: none;*/
+      /*transition: border-bottom .5s ease-in,text-indent .5s ease-in; }*/
+      /*.header aside input:focus {*/
+        /*text-indent: 10px;*/
+        /*font-style: italic;*/
+        /*border-bottom: 1px solid #ccc; }*/
+    /*.header aside i {*/
+      /*cursor: pointer;*/
+      /*opacity: 1;*/
+      /*font-weight: bold;*/
+      /*color: #000;*/
+      /*transition: .3s ease-in; }*/
+      /*.header aside i:hover {*/
+        /*opacity: 0.5; }*/
+
+/*.banner {*/
+  /*width: 1000px;*/
+  /*margin: 0 auto;*/
+  /*position: relative; }*/
+  /*.banner nav {*/
+    /*color: #777777;*/
+    /*background: #f8f8f8;*/
+    /*z-index: 3; }*/
+    /*.banner nav ul {*/
+      /*font-size: 16px; }*/
+      /*.banner nav ul {*/
+        /**overflow: hidden;*/
+        /**zoom: 1; }*/
+      /*.banner nav ul:after {*/
+        /*display: block;*/
+        /*visibility: hidden;*/
+        /*height: 0;*/
+        /*content: "";*/
+        /*clear: left; }*/
+      /*.banner nav ul li {*/
+        /*cursor: pointer;*/
+        /*float: left;*/
+        /*padding: 18px 10px;*/
+        /*transition: opacity .3s ease-in; }*/
+        /*.banner nav ul li:last-of-type {*/
+          /*float: right; }*/
+        /*.banner nav ul li i {*/
+          /*margin-right: 10px;*/
+          /*font-size: 13px; }*/
+        /*.banner nav ul li a {*/
+          /*color: #777777;*/
+          /*text-decoration: none; }*/
+          /*.banner nav ul li a:link {*/
+            /*color: #777777; }*/
+          /*.banner nav ul li a:visited {*/
+            /*color: #777777; }*/
+          /*.banner nav ul li a:hover {*/
+            /*opacity: .7; }*/
+          /*.banner nav ul li a:active {*/
+            /*background: #f54785;*/
+            /*color: #777777; }*/
+
+.content {
+  width: 1000px;
+  margin: 0 auto; }
+  .content article {
+    width: 666px;
+    padding: 20px 0; }
+    .content article .clac {
+      padding: 0 20px;
+      line-height: 2.5;
+      background: #f0f0f0;
+      border: 1px solid #ccc; }
+      .content article .clac span {
+        margin: 0 10px; }
+        .content article .clac span em {
+          font-size: 18px;
+          color: #4cc296;
+          margin: 8px; }
+    .content article .content_item {
+      width: 100%; }
+      .content article .content_item header {
+        border-left: 5px solid #4cc296;
+        padding: 0 10px; }
+        .content article .content_item header h2 {
+          font-weight: normal;
+          font-size: 24px; }
+      .content article .content_item ul {
+        margin-left: -26px; }
+        .content article .content_item ul {
+          *overflow: hidden;
+          *zoom: 1; }
+        .content article .content_item ul:after {
+          display: block;
+          visibility: hidden;
+          height: 0;
+          content: "";
+          clear: left; }
+        .content article .content_item ul .bot {
+          width: 320px;
+          margin-left: 26px;
+          position: relative;
+          border: 1px solid #ccc;
+          float: left; }
+          .content article .content_item ul .bot img {
+            width: 320px;
+            height: 180px; }
+          .content article .content_item ul .bot section {
+            padding: 0 20px 20px 20px;
+            color: #afafaf;
+            font-size: 12px;
+            line-height: 1.5; }
+            .content article .content_item ul .bot section h3 {
+              color: #454647;
+              font-size: 16px; }
+            .content article .content_item ul .bot section .money {
+              margin: 0 8px;
+              font-size: 1.2em;
+              color: #ff5a43; }
+          .content article .content_item ul .bot button {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            border: none;
+            font-size: 14px;
+            background: #ff5a43;
+            color: #fff;
+            cursor: pointer; }
+    .content article .oldPeople ul {
+      margin-left: -18px; }
+      .content article .oldPeople ul .bot {
+        width: 210px;
+        margin-left: 18px; }
+        .content article .oldPeople ul .bot img {
+          width: 210px; }
+        .content article .oldPeople ul .bot button {
+          position: absolute;
+          right: 5px;
+          bottom: 10px;
+          font-size: 12px;
+          background: #83a90d; }
+    .content article .disaster ul {
+      margin-left: -18px; }
+      .content article .disaster ul .bot {
+        width: 210px;
+        margin-left: 18px; }
+        .content article .disaster ul .bot img {
+          width: 210px; }
+        .content article .disaster ul .bot button {
+          position: absolute;
+          right: 5px;
+          bottom: 10px;
+          font-size: 12px;
+          background: #83a90d; }
+  .content aside {
+    float: right;
+    display: block;
+    width: calc(100% - 740px);
+    max-width: 400px;
+    height: 1000px;
+    margin-top: 20px; }
+    .content aside > h2 {
+      margin: 0;
+      border-bottom: 2px solid #ccc;
+      font-weight: normal;
+      line-height: 1.5; }
+      .content aside > h2 i {
+        font-size: 30px;
+        color: #4cc296;
+        margin-right: 20px; }
+    .content aside .donation-info {
+      margin-top: 56px;
+      padding: 5px 5px 20px 5px;
+      background-color: #f9f5f5; }
+      .content aside .donation-info > h3 {
+        font-size: 15px;
+        margin-left: 10px; }
+      .content aside .donation-info > p {
+        font-size: 18px; }
+        .content aside .donation-info > p span {
+          font-size: 24px;
+          margin: 0 5px 0 10px; }
+      .content aside .donation-info > p:nth-of-type(1) span {
+        color: #78BF34; }
+      .content aside .donation-info > p:nth-of-type(2) span {
+        color: #4cc296; }
+      .content aside .donation-info h2 {
+        font-weight: normal;
+        text-align: center;
+        font-size: 20px; }
+      .content aside .donation-info table {
+        margin-top: 30px;
+        width: 100%;
+        font-size: 14px;
+        color: #898888; }
+        .content aside .donation-info table tr td:nth-of-type(1) {
+          text-align: left; }
+        .content aside .donation-info table tr td:nth-of-type(2) {
+          text-align: center; }
+        .content aside .donation-info table tr td:nth-of-type(3) {
+          text-align: right; }
+.content_item header h2{
+ margin: 15px 0px;
+}
+

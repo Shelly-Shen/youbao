@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background: url('./reg.jpg')
+        }
+        
+        #reg {
+            width: 500px;
+            height: 600px;
+            background: #cccccc;
+            opacity: .7;
+            margin: 80px auto;
+        }
+        
+        #reg h1 {
+            width: 200px;
+            padding-left: 200px;
+            padding-top: 30px;
+        }
+        
+        #reg-on {
+            width: 300px;
+            margin: 60px 100px;
+        }
+        
+        #reg-on input {
+            margin-top: 30px;
+        }
+        
+        #btn {
+            width: 200px;
+            margin: 30px 200px;
+        }
+        
+        h4 {
+            width: 200px;
+            margin: 80px 290px;
+            cursor: pointer;
+        }
+        
+        h4:hover {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h2>旅游注册</h2>
+    </div>
+    <div id="reg">
+        <h1>友宝</h1>
+        <div id="reg-on">
+            请输入账号:&nbsp;&nbsp;&nbsp;<input type="text" id="name">
+            <br>请输入密码: &nbsp;&nbsp;&nbsp;<input type="password" id="pwd1">
+            <br>请确认密码: &nbsp;&nbsp;&nbsp;<input type="password" id="pwd2">
+            <br>手机号: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="tel">
+        </div>
+        <div id="btn">
+            <button id="sub">提交</button>
+            <button>联系客服</button>
+        </div>
+        <a href="./login.html">
+            <h4>已经有账号>>去登录>></h4>
+        </a>
+
+    </div>
+    <script src="./jquery-1.11.2.js"></script>
+    <script>
+        $(document).ready(function() {
+
+
+            $('#sub').on('click', function() {
+                var $name = $('#name').val();
+                var $pwd1 = $('#pwd1').val();
+                var $pwd2 = $('#pwd2').val();
+                var $tel = $('#tel').val();
+
+                if ($name == '' || $pwd1 == '') {
+                    alert('账号或密码不能为空！')
+                } else if ($name != "" && $pwd1 != $pwd2) {
+                    alert("两次密码不一致！")
+                }
+                if ($name != "" && $pwd1 == $pwd2) {
+                    alert('注册成功！')
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+.ke-container {background-color: #FFFFFF;border: 1px solid #CCCCCC;display: block;overflow: hidden;margin: 10px;}
+.ke-toolbar {background-color: #F0F0EE;border-bottom: 1px solid #CCCCCC;overflow: hidden;padding: 2px 5px;text-align: left;}
+.ke-toolbar-icon {background-repeat: no-repeat;display: block;font-size: 0;line-height: 0;overflow: hidden;}
+.ke-toolbar-icon-url {background-image: url("default.png");}
+.ke-toolbar .ke-outline {border: 1px solid #F0F0EE;cursor: pointer;display: block;float: left;font-size: 0;line-height: 0;margin: 1px;overflow: hidden;padding: 1px 2px;}
+.ke-toolbar .ke-on {border: 1px solid #5690D2;}
+.ke-toolbar .ke-selected {background-color: #E9EFF6;border: 1px solid #5690D2;}
+.ke-toolbar .ke-disabled {cursor: default;}
+.ke-toolbar .ke-separator {border-color: -moz-use-text-color #FFFFFF -moz-use-text-color #A0A0A0;border-left: 1px solid #A0A0A0;border-right: 1px solid #FFFFFF;border-style: none solid;border-width: 0 1px;display: block;float: left;font-size: 0;height: 29px;line-height: 0;margin: 2px 3px;overflow: hidden;width: 0;}
+.ke-toolbar .ke-hr {clear: both;height: 1px;overflow: hidden;}
+.ke-edit {padding: 0;}
+.bubbles {width: 530px;min-height: 36px;-moz-border-radius: 15px;-webkit-border-radius: 15px;padding: 8px 10px 8px 30px;border: 1px solid rgba(0, 0, 0, 0.25);position: relative;z-index: 8;-moz-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.2), 0px 1px 2px
+		rgba(0, 0, 0, .2);-webkit-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.2), 0px 1px 2px
+		rgba(0, 0, 0, .2);line-height:23px;}
+.bubbles:after {content: '';border-left: 1px solid rgba(0, 0, 0, 0.25);border-bottom: 1px solid rgba(0, 0, 0, 0.25);position: absolute;height: 13px;width: 13px;}
+.bubble-left {margin: 0 0 12px 58px;}
+.bubble-left:after {left: -8px;bottom: 20px;-moz-transform: rotate(45deg);-webkit-transform: rotate(45deg);}
+.bubble-right {margin: 0 58px 12px 0;}
+.bubble-right:after {right: -8px;bottom: 20px;-moz-transform: rotate(225deg);-webkit-transform: rotate(225deg);}
+.bubbles:before {padding: 0 10px 0 11px;content: '';position: absolute;z-index: -5;left: 4px;top: 1px;width: inherit;height: 14px;-moz-border-radius: 10px;-moz-border-radius-bottomleft: 5px;-moz-border-radius-bottomright: 5px;-webkit-border-radius: 10px;-webkit-border-bottom-left-radius: 5px;-webkit-border-bottom-right-radius: 5px;background: -moz-linear-gradient(top, rgba(255, 255, 255, .7),
+		rgba(255, 255, 255, .2) );background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255,
+		.7) ), to(rgba(255, 255, 255, .2) ) );}
+.avatar {position: absolute;width: 130px;height: 32px;bottom: 12px;}
+.bubble-left .avatar {left: -50px;}
+.bubble-right .avatar {right: -150px;}
+.avatar img {width: 36px;border: none;}
+.bubbles small {display: block;margin: 5px 0 0 0;font-style: italic;color: #000;}
+.white,.white:after {background: #ddd;}
+.green,.green:after {background: #9ADB5C;}
+.blue,.blue:after {background: #75BAEB;}
+.slate,.slate:after {background: #BECFCD;}
+.orange,.orange:after {background: #fc9e51;}
+.yellow,.yellow:after {background: #fde288;}
+.pink,.pink:after {background: #fb89df;}
+.callmsg {cursor: pointer;float: left;width: 65px;height: 26px;background: url(http://img.yiqihi.com/bg1112.png) no-repeat -1px -749px;margin-right: 6px;overflow: hidden;}
+.callkf {cursor: pointer;float: left;width: 83px;height: 26px;background: url(http://img.yiqihi.com/bg1112.png) no-repeat -65px -750px;margin-right: 6px;overflow: hidden;}
+.callme {cursor: pointer;float: left;width: 80px;height: 29px;background: url(http://img.yiqihi.com/bg1112.png) no-repeat -148px -752px;margin-right: 6px;overflow: hidden;}

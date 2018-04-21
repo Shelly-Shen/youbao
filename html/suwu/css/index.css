@@ -1,0 +1,296 @@
+/*
+@auther:shelly;
+8@data:2016/5/15;
+*@version:v1.0;
+*/
+
+@charset:"UTF-8";
+
+
+/*reset*/
+body{
+margin:0;
+
+}
+ul,li {
+	margin:0;
+	padding:0;
+}
+
+ul,ol{
+	list-style:none;
+}
+h3{
+	margin: 0px;
+
+}
+.header-wrap, .nav-buttom, .content{
+    width:1000px;
+    margin:0px auto;
+}
+.header-wrap{
+    width:1000px;
+    margin:0px auto;
+}
+.nav-buttom{
+    width:1000px;
+    margin:0px auto;
+}
+.content{
+    width:1000px;
+ 
+    margin:0px auto;
+
+}
+.top{
+    color: #ffffff;
+}
+/*commont*/
+.fl{
+    float:left;
+}
+.fr{
+	float:right;
+}
+.clear::after{
+    content:"";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+/*header*/
+.header{
+    height: 115px;
+    background: url(../img/header-bg.png) repeat-x 0 0;
+}
+
+
+.header-top {
+    line-height: 45px;
+    text-align: right;
+   
+}
+.header-top a{
+    margin:0 10px;
+    font-size:14px;
+    color: #d0cfcf;
+    text-decoration: none;
+ 
+}
+.header-top a:hover{
+    color: #ffd200;
+    text-decoration: underline;
+}
+.header-top span{
+    color: #d0cfcf;
+    margin:0px 10px;
+    font-size:14px;
+}
+.header-nav{
+    height:68px;
+  
+}
+.nav-logo{
+    float:left;
+    display: block;
+    height: 68px;
+    width:200px;
+
+}
+.nav-logo img{
+    height: 68px;
+    width:200px;
+}
+.header-nav-content{
+    float:right;
+	padding:15px 35px 0px 0px;
+
+}
+.header-nav-content li{
+    float:left;
+    line-height:33.5px;
+    padding:10px 25px;
+
+ 
+}
+
+.header-nav-content li a{
+	color: #515566;
+	text-decoration:none;
+    font-size:18px;   
+}
+
+.active{
+	background:#5baae3;  
+}
+
+li.active a {
+    color: #fff;
+}
+
+/*nav-buttum*/
+.nav-buttom{
+
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+    background:#5baae3; 
+    color:#fff;
+    font-size:14px;
+}
+.nav-buttom span{
+    margin: 0px 14px;
+}
+.nav-buttom a{
+    color: #fff;
+    text-decoration: none;
+    }
+.nav-buttom a.active{
+    color: #fff;
+    
+    }
+.nav-buttom a:hover{
+    color: #fff;
+    text-decoration: under1;
+    }
+
+/*content*/
+.content{
+    margin-top:10px;
+    height:685px;
+    background: #fff;
+}
+
+.content li{
+    float: left;
+    width: 240px;
+  
+    margin: 0 5px;
+
+}
+.top{
+    width:230px;
+    height:320px;
+    margin:0 auto;
+    margin-top:15px;
+    
+    padding-top: 15px;
+}
+.top-monkey{
+    background: #f0b49c ;
+}
+.top-dog{
+    background: #9dced4 ;
+}
+.top-lion{
+    background: #e3ce73;
+}
+.top-cat{
+    background: #bdde6d;
+}
+.bottom{
+    width:230px;
+    height:320px;
+    margin:0 auto;
+    margin-top:5px;
+    
+}
+.bottom-monkey{
+    background:#f7d9cd;
+}
+.bottom-dog{
+    background: #cee6e9;
+}
+.bottom-lion{
+    background: #e3ce73;
+} 
+.bottom-cat{
+    background: #deeeb6;
+}
+.monkey{
+    display: block;
+    width: 135px;
+    height: 190px;
+    margin: 0 auto 15px;
+    background: url(../img/1.png) no-repeat;
+
+}
+h3{
+    text-align:center;
+    font-size:24px;
+    line-height: 1.5em;
+}
+p{
+    font-size: 12px;
+    line-height: 1.5em;
+    padding:0px 14px;
+}
+.bottom span{
+    display: block;
+    font-weight: bolder;
+    font-size: 14px;
+    color: #5d5d5d;
+    padding-top: 15px;
+    padding-left:25px; 
+}
+.dog{
+    display: block;
+    width: 135px;
+    height: 190px;
+    margin: 0 auto 15px;
+    background: url(../img/2.png) no-repeat;
+}
+.lion{
+    display: block;
+    width: 135px;
+    height: 190px;
+    margin: 0 auto 15px;
+    background: url(../img/3.png) no-repeat;
+
+}
+.cat{
+    display: block;
+    width: 135px;
+    height: 190px;
+    margin: 0 auto 15px;
+    background: url(../img/4.png) no-repeat;
+
+
+}
+.first:hover .monkey{
+    transition: all 3s;
+    transform: scale(1,-1) rotate(180deg);
+    z-index: 20;
+    border: 2px solid black;
+}
+.send:hover .dog{
+    transition: all 3s;
+    transform: scale(1,-1) rotate(180deg);
+    z-index: 20;
+    border: 2px solid black;
+}
+.three:hover .lion{
+    transition: all 3s;
+    transform: scale(1,-1) rotate(180deg);
+    z-index: 20;
+    border: 2px solid black;
+}
+.four:hover .cat{
+    transition: all 3s;
+    transform: scale(1,-1) rotate(180deg);
+    z-index: 20;
+    border: 2px solid black;
+}
+.page-bg{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    background-size:cover;
+    z-index: -5;
+}
+
+body{
+    padding-bottom:30px;
+    background-color: #9dced4;
+}

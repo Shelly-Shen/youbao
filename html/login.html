@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>登录</title>
+    <meta name="baidu-site-verification" content="NMsByWYkwt" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta property="wb:webmaster" content="1cdd3f856f5473a5" />
+    <link rel="shortcut icon" href="//www.qyer.com/favicon.ico" />
+    <script type="text/javascript">
+        window.__qRequire__ = {
+            version: '1495439161',
+            combineCSS: []
+        };
+        window.isCheckValidCode = false;
+    </script>
+    <!--[if lt IE 8]>
+    <script src="//common1.qyerstatic.com/login/common/js/json2.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="../css/fe-frame.css">
+
+    <link rel="stylesheet" href="//.qystaticer.com/models/basic/css/headfoot.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+</head>
+<body>
+
+<div class="login-container">
+    <div class="wrapper">
+        <div class="login-logo">
+            <img src="../image/logo白色.png" alt="游友">
+            <span class="title">登录</span>
+        </div>
+        <div class="section">
+            <div class="qui-login-section section-login">
+                <div class="qui-login-tabs">
+                    <a class="change-tab current" href="javascript:;" style="width:100%;" data-page="login" data-type="account" data-bn-ipg="web-login-layer-tab-mail">账号登录</a>
+                </div>
+                <div class="qui-login-forms">
+                    <div class="qui-login-form" data-type="account" style="display: block;">
+                        <form id="loginAccountForm" action="/" autocomplete="off">
+                            <div class="qui-login-input">
+                                <input type="text" class="ui3_input field_valid" name="account" title="邮箱/手机号" tabindex="1" placeholder="邮箱/手机号">
+                                <div class="message-box"></div>
+                            </div>
+                            <div class="qui-login-input">
+                                <input type="password" class="ui3_input field_valid" name="password" title="密码" tabindex="2" placeholder="密码">
+                                <div class="message-box"></div>
+                            </div>
+                            <div class="qui-login-input input-control-validcode" style="display: none;">
+                                <input type="text" class="ui3_input field_valid input_check_code fl" name="valid_code" tabindex="3" title="验证码" placeholder="验证码">
+                    <span class="check_code fr">
+                        <a href="javascript:;" title="换一换">
+                            <img src="/ajax.php?action=captcha" onclick="this.src='/ajax.php?action=captcha&amp;timer=' + (+new Date())"></a>
+                    </span>
+                                <div class="message-box"></div>
+                            </div>
+                            <div class="qui-login-input qui-login-btn posr">
+                                <a type="button" class="ui_button btn_submit" href="../html/index.html" tabindex="5" value="" data-value="登录" style="padding:0;">登录</a>
+                                <div class="message-box">
+                                    <span class="fl"><input id="remember_account" name="remember" type="checkbox" tabindex="4" class="vm" checked="checked"> <label for="remember_account" class="vm">记住我</label></span>
+                                    <span class="forget"><a class="remember-link" href="//login.qyer.com/?action=getemailpass" target="_blank" data-bn-ipg="web-login-page-getpassword">忘记密码</a></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="qui-login-form" data-type="msg">
+                        <form id="loginMsgForm" action="/" autocomplete="off">
+                            <div class="qui-login-input">
+                                <div id="phoneCodeForLogin" class="qui-select qui-select-login fl" data-ui-width="62px" data-ui-menuwidth="330px" data-ui-height="38px">
+                                    <strong class="titles"><span class="title-text">86</span></strong>
+                                    <div class="contents"><ul></ul></div>
+                                </div>
+                                <input type="text" class="ui3_input field_valid input_phone_code fr" name="phone" tabindex="1" title="手机号" placeholder="手机号">
+                                <input type="hidden" name="area_code" value="86">
+                                <div class="message-box"></div>
+                            </div>
+                            <div class="qui-login-input input-control-validcode">
+                                <input type="text" class="ui3_input field_valid input_check_code fl" name="valid_code" tabindex="3" title="验证码" placeholder="验证码">
+                    <span class="check_code fr">
+                        <a href="javascript:;" title="换一换">
+                            <img src="/ajax.php?action=captcha" onclick="this.src='/ajax.php?action=captcha&amp;timer=' + (+new Date())"></a>
+                    </span>
+                                <div class="message-box"></div>
+                            </div>
+                            <div class="qui-login-input">
+                                <input type="text" class="ui3_input field_valid input_check_code fl" maxlength="6" name="phone_valid_code" title="短信验证码" tabindex="3" placeholder="输入短信中的验证码">
+                                <input class="ui_button button_code fr" type="button" value="发送验证码">
+                                <div class="message-box"></div>
+                            </div>
+                            <div class="qui-login-input qui-login-btn posr">
+                                <input type="button" class="ui_button btn_submit" tabindex="5" value="登录" data-value="登录">
+                                <div class="message-box">
+                                    <span class="fl"><input id="remember_msg" name="remember" type="checkbox" tabindex="4" class="vm" checked="checked"> <label for="remember_msg" class="vm">记住我</label></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="qui-login-otherlogin">
+                    <div class="otherlogin">
+                        <a class="otherlogin-link otherlogin-qq" _href="javascript:;" data-type="qq" data-bn-ipg="web-login-layer-qq" title="qq登录">qq登录</a>
+                        <a class="otherlogin-link otherlogin-weibo" _href="javascript:;" data-type="weibo" data-bn-ipg="web-login-layer-weibo" title="新浪微博登录">新浪微博登录</a>
+                        <a class="otherlogin-link otherlogin-taobao" _href="javascript:;" data-type="taobao" data-bn-ipg="web-login-layer-taobao" title="淘宝登录">淘宝登录</a>
+                        <a class="otherlogin-link otherlogin-weixin" _href="javascript:;" data-type="weixin" data-bn-ipg="web-login-layer-wechat" title="微信登录">微信登录</a>
+                    </div>
+                </div>
+                <div class="qui-login-link-register gray">
+                    <a class="fr change-login-type" _href="javascript:;" data-page="register" data-type="mail" data-bn-ipg="web-login-layer-register">立即注册</a>
+                    <a class="gray linkHref" href="javascript:;">用户名登录</a> | <a class="gray linkHref" href="javascript:;">境外手机号登录</a>
+                </div>
+                <div class="section-message-box"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="dididi"></div>
+<div class="phpreferer" style="display: none;"></div>
+
+
+
+</body>
+</html>

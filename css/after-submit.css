@@ -1,0 +1,23 @@
+
+
+#after span{
+    display: inline-block;
+ margin-left: 420px;
+}
+
+.section .title {
+    height: 74px;
+    line-height: 74px;
+    font-size: 36px;
+    font-family: Hiragino Sans GB,Microsoft YaHei,SimHei,SimSun,sans-serif;
+    color: #636363;
+    text-align: center;}
+
+.hottravels .item ul{
+    height: 600px;
+}
+
+#big-input{
+    height: 100px;
+}
+

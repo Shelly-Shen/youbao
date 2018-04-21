@@ -1,0 +1,22 @@
+<div class="z z_search_box">
+                            <div class="input-control">
+                                <form class="z_search_form" target="_blank" action="http://z.qyer.com/" data-action="//z.qyer.com/?_type=search&amp;action=list" method="get">
+                                    <input type="hidden" name="_type" value="search">
+                                    <input type="hidden" name="action" value="list">
+                                    <input type="hidden" name="zfrom" value="header">
+                                    <input class="txt focus zsearch_txt" type="text" placeholder="搜索目的地/折扣类型/关键词" autocomplete="off" name="keyword">
+                                    <!-- <a class="btn placesearch_link" _href="//www.qyer.com">搜索</a> -->
+                                    <button class="btn" type="submit" data-bn-ipg="index-top-place-lastminute">搜索</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="hotel hotel_search_box">
+                            <div class="input-control pr">
+                                <form class="hotel_search_form" action="http://www.qyer.com/" target="_blank">
+                                    <input class="txt focus hotelsearch_txt" type="text" placeholder="请输入目的地/酒店名">
+                                    <input class="txt date_txt date_in js-datepicker hasDatepicker" data-type="checkin" readonly="readonly" type="text" name="checkin" placeholder="入住时间" id="dp1496300842942">
+                                    <input class="txt date_txt date_out js-datepicker hasDatepicker" data-type="checkout" readonly="readonly" type="text" name="checkout" placeholder="退房时间" id="dp1496300842943">
+                                    <a _href="javascript:;" target="_blank" class="btn hotel_btn" type="submit" data-bn-ipg="index-top-hotel-search">搜索酒店</a>
+                                </form>
+                            </div>
+                        </div>

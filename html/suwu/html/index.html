@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CH">
+    <head>
+	    <meta charset="UTF-8" >
+		<title></title>
+	    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+		<script src="jquery-1.8.2.js"></script>
+		<script>
+			$(function(){
+				var h = 0;
+				function fun1(){
+					h++;
+					$(".d2").animate({left:-670*h},300);
+					if(h==4){
+						h = -1;
+					}
+				}
+				setInterval(fun1,2000)
+			})
+		</script>
+		<style>
+		.d1{
+		width: 670px;
+		height: 300px;
+		position: relative;
+		overflow: hidden;
+
+		margin: 0 auto;
+
+	}
+		.d2{
+			width:3000px;
+			height: 300px;
+			position: absolute;
+			top:20px;
+			left:0px;
+		}
+		.d2>div{
+			float:left;
+		}
+		</style>
+	</head>
+	    <div class="page-bg"></div>
+		<div class="header">
+		    <div class="header-wrap">
+			    <div class="header-top">		
+				    <a href="javascript:void(0);">私人定制</a>
+				    <span>|</span>
+				    <a href="#">官方微博</a>
+				    <span>|</span>
+				    <span>欢迎来到友宝网！</span>
+				    
+			    </div>
+			    <div class="header-nav">
+				    <a class="nav-logo"><img src="../img/logo.png"></a>
+				    <ul class="header-nav-content">
+				    	<li><a href="#">首页</a></li>
+				    	<li class="active">
+				    		<a href="#">宿雾美食</a>
+				    	</li>
+				    	<li><a href="#">日韩美食</a></li>
+				    	<li><a href="#">欧洲美食</a></li>
+				    	<li><a href="./second.html">关于友宝</a></li>
+				    	
+				    </ul>
+			    </div>
+			</div>
+		</div>
+		<div class="nav-buttom">
+		    <a href="#">宿雾美食</a>
+		    <span> | </span>
+		    <a href="#">泰国美食</a>
+		    <span> | </span>
+		    <a href="#">日韩美食</a>
+		    <span> | </span>
+		    <a href="#">欧洲美食</a>
+		    <span> | </span>
+        </div>
+        <div class="content">
+            <div class="main">
+        	    <ul>
+        		    <li class="first">
+        		        <div class="top top-monkey">
+        		            <i class="monkey"></i>
+        		            <h3>
+								地道菲律宾风味餐厅
+        		            </h3>
+        		            
+        		        </div>
+                    </li>
+                    <li class="send">
+                	    <div class="top top-dog">
+                	    <i class="dog"></i>
+                        <h3>
+							华裔最爱的中餐厅
+                        </h3>
+
+                	    </div>
+                    </li>
+                    <li class="three">
+                	    <div class="top top-lion">
+                	    	 <i class="lion"></i>
+                            <h3>
+								五花八门的异国料理餐厅
+                            </h3>	
+
+                	    </div>
+                    </li>
+                    <li class="four">
+                	    <div class="top top-cat">
+                	    	 <i class="cat"></i>
+                            <h3>
+								老饕必备海鲜餐厅
+                            </h3>
+                	    </div>
+                    </li>
+					<ul class="s2"></ul>
+				</ul>
+        	</div>
+			<div class="d1" style="margin-top:20px;">
+				<div class="d2">
+					<div><img src="../img/1.jpeg" alt=""/></div>
+					<div><img src="../img/2.jpeg" alt=""/></div>
+					<div><img src="../img/3.jpeg" alt=""/></div>
+					<div><img src="../img/4.jpeg" alt=""/></div>
+				</div>
+			</div>
+        </div>
+	</body>
+</html>
